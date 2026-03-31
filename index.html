@@ -6,19 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DealDive – Smart Price Intelligence</title>
 
+    <!-- FONT -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+
+    <!-- CSS (FIXED PATH) -->
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
+<!-- ================= HEADER ================= -->
 <header>
     <div class="logo">DealDive</div>
 
     <nav>
-        <a href="index.html">Home</a>
-        <a href="compare.html">Compare</a>
-        <a href="trends.html">Trends</a>
+        <a href="./index.html">Home</a>
+        <a href="./compare.html">Compare</a>
+        <a href="./trends.html">Trends</a>
     </nav>
 
     <div class="auth-buttons">
@@ -26,18 +30,21 @@
     </div>
 </header>
 
+<!-- ================= HERO ================= -->
 <section class="hero">
     <h1>Search Products with Deal Intelligence</h1>
     <p>Compare prices across platforms & track best deals.</p>
 
+    <!-- SEARCH -->
     <div class="search-box">
         <input id="searchInput" type="text" placeholder="Search products..."
-            onkeyup="showSuggestions(); searchProduct()" />
+            onkeyup="if(event.key==='Enter'){searchProduct()}">
 
         <select id="categorySelect" onchange="searchProduct()">
             <option value="all">All</option>
             <option value="mobile">Mobiles</option>
             <option value="laptop">Laptops</option>
+            <option value="headphones">Headphones</option>
         </select>
 
         <select id="sortSelect" onchange="applySortAndFilter()">
@@ -49,28 +56,39 @@
         <button onclick="searchProduct()">Search</button>
     </div>
 
+    <!-- SUGGESTIONS -->
     <div id="suggestions"></div>
+
+    <!-- RESULTS -->
     <div id="results"></div>
 </section>
 
+<!-- ================= WATCHLIST ================= -->
 <section id="watchlistBox">
     <h2>📌 Watchlist</h2>
-    <button onclick="clearWatchlist()">Clear All</button>
+    <button onclick="watchlist=[]; localStorage.clear(); displayWatchlist();">
+        Clear All
+    </button>
     <div id="watchlist"></div>
 </section>
 
-<!-- LOGIN MODAL -->
+<!-- ================= LOGIN MODAL ================= -->
 <div id="loginModal" class="modal">
     <div class="modal-box">
         <h2>Login</h2>
+
         <input id="username" placeholder="Username">
         <input id="password" type="password" placeholder="Password">
+
         <button onclick="loginUser()">Login</button>
         <p onclick="signupUser()">Signup</p>
+
         <span onclick="closeLogin()">✖</span>
     </div>
 </div>
 
-<script src="script.js"></script>
+<!-- JS (FIXED PATH) -->
+<script src="./script.js"></script>
+
 </body>
 </html>
