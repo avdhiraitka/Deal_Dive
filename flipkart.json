@@ -568,5 +568,89 @@
                 "price": 1199
             }
         ]
+    },
+    [
+
+    {
+        "title": "HP Pavilion 15 Ryzen 5 5500U (16GB/512GB SSD)",
+        "price": "₹52,990",
+        "store": "Flipkart",
+        "link": "https://www.flipkart.com/hp-pavilion-15",
+        "thumbnail": "https://via.placeholder.com/300?text=HP+Laptop",
+        "category": "laptop",
+        "priceHistory": [
+            {"date": "2025-10-01", "price": 59990},
+            {"date": "2025-11-01", "price": 57990},
+            {"date": "2025-12-01", "price": 54990},
+            {"date": "2026-01-01", "price": 52990},
+            {"date": "2026-02-01", "price": 52990}
+        ]
+    },
+
+    {
+        "title": "Lenovo IdeaPad Slim 3 Intel Core i5 12th Gen",
+        "price": "₹48,990",
+        "store": "Flipkart",
+        "link": "https://www.flipkart.com/lenovo-ideapad-slim-3",
+        "thumbnail": "https://via.placeholder.com/300?text=Lenovo+Laptop",
+        "category": "laptop",
+        "priceHistory": [
+            {"date": "2025-10-01", "price": 55990},
+            {"date": "2025-11-01", "price": 52990},
+            {"date": "2025-12-01", "price": 49990},
+            {"date": "2026-01-01", "price": 48990},
+            {"date": "2026-02-01", "price": 48990}
+        ]
+    },
+
+    {
+        "title": "OnePlus Nord CE 3 Lite 5G (Pastel Lime, 128GB)",
+        "price": "₹19,999",
+        "store": "Flipkart",
+        "link": "https://www.flipkart.com/oneplus-nord-ce3-lite",
+        "thumbnail": "https://via.placeholder.com/300?text=OnePlus+Phone",
+        "category": "mobile",
+        "priceHistory": [
+            {"date": "2025-10-01", "price": 21999},
+            {"date": "2025-11-01", "price": 20999},
+            {"date": "2025-12-01", "price": 19999},
+            {"date": "2026-01-01", "price": 19999},
+            {"date": "2026-02-01", "price": 19999}
+        ]
+    },
+
+    {
+        "title": "Sony WH-1000XM5 Wireless Noise Cancelling Headphones",
+        "price": "₹29,990",
+        "store": "Flipkart",
+        "link": "https://www.flipkart.com/sony-wh1000xm5",
+        "thumbnail": "https://via.placeholder.com/300?text=Sony+Headphones",
+        "category": "headphones",
+        "priceHistory": [
+            {"date": "2025-10-01", "price": 34990},
+            {"date": "2025-11-01", "price": 32990},
+            {"date": "2025-12-01", "price": 30990},
+            {"date": "2026-01-01", "price": 29990},
+            {"date": "2026-02-01", "price": 29990}
+        ]
+    },
+
+    {
+        "title": "Samsung Galaxy Watch 6 Bluetooth (44mm)",
+        "price": "₹18,999",
+        "store": "Flipkart",
+        "link": "https://www.flipkart.com/samsung-watch-6",
+        "thumbnail": "https://via.placeholder.com/300?text=Samsung+Watch",
+        "category": "watch",
+        "priceHistory": [
+            {"date": "2025-10-01", "price": 22999},
+            {"date": "2025-11-01", "price": 20999},
+            {"date": "2025-12-01", "price": 19999},
+            {"date": "2026-01-01", "price": 18999},
+            {"date": "2026-02-01", "price": 18999}
+        ]
     }
 ]
+    
+]
+
