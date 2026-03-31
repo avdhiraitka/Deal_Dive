@@ -46,14 +46,12 @@ function applySortAndFilter() {
     const category = document.getElementById("categorySelect").value;
     const sort = document.getElementById("sortSelect").value;
 
-    // CATEGORY FILTER
     if (category !== "all") {
         filtered = filtered.filter(p =>
             p.category.toLowerCase().includes(category)
         );
     }
 
-    // SORTING
     if (sort === "low") {
         filtered.sort((a, b) => a.price - b.price);
     } else if (sort === "high") {
@@ -63,7 +61,7 @@ function applySortAndFilter() {
     displayProducts(filtered);
 }
 
-// 🖼 DISPLAY PRODUCTS (FIXED ₹ + DEAL SCORE)
+// 🖼 DISPLAY PRODUCTS (FIXED IMAGE + ₹ + DEAL SCORE)
 function displayProducts(products) {
     const results = document.getElementById("results");
 
@@ -73,13 +71,14 @@ function displayProducts(products) {
     }
 
     results.innerHTML = products.map(p => {
-        const rupees = Math.round(p.price * 83); // USD → INR
+        const rupees = Math.round(p.price * 83);
         const dealScore = Math.max(10, 100 - p.price);
 
         return `
         <div class="product-card">
-            <img src="${p.thumbnail || p.image}" 
-     onerror="this.onerror=null; this.src='https://via.placeholder.com/200';" />
+            <img src="${p.thumbnail || p.image || 'https://via.placeholder.com/200'}"
+                 style="height:200px;object-fit:contain;background:white;"
+                 onerror="this.onerror=null; this.src='https://via.placeholder.com/200';" />
             <h3>${p.title}</h3>
 
             <p>₹${rupees.toLocaleString()}</p>
@@ -119,7 +118,7 @@ function displayWatchlist() {
     `).join("");
 }
 
-// 🔥 COMPARE FUNCTION (FIXED IMAGES)
+// 🔥 COMPARE FUNCTION
 async function runCompareSearch() {
     const query = document.getElementById("searchInput").value.toLowerCase();
 
@@ -134,16 +133,22 @@ async function runCompareSearch() {
             p.title.toLowerCase().includes(query)
         );
 
-        displayCompare("amazon-results", filter(amazon));
-        displayCompare("flipkart-results", filter(flipkart));
-        displayCompare("meesho-results", filter(meesho));
+        const a = filter(amazon);
+        const f = filter(flipkart);
+        const m = filter(meesho);
+
+        displayCompare("amazon-results", a);
+        displayCompare("flipkart-results", f);
+        displayCompare("meesho-results", m);
+
+        showChart([...a, ...f, ...m]);
 
     } catch (err) {
         console.log("Compare error:", err);
     }
 }
 
-// 🖼 DISPLAY COMPARE (IMAGE FIX)
+// 🖼 DISPLAY COMPARE (FORCED IMAGE FIX)
 function displayCompare(id, products) {
     const box = document.getElementById(id);
 
@@ -154,11 +159,36 @@ function displayCompare(id, products) {
 
     box.innerHTML = products.map(p => `
         <div class="product-card">
-<img src="${p.thumbnail || p.image}" 
-     onerror="this.onerror=null; this.src='https://via.placeholder.com/200?text=No+Image';" />            <p>${p.price}</p>
+            <img src="${p.thumbnail || p.image || 'https://via.placeholder.com/200'}"
+                 style="width:100%;height:200px;object-fit:contain;background:white;"
+                 onerror="this.onerror=null; this.src='https://via.placeholder.com/200?text=No+Image';" />
+            <h3>${p.title}</h3>
+            <p>${p.price}</p>
             <a href="${p.link}" target="_blank">View</a>
         </div>
     `).join("");
+}
+
+// 📊 CANVAS CHART
+function showChart(products) {
+    const canvas = document.getElementById("priceChart");
+    if (!canvas) return;
+
+    const ctx = canvas.getContext("2d");
+
+    const labels = products.map(p => p.title.substring(0, 10));
+    const prices = products.map(p => parseInt(p.price.replace(/[₹,]/g, "")));
+
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Price Comparison',
+                data: prices
+            }]
+        }
+    });
 }
 
 // LOAD WATCHLIST ON START

@@ -9,7 +9,7 @@
     <!-- FONT -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-    <!-- CSS (FIXED PATH) -->
+    <!-- CSS -->
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -38,6 +38,7 @@
     <!-- SEARCH -->
     <div class="search-box">
         <input id="searchInput" type="text" placeholder="Search products..."
+            autocomplete="off"
             onkeyup="if(event.key==='Enter'){searchProduct()}">
 
         <select id="categorySelect" onchange="searchProduct()">
@@ -55,6 +56,9 @@
 
         <button onclick="searchProduct()">Search</button>
     </div>
+
+    <!-- STATUS MESSAGE (NEW - OPTIONAL BUT USEFUL) -->
+    <div id="statusMsg" style="margin-top:10px;color:#94a3b8;"></div>
 
     <!-- SUGGESTIONS -->
     <div id="suggestions"></div>
@@ -87,7 +91,7 @@
     </div>
 </div>
 
-<!-- JS (FIXED PATH) -->
+<!-- JS -->
 <script src="./script.js"></script>
 
 </body>
