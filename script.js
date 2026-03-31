@@ -1,7 +1,7 @@
 let allProducts = [];
 let watchlist = JSON.parse(localStorage.getItem("watchlist")) || [];
 
-// LOGIN SYSTEM (unchanged)
+/* ================= LOGIN ================= */
 function openLogin() {
     document.getElementById("loginModal").style.display = "flex";
 }
@@ -19,10 +19,9 @@ function signupUser() {
     alert("Account created!");
 }
 
-// 🔍 REAL API SEARCH
+/* ================= SEARCH ================= */
 async function searchProduct() {
-    const query = document.getElementById("searchInput").value;
-
+    const query = document.getElementById("searchInput")?.value;
     if (!query) return;
 
     document.getElementById("results").innerHTML = "Loading...";
@@ -39,16 +38,16 @@ async function searchProduct() {
     }
 }
 
-// 🎯 FILTER + SORT
+/* ================= FILTER ================= */
 function applySortAndFilter() {
     let filtered = [...allProducts];
 
-    const category = document.getElementById("categorySelect").value;
-    const sort = document.getElementById("sortSelect").value;
+    const category = document.getElementById("categorySelect")?.value || "all";
+    const sort = document.getElementById("sortSelect")?.value || "relevance";
 
     if (category !== "all") {
         filtered = filtered.filter(p =>
-            p.category.toLowerCase().includes(category)
+            p.category?.toLowerCase().includes(category)
         );
     }
 
@@ -61,9 +60,10 @@ function applySortAndFilter() {
     displayProducts(filtered);
 }
 
-// 🖼 DISPLAY PRODUCTS (FIXED IMAGE + ₹ + DEAL SCORE)
+/* ================= DISPLAY PRODUCTS ================= */
 function displayProducts(products) {
     const results = document.getElementById("results");
+    if (!results) return;
 
     if (products.length === 0) {
         results.innerHTML = "<p>No products found</p>";
@@ -72,30 +72,23 @@ function displayProducts(products) {
 
     results.innerHTML = products.map(p => {
         const rupees = Math.round(p.price * 83);
-        const dealScore = Math.max(10, 100 - p.price);
+        const dealScore = Math.round(100 - (p.price / 10));
 
         return `
         <div class="product-card">
-            <img src="${p.thumbnail || p.image || 'https://via.placeholder.com/200'}"
-                 style="height:200px;object-fit:contain;background:white;"
+            <img src="${p.thumbnail || p.images?.[0] || 'https://via.placeholder.com/200'}"
                  onerror="this.onerror=null; this.src='https://via.placeholder.com/200';" />
             <h3>${p.title}</h3>
-
             <p>₹${rupees.toLocaleString()}</p>
-
             <p style="color:gray">${p.brand || ""}</p>
-
-            <p style="color:#22c55e;font-weight:bold;">
-                Deal Score: ${dealScore}
-            </p>
-
+            <p style="color:#22c55e;font-weight:bold;">Deal Score: ${dealScore}</p>
             <button onclick='addToWatchlist(${JSON.stringify(p)})'>Save</button>
         </div>
         `;
     }).join("");
 }
 
-// 📌 WATCHLIST
+/* ================= WATCHLIST ================= */
 function addToWatchlist(product) {
     watchlist.push(product);
     localStorage.setItem("watchlist", JSON.stringify(watchlist));
@@ -104,6 +97,7 @@ function addToWatchlist(product) {
 
 function displayWatchlist() {
     const box = document.getElementById("watchlist");
+    if (!box) return;
 
     if (watchlist.length === 0) {
         box.innerHTML = "<p>No saved items</p>";
@@ -118,19 +112,21 @@ function displayWatchlist() {
     `).join("");
 }
 
-// 🔥 COMPARE FUNCTION
+/* ================= COMPARE ================= */
 async function runCompareSearch() {
-    const query = document.getElementById("searchInput").value.toLowerCase();
-
+    const query = document.getElementById("searchInput")?.value.toLowerCase();
     if (!query) return;
 
     try {
-        const amazon = await fetch("./amazon.json").then(r => r.json());
-        const flipkart = await fetch("./flipkart.json").then(r => r.json());
-        const meesho = await fetch("./meesho.json").then(r => r.json());
+        const [amazon, flipkart, meesho] = await Promise.all([
+            fetch("./amazon.json").then(r => r.json()),
+            fetch("./flipkart.json").then(r => r.json()),
+            fetch("./meesho.json").then(r => r.json())
+        ]);
 
         const filter = (data) => data.filter(p =>
-            p.title.toLowerCase().includes(query)
+            p.title.toLowerCase().includes(query) ||
+            (p.category && p.category.toLowerCase().includes(query))
         );
 
         const a = filter(amazon);
@@ -141,16 +137,17 @@ async function runCompareSearch() {
         displayCompare("flipkart-results", f);
         displayCompare("meesho-results", m);
 
-        showChart([...a, ...f, ...m]);
+        renderChart([...a, ...f, ...m]);
 
     } catch (err) {
         console.log("Compare error:", err);
     }
 }
 
-// 🖼 DISPLAY COMPARE (FORCED IMAGE FIX)
+/* ================= DISPLAY COMPARE ================= */
 function displayCompare(id, products) {
     const box = document.getElementById(id);
+    if (!box) return;
 
     if (products.length === 0) {
         box.innerHTML = "<p>No results</p>";
@@ -160,7 +157,6 @@ function displayCompare(id, products) {
     box.innerHTML = products.map(p => `
         <div class="product-card">
             <img src="${p.thumbnail || p.image || 'https://via.placeholder.com/200'}"
-                 style="width:100%;height:200px;object-fit:contain;background:white;"
                  onerror="this.onerror=null; this.src='https://via.placeholder.com/200?text=No+Image';" />
             <h3>${p.title}</h3>
             <p>${p.price}</p>
@@ -169,17 +165,21 @@ function displayCompare(id, products) {
     `).join("");
 }
 
-// 📊 CANVAS CHART
-function showChart(products) {
+/* ================= CHART ================= */
+function renderChart(products) {
     const canvas = document.getElementById("priceChart");
     if (!canvas) return;
 
-    const ctx = canvas.getContext("2d");
+    if (window.chartInstance) {
+        window.chartInstance.destroy();
+    }
 
     const labels = products.map(p => p.title.substring(0, 10));
-    const prices = products.map(p => parseInt(p.price.replace(/[₹,]/g, "")));
+    const prices = products.map(p =>
+        parseInt(p.price.replace(/[₹,]/g, "")) || 0
+    );
 
-    new Chart(ctx, {
+    window.chartInstance = new Chart(canvas, {
         type: 'bar',
         data: {
             labels: labels,
@@ -191,5 +191,7 @@ function showChart(products) {
     });
 }
 
-// LOAD WATCHLIST ON START
-displayWatchlist();
+/* ================= INIT ================= */
+document.addEventListener("DOMContentLoaded", () => {
+    displayWatchlist();
+});

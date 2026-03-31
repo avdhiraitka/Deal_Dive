@@ -20,7 +20,7 @@
     <div class="logo">DealDive</div>
 
     <nav>
-        <a href="./index.html">Home</a>
+        <a href="./index.html" class="active">Home</a>
         <a href="./compare.html">Compare</a>
         <a href="./trends.html">Trends</a>
     </nav>
@@ -37,9 +37,11 @@
 
     <!-- SEARCH -->
     <div class="search-box">
-        <input id="searchInput" type="text" placeholder="Search products..."
-            autocomplete="off"
-            onkeyup="if(event.key==='Enter'){searchProduct()}">
+        <input id="searchInput"
+               type="text"
+               placeholder="Search products..."
+               autocomplete="off"
+               onkeyup="if(event.key==='Enter'){searchProduct()}">
 
         <select id="categorySelect" onchange="searchProduct()">
             <option value="all">All</option>
@@ -57,7 +59,7 @@
         <button onclick="searchProduct()">Search</button>
     </div>
 
-    <!-- STATUS MESSAGE (NEW - OPTIONAL BUT USEFUL) -->
+    <!-- STATUS MESSAGE -->
     <div id="statusMsg" style="margin-top:10px;color:#94a3b8;"></div>
 
     <!-- SUGGESTIONS -->
@@ -70,9 +72,11 @@
 <!-- ================= WATCHLIST ================= -->
 <section id="watchlistBox">
     <h2>📌 Watchlist</h2>
-    <button onclick="watchlist=[]; localStorage.clear(); displayWatchlist();">
+
+    <button onclick="watchlist=[]; localStorage.removeItem('watchlist'); displayWatchlist();">
         Clear All
     </button>
+
     <div id="watchlist"></div>
 </section>
 
@@ -91,7 +95,7 @@
     </div>
 </div>
 
-<!-- JS -->
+<!-- JS (IMPORTANT: LOAD AFTER HTML) -->
 <script src="./script.js"></script>
 
 </body>
