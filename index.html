@@ -8,84 +8,69 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
-    <header>
-        <div class="logo">DealDive</div>
+<header>
+    <div class="logo">DealDive</div>
 
-        <nav>
-            <a href="index.html" class="active">Home</a>
-            <a href="compare.html">Compare</a>
-            <a href="trends.html">Trends</a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="compare.html">Compare</a>
+        <a href="trends.html">Trends</a>
+    </nav>
 
-        </nav>
+    <div class="auth-buttons">
+        <button onclick="openLogin()">Login</button>
+    </div>
+</header>
 
-        <div class="auth-buttons">
-            <button onclick="openLogin()">Login</button>
-        </div>
-    </header>
+<section class="hero">
+    <h1>Search Products with Deal Intelligence</h1>
+    <p>Compare prices across platforms & track best deals.</p>
 
-    <section class="hero">
-        <h1>Search Products with Deal Intelligence</h1>
-        <p>DealDive now fetches live products using API + lets users save deals.</p>
+    <div class="search-box">
+        <input id="searchInput" type="text" placeholder="Search products..."
+            onkeyup="showSuggestions(); searchProduct()" />
 
-        <div class="search-box">
-            <input id="searchInput" type="text" placeholder="Search (e.g. apple, laptop, shoes...)"
-                onkeyup="searchProduct()" />
-            <select id="categorySelect" onchange="searchProduct()"
-                style="padding: 12px; border-radius: 25px; border: 1px solid #ddd; outline: none;">
-                <option value="all">All Categories</option>
-                <option value="mobile">Mobiles</option>
-                <option value="laptop">Laptops</option>
-                <option value="headphones">Headphones</option>
-                <option value="watch">Watches</option>
-                <option value="shoes">Shoes</option>
-                <option value="accessory">Accessories</option>
-            </select>
-            <select id="sortSelect" onchange="applySortAndFilter()"
-                style="padding: 12px; border-radius: 25px; border: 1px solid #ddd; outline: none;">
-                <option value="relevance">Sort by: Relevance</option>
-                <option value="low">Price: Low to High</option>
-                <option value="high">Price: High to Low</option>
-            </select>
-            <button onclick="searchProduct()">Search</button>
-        </div>
-        </div>
+        <select id="categorySelect" onchange="searchProduct()">
+            <option value="all">All</option>
+            <option value="mobile">Mobiles</option>
+            <option value="laptop">Laptops</option>
+        </select>
 
-        <div id="results"></div>
-    </section>
+        <select id="sortSelect" onchange="applySortAndFilter()">
+            <option value="relevance">Relevance</option>
+            <option value="low">Low → High</option>
+            <option value="high">High → Low</option>
+        </select>
 
-    <section id="watchlistBox">
-        <h2 style="color:var(--accent)">📌 Your Watchlist</h2>
-        <div id="watchlist"></div>
-    </section>
-
-    <!-- LOGIN MODAL -->
-    <div id="loginModal" class="modal">
-        <div class="modal-box">
-            <h2>Login to DealDive</h2>
-
-            <input type="text" id="username" placeholder="Enter username" />
-            <input type="password" id="password" placeholder="Enter password" />
-
-            <button onclick="loginUser()">Login</button>
-
-            <p style="margin-top:15px;color:#94a3b8">
-                No account?
-                <span onclick="signupUser()" style="color:var(--accent);cursor:pointer;">
-                    Sign up
-                </span>
-            </p>
-
-            <span class="close-btn" onclick="closeLogin()">✖</span>
-        </div>
+        <button onclick="searchProduct()">Search</button>
     </div>
 
-    <script src="script.js"></script>
+    <div id="suggestions"></div>
+    <div id="results"></div>
+</section>
 
+<section id="watchlistBox">
+    <h2>📌 Watchlist</h2>
+    <button onclick="clearWatchlist()">Clear All</button>
+    <div id="watchlist"></div>
+</section>
+
+<!-- LOGIN MODAL -->
+<div id="loginModal" class="modal">
+    <div class="modal-box">
+        <h2>Login</h2>
+        <input id="username" placeholder="Username">
+        <input id="password" type="password" placeholder="Password">
+        <button onclick="loginUser()">Login</button>
+        <p onclick="signupUser()">Signup</p>
+        <span onclick="closeLogin()">✖</span>
+    </div>
+</div>
+
+<script src="script.js"></script>
 </body>
-
 </html>
