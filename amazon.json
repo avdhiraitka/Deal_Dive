@@ -1,0 +1,572 @@
+[
+    {
+        "title": "Apple iPhone 13 (128GB) - Midnight",
+        "price": "₹49,900",
+        "store": "Amazon",
+        "link": "https://www.amazon.in/Apple-iPhone-13-128GB-Midnight/dp/B09V4843K8",
+        "thumbnail": "https://m.media-amazon.com/images/I/61VuVU94RnL._SX679_.jpg",
+        "category": "mobile",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 55999
+            },
+            {
+                "date": "2025-09-01",
+                "price": 53999
+            },
+            {
+                "date": "2025-10-01",
+                "price": 51999
+            },
+            {
+                "date": "2025-11-01",
+                "price": 49999
+            },
+            {
+                "date": "2025-12-01",
+                "price": 47999
+            },
+            {
+                "date": "2026-01-01",
+                "price": 49900
+            },
+            {
+                "date": "2026-02-01",
+                "price": 49900
+            }
+        ]
+    },
+    {
+        "title": "Samsung Galaxy S23 FE 5G (Mint, 128GB, 8GB RAM)",
+        "price": "₹29,999",
+        "store": "Amazon",
+        "link": "https://www.amazon.in/Samsung-Galaxy-S23-FE-5G/dp/B0CJ12345",
+        "thumbnail": "https://m.media-amazon.com/images/I/71Sa3dqTqzL._SX679_.jpg",
+        "category": "mobile",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 39999
+            },
+            {
+                "date": "2025-09-01",
+                "price": 36999
+            },
+            {
+                "date": "2025-10-01",
+                "price": 34999
+            },
+            {
+                "date": "2025-11-01",
+                "price": 31999
+            },
+            {
+                "date": "2025-12-01",
+                "price": 29999
+            },
+            {
+                "date": "2026-01-01",
+                "price": 30999
+            },
+            {
+                "date": "2026-02-01",
+                "price": 29999
+            }
+        ]
+    },
+    {
+        "title": "OnePlus 12 (Silky Black, 12GB RAM, 256GB Storage)",
+        "price": "₹57,999",
+        "store": "Amazon",
+        "link": "https://www.amazon.in/OnePlus-12-Silky-Black/dp/B0CXYZ123",
+        "thumbnail": "https://m.media-amazon.com/images/I/61Io06sWzML._SX679_.jpg",
+        "category": "mobile",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 64999
+            },
+            {
+                "date": "2025-09-01",
+                "price": 62999
+            },
+            {
+                "date": "2025-10-01",
+                "price": 61999
+            },
+            {
+                "date": "2025-11-01",
+                "price": 59999
+            },
+            {
+                "date": "2025-12-01",
+                "price": 57999
+            },
+            {
+                "date": "2026-01-01",
+                "price": 57999
+            },
+            {
+                "date": "2026-02-01",
+                "price": 57999
+            }
+        ]
+    },
+    {
+        "title": "Apple MacBook Air M2 Chip (8GB/256GB SSD) - Midnight",
+        "price": "₹98,900",
+        "store": "Amazon",
+        "link": "https://www.amazon.in/Apple-MacBook-Air-M2/dp/B0B3BVWJ6Y",
+        "thumbnail": "https://m.media-amazon.com/images/I/71f5Eu5lJSL._SX679_.jpg",
+        "category": "laptop",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 114900
+            },
+            {
+                "date": "2025-09-01",
+                "price": 109900
+            },
+            {
+                "date": "2025-10-01",
+                "price": 104900
+            },
+            {
+                "date": "2025-11-01",
+                "price": 99900
+            },
+            {
+                "date": "2025-12-01",
+                "price": 94900
+            },
+            {
+                "date": "2026-01-01",
+                "price": 98900
+            },
+            {
+                "date": "2026-02-01",
+                "price": 98900
+            }
+        ]
+    },
+    {
+        "title": "HP Pavilion 14 12th Gen Intel Core i5 Laptop (16GB/512GB SSD)",
+        "price": "₹56,990",
+        "store": "Amazon",
+        "link": "https://www.amazon.in/HP-Pavilion-14-i5/dp/B0BXYZ456",
+        "thumbnail": "https://m.media-amazon.com/images/I/71GI1MeijPL._SX679_.jpg",
+        "category": "laptop",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 65990
+            },
+            {
+                "date": "2025-09-01",
+                "price": 62990
+            },
+            {
+                "date": "2025-10-01",
+                "price": 59990
+            },
+            {
+                "date": "2025-11-01",
+                "price": 57990
+            },
+            {
+                "date": "2025-12-01",
+                "price": 54990
+            },
+            {
+                "date": "2026-01-01",
+                "price": 56990
+            },
+            {
+                "date": "2026-02-01",
+                "price": 56990
+            }
+        ]
+    },
+    {
+        "title": "Lenovo IdeaPad Slim 3 AMD Ryzen 5 Laptop (8GB/512GB SSD)",
+        "price": "₹42,990",
+        "store": "Amazon",
+        "link": "https://www.amazon.in/Lenovo-IdeaPad-Slim-3/dp/B0CABC789",
+        "thumbnail": "https://m.media-amazon.com/images/I/71PvHFJU-7L._SX679_.jpg",
+        "category": "laptop",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 49990
+            },
+            {
+                "date": "2025-09-01",
+                "price": 47990
+            },
+            {
+                "date": "2025-10-01",
+                "price": 45990
+            },
+            {
+                "date": "2025-11-01",
+                "price": 43990
+            },
+            {
+                "date": "2025-12-01",
+                "price": 41990
+            },
+            {
+                "date": "2026-01-01",
+                "price": 42990
+            },
+            {
+                "date": "2026-02-01",
+                "price": 42990
+            }
+        ]
+    },
+    {
+        "title": "Sony WH-1000XM5 Wireless Noise Cancelling Headphones",
+        "price": "₹26,990",
+        "store": "Amazon",
+        "link": "https://www.amazon.in/Sony-WH-1000XM5/dp/B09XS7JWHH",
+        "thumbnail": "https://m.media-amazon.com/images/I/51aXvjzcukL._SX679_.jpg",
+        "category": "headphones",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 29990
+            },
+            {
+                "date": "2025-09-01",
+                "price": 28490
+            },
+            {
+                "date": "2025-10-01",
+                "price": 27990
+            },
+            {
+                "date": "2025-11-01",
+                "price": 26990
+            },
+            {
+                "date": "2025-12-01",
+                "price": 24990
+            },
+            {
+                "date": "2026-01-01",
+                "price": 26990
+            },
+            {
+                "date": "2026-02-01",
+                "price": 26990
+            }
+        ]
+    },
+    {
+        "title": "JBL Tune 760NC Wireless Over-Ear Headphones",
+        "price": "₹4,499",
+        "store": "Amazon",
+        "link": "https://www.amazon.in/JBL-Tune-760NC/dp/B09DEFG123",
+        "thumbnail": "https://m.media-amazon.com/images/I/51JbsHSktkL._SX679_.jpg",
+        "category": "headphones",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 5999
+            },
+            {
+                "date": "2025-09-01",
+                "price": 5499
+            },
+            {
+                "date": "2025-10-01",
+                "price": 4999
+            },
+            {
+                "date": "2025-11-01",
+                "price": 4799
+            },
+            {
+                "date": "2025-12-01",
+                "price": 4299
+            },
+            {
+                "date": "2026-01-01",
+                "price": 4499
+            },
+            {
+                "date": "2026-02-01",
+                "price": 4499
+            }
+        ]
+    },
+    {
+        "title": "Apple Watch Series 9 GPS 41mm Aluminium Case",
+        "price": "₹37,900",
+        "store": "Amazon",
+        "link": "https://www.amazon.in/Apple-Watch-Series-9/dp/B0CHXYZ789",
+        "thumbnail": "https://m.media-amazon.com/images/I/71lIqGPx-EL._SX679_.jpg",
+        "category": "watch",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 44900
+            },
+            {
+                "date": "2025-09-01",
+                "price": 42900
+            },
+            {
+                "date": "2025-10-01",
+                "price": 41900
+            },
+            {
+                "date": "2025-11-01",
+                "price": 39900
+            },
+            {
+                "date": "2025-12-01",
+                "price": 36900
+            },
+            {
+                "date": "2026-01-01",
+                "price": 37900
+            },
+            {
+                "date": "2026-02-01",
+                "price": 37900
+            }
+        ]
+    },
+    {
+        "title": "Fire-Boltt Phoenix Ultra Luxury Smartwatch",
+        "price": "₹1,599",
+        "store": "Amazon",
+        "link": "https://www.amazon.in/Fire-Boltt-Phoenix-Ultra/dp/B0BXYZ999",
+        "thumbnail": "https://m.media-amazon.com/images/I/61RfB4qFRsL._SX679_.jpg",
+        "category": "watch",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 2999
+            },
+            {
+                "date": "2025-09-01",
+                "price": 2499
+            },
+            {
+                "date": "2025-10-01",
+                "price": 2199
+            },
+            {
+                "date": "2025-11-01",
+                "price": 1899
+            },
+            {
+                "date": "2025-12-01",
+                "price": 1499
+            },
+            {
+                "date": "2026-01-01",
+                "price": 1599
+            },
+            {
+                "date": "2026-02-01",
+                "price": 1599
+            }
+        ]
+    },
+    {
+        "title": "Nike Air Max 270 React Running Shoes - Black",
+        "price": "₹9,995",
+        "store": "Amazon",
+        "link": "https://www.amazon.in/Nike-Air-Max-270-React/dp/B08XYZ123",
+        "thumbnail": "https://m.media-amazon.com/images/I/71UGN0tdSZL._UX695_.jpg",
+        "category": "shoes",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 12995
+            },
+            {
+                "date": "2025-09-01",
+                "price": 11995
+            },
+            {
+                "date": "2025-10-01",
+                "price": 10995
+            },
+            {
+                "date": "2025-11-01",
+                "price": 9995
+            },
+            {
+                "date": "2025-12-01",
+                "price": 8995
+            },
+            {
+                "date": "2026-01-01",
+                "price": 9995
+            },
+            {
+                "date": "2026-02-01",
+                "price": 9995
+            }
+        ]
+    },
+    {
+        "title": "Puma Unisex RS-X Sneakers - White/Blue",
+        "price": "₹5,499",
+        "store": "Amazon",
+        "link": "https://www.amazon.in/Puma-RS-X-Sneakers/dp/B09XYZ456",
+        "thumbnail": "https://m.media-amazon.com/images/I/71Yzp9GpCUL._UX695_.jpg",
+        "category": "shoes",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 7999
+            },
+            {
+                "date": "2025-09-01",
+                "price": 7499
+            },
+            {
+                "date": "2025-10-01",
+                "price": 6499
+            },
+            {
+                "date": "2025-11-01",
+                "price": 5999
+            },
+            {
+                "date": "2025-12-01",
+                "price": 4999
+            },
+            {
+                "date": "2026-01-01",
+                "price": 5499
+            },
+            {
+                "date": "2026-02-01",
+                "price": 5499
+            }
+        ]
+    },
+    {
+        "title": "boAt Airdopes 141 TWS Earbuds with 42H Playtime",
+        "price": "₹1,099",
+        "store": "Amazon",
+        "link": "https://www.amazon.in/boAt-Airdopes-141/dp/B0BXYZ123",
+        "thumbnail": "https://m.media-amazon.com/images/I/51d-u0DlCiL._SX679_.jpg",
+        "category": "headphones",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 1799
+            },
+            {
+                "date": "2025-09-01",
+                "price": 1599
+            },
+            {
+                "date": "2025-10-01",
+                "price": 1399
+            },
+            {
+                "date": "2025-11-01",
+                "price": 1299
+            },
+            {
+                "date": "2025-12-01",
+                "price": 999
+            },
+            {
+                "date": "2026-01-01",
+                "price": 1099
+            },
+            {
+                "date": "2026-02-01",
+                "price": 1099
+            }
+        ]
+    },
+    {
+        "title": "Apple AirPods Pro (2nd Gen) with USB-C MagSafe Case",
+        "price": "₹21,999",
+        "store": "Amazon",
+        "link": "https://www.amazon.in/Apple-AirPods-Pro-2nd-Gen/dp/B0BDHB9Y8H",
+        "thumbnail": "https://m.media-amazon.com/images/I/61SUj2aKoEL._SX679_.jpg",
+        "category": "headphones",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 24900
+            },
+            {
+                "date": "2025-09-01",
+                "price": 23999
+            },
+            {
+                "date": "2025-10-01",
+                "price": 22999
+            },
+            {
+                "date": "2025-11-01",
+                "price": 21999
+            },
+            {
+                "date": "2025-12-01",
+                "price": 20499
+            },
+            {
+                "date": "2026-01-01",
+                "price": 21999
+            },
+            {
+                "date": "2026-02-01",
+                "price": 21999
+            }
+        ]
+    },
+    {
+        "title": "Spigen Rugged Armor Case for iPhone 13 - Matte Black",
+        "price": "₹999",
+        "store": "Amazon",
+        "link": "https://www.amazon.in/Spigen-Rugged-Armor-iPhone-13/dp/B09ABC123",
+        "thumbnail": "https://m.media-amazon.com/images/I/51pgOxB27wL._SX679_.jpg",
+        "category": "accessory",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 1499
+            },
+            {
+                "date": "2025-09-01",
+                "price": 1299
+            },
+            {
+                "date": "2025-10-01",
+                "price": 1199
+            },
+            {
+                "date": "2025-11-01",
+                "price": 999
+            },
+            {
+                "date": "2025-12-01",
+                "price": 899
+            },
+            {
+                "date": "2026-01-01",
+                "price": 999
+            },
+            {
+                "date": "2026-02-01",
+                "price": 999
+            }
+        ]
+    }
+]

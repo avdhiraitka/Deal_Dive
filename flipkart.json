@@ -1,0 +1,572 @@
+[
+    {
+        "title": "APPLE iPhone 13 (Midnight, 128 GB)",
+        "price": "₹49,999",
+        "store": "Flipkart",
+        "link": "https://www.flipkart.com/apple-iphone-13-midnight-128-gb/p/itmca361aab1c5b0",
+        "thumbnail": "https://rukminim2.flixcart.com/image/416/416/ktketu80/mobile/c/g/4/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg",
+        "category": "mobile",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 56999
+            },
+            {
+                "date": "2025-09-01",
+                "price": 54499
+            },
+            {
+                "date": "2025-10-01",
+                "price": 52999
+            },
+            {
+                "date": "2025-11-01",
+                "price": 50999
+            },
+            {
+                "date": "2025-12-01",
+                "price": 48999
+            },
+            {
+                "date": "2026-01-01",
+                "price": 49999
+            },
+            {
+                "date": "2026-02-01",
+                "price": 49999
+            }
+        ]
+    },
+    {
+        "title": "SAMSUNG Galaxy S23 FE 5G (Olive, 128 GB) (8 GB RAM)",
+        "price": "₹31,999",
+        "store": "Flipkart",
+        "link": "https://www.flipkart.com/samsung-galaxy-s23-fe-5g-olive-128-gb/p/itm7774e5b12345",
+        "thumbnail": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/a/y/x/-original-imaggj68dmfcfhmy.jpeg",
+        "category": "mobile",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 42999
+            },
+            {
+                "date": "2025-09-01",
+                "price": 39999
+            },
+            {
+                "date": "2025-10-01",
+                "price": 37999
+            },
+            {
+                "date": "2025-11-01",
+                "price": 33999
+            },
+            {
+                "date": "2025-12-01",
+                "price": 30999
+            },
+            {
+                "date": "2026-01-01",
+                "price": 31999
+            },
+            {
+                "date": "2026-02-01",
+                "price": 31999
+            }
+        ]
+    },
+    {
+        "title": "Nothing Phone (2) (Dark Grey, 256 GB) (12 GB RAM)",
+        "price": "₹39,999",
+        "store": "Flipkart",
+        "link": "https://www.flipkart.com/nothing-phone-2-dark-grey-256-gb/p/itm5a123456789",
+        "thumbnail": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/u/m/b/-original-imagrdefh2xgenzz.jpeg",
+        "category": "mobile",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 44999
+            },
+            {
+                "date": "2025-09-01",
+                "price": 43999
+            },
+            {
+                "date": "2025-10-01",
+                "price": 42999
+            },
+            {
+                "date": "2025-11-01",
+                "price": 40999
+            },
+            {
+                "date": "2025-12-01",
+                "price": 38999
+            },
+            {
+                "date": "2026-01-01",
+                "price": 39999
+            },
+            {
+                "date": "2026-02-01",
+                "price": 39999
+            }
+        ]
+    },
+    {
+        "title": "Realme 11 Pro 5G (Sunrise Beige, 128 GB) (8 GB RAM)",
+        "price": "₹23,999",
+        "store": "Flipkart",
+        "link": "https://www.flipkart.com/realme-11-pro-5g/p/itm12345",
+        "thumbnail": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/l/x/c/-original-imagqadf2awzzmyf.jpeg",
+        "category": "mobile",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 27999
+            },
+            {
+                "date": "2025-09-01",
+                "price": 26999
+            },
+            {
+                "date": "2025-10-01",
+                "price": 25999
+            },
+            {
+                "date": "2025-11-01",
+                "price": 24999
+            },
+            {
+                "date": "2025-12-01",
+                "price": 22999
+            },
+            {
+                "date": "2026-01-01",
+                "price": 23999
+            },
+            {
+                "date": "2026-02-01",
+                "price": 23999
+            }
+        ]
+    },
+    {
+        "title": "APPLE 2020 Macbook Air M1 - (8 GB/256 GB SSD/Mac OS Big Sur)",
+        "price": "₹71,990",
+        "store": "Flipkart",
+        "link": "https://www.flipkart.com/apple-2020-macbook-air-m1/p/itm2984537654321",
+        "thumbnail": "https://rukminim2.flixcart.com/image/416/416/kp5sya80/computer/n/m/k/na-thin-and-light-laptop-apple-original-imag3f3f5dhfxvhu.jpeg",
+        "category": "laptop",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 84990
+            },
+            {
+                "date": "2025-09-01",
+                "price": 79990
+            },
+            {
+                "date": "2025-10-01",
+                "price": 76990
+            },
+            {
+                "date": "2025-11-01",
+                "price": 73990
+            },
+            {
+                "date": "2025-12-01",
+                "price": 69990
+            },
+            {
+                "date": "2026-01-01",
+                "price": 71990
+            },
+            {
+                "date": "2026-02-01",
+                "price": 71990
+            }
+        ]
+    },
+    {
+        "title": "DELL XPS 13 Core i5 11th Gen - (16 GB/512 GB SSD/Windows 10 Home)",
+        "price": "₹1,21,990",
+        "store": "Flipkart",
+        "link": "https://www.flipkart.com/dell-xps-13-core-i5-11th-gen/p/Itm123456789",
+        "thumbnail": "https://rukminim2.flixcart.com/image/416/416/kabc123/computer/x/y/z/original-imag456.jpeg",
+        "category": "laptop",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 139990
+            },
+            {
+                "date": "2025-09-01",
+                "price": 134990
+            },
+            {
+                "date": "2025-10-01",
+                "price": 129990
+            },
+            {
+                "date": "2025-11-01",
+                "price": 124990
+            },
+            {
+                "date": "2025-12-01",
+                "price": 119990
+            },
+            {
+                "date": "2026-01-01",
+                "price": 121990
+            },
+            {
+                "date": "2026-02-01",
+                "price": 121990
+            }
+        ]
+    },
+    {
+        "title": "ASUS ROG Strix G16 Core i7 13th Gen Gaming Laptop (16GB/1TB SSD)",
+        "price": "₹1,04,990",
+        "store": "Flipkart",
+        "link": "https://www.flipkart.com/asus-rog-strix-g16/p/itmXYZ123",
+        "thumbnail": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/a/b/c/-original-imagxyz1234.jpeg",
+        "category": "laptop",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 119990
+            },
+            {
+                "date": "2025-09-01",
+                "price": 114990
+            },
+            {
+                "date": "2025-10-01",
+                "price": 109990
+            },
+            {
+                "date": "2025-11-01",
+                "price": 104990
+            },
+            {
+                "date": "2025-12-01",
+                "price": 99990
+            },
+            {
+                "date": "2026-01-01",
+                "price": 104990
+            },
+            {
+                "date": "2026-02-01",
+                "price": 104990
+            }
+        ]
+    },
+    {
+        "title": "boAt Rockerz 255 Pro+ Bluetooth Headset",
+        "price": "₹1,299",
+        "store": "Flipkart",
+        "link": "https://www.flipkart.com/boat-rockerz-255-pro-plus/p/itm123456",
+        "thumbnail": "https://rukminim2.flixcart.com/image/416/416/kigbjrk0/headphone/6/v/3/rockerz-255-pro-boat-original-imafy9k4zggz8xz8.jpeg",
+        "category": "headphones",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 1799
+            },
+            {
+                "date": "2025-09-01",
+                "price": 1599
+            },
+            {
+                "date": "2025-10-01",
+                "price": 1499
+            },
+            {
+                "date": "2025-11-01",
+                "price": 1399
+            },
+            {
+                "date": "2025-12-01",
+                "price": 1199
+            },
+            {
+                "date": "2026-01-01",
+                "price": 1299
+            },
+            {
+                "date": "2026-02-01",
+                "price": 1299
+            }
+        ]
+    },
+    {
+        "title": "Apple AirPods Pro (2nd Generation) with MagSafe Charging Case",
+        "price": "₹21,999",
+        "store": "Flipkart",
+        "link": "https://www.flipkart.com/apple-airpods-pro-2nd-generation/p/itm12345678",
+        "thumbnail": "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/p/r/z/-original-imaghxgnjdgyghfw.jpeg",
+        "category": "headphones",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 26900
+            },
+            {
+                "date": "2025-09-01",
+                "price": 24999
+            },
+            {
+                "date": "2025-10-01",
+                "price": 23999
+            },
+            {
+                "date": "2025-11-01",
+                "price": 22999
+            },
+            {
+                "date": "2025-12-01",
+                "price": 20999
+            },
+            {
+                "date": "2026-01-01",
+                "price": 21999
+            },
+            {
+                "date": "2026-02-01",
+                "price": 21999
+            }
+        ]
+    },
+    {
+        "title": "Noise ColorFit Pro 4 Advanced Bluetooth Calling Smartwatch",
+        "price": "₹2,999",
+        "store": "Flipkart",
+        "link": "https://www.flipkart.com/noise-colorfit-pro-4-advanced/p/itm123456",
+        "thumbnail": "https://rukminim2.flixcart.com/image/416/416/l5ld8y80/smartwatch/r/q/t/-original-imagg8d9ygk4z4fq.jpeg",
+        "category": "watch",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 4999
+            },
+            {
+                "date": "2025-09-01",
+                "price": 4499
+            },
+            {
+                "date": "2025-10-01",
+                "price": 3999
+            },
+            {
+                "date": "2025-11-01",
+                "price": 3499
+            },
+            {
+                "date": "2025-12-01",
+                "price": 2799
+            },
+            {
+                "date": "2026-01-01",
+                "price": 2999
+            },
+            {
+                "date": "2026-02-01",
+                "price": 2999
+            }
+        ]
+    },
+    {
+        "title": "Apple Watch SE (2nd Gen) GPS 40mm Starlight Aluminium Case",
+        "price": "₹26,900",
+        "store": "Flipkart",
+        "link": "https://www.flipkart.com/apple-watch-se-2nd-gen/p/itm12345",
+        "thumbnail": "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/3/h/8/-original-imaghxg4gq9hzyh9.jpeg",
+        "category": "watch",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 32900
+            },
+            {
+                "date": "2025-09-01",
+                "price": 30900
+            },
+            {
+                "date": "2025-10-01",
+                "price": 29900
+            },
+            {
+                "date": "2025-11-01",
+                "price": 27900
+            },
+            {
+                "date": "2025-12-01",
+                "price": 25900
+            },
+            {
+                "date": "2026-01-01",
+                "price": 26900
+            },
+            {
+                "date": "2026-02-01",
+                "price": 26900
+            }
+        ]
+    },
+    {
+        "title": "Apple iPad (9th Gen) 64 GB ROM 10.2 inch with Wi-Fi Only (Space Grey)",
+        "price": "₹29,900",
+        "store": "Flipkart",
+        "link": "https://www.flipkart.com/apple-ipad-9th-gen/p/itm6108139707246",
+        "thumbnail": "https://rukminim2.flixcart.com/image/416/416/ktketu80/tablet/q/o/l/mk2k3hn-a-apple-original-imag6vzzhvjrzf9v.jpeg",
+        "category": "laptop",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 34900
+            },
+            {
+                "date": "2025-09-01",
+                "price": 32900
+            },
+            {
+                "date": "2025-10-01",
+                "price": 31900
+            },
+            {
+                "date": "2025-11-01",
+                "price": 30900
+            },
+            {
+                "date": "2025-12-01",
+                "price": 28900
+            },
+            {
+                "date": "2026-01-01",
+                "price": 29900
+            },
+            {
+                "date": "2026-02-01",
+                "price": 29900
+            }
+        ]
+    },
+    {
+        "title": "ADIDAS Ultraboost Light Running Shoes - Core Black",
+        "price": "₹11,899",
+        "store": "Flipkart",
+        "link": "https://www.flipkart.com/adidas-ultraboost-light/p/itm123",
+        "thumbnail": "https://rukminim2.flixcart.com/image/416/416/xif0q/shoe/1/2/3/9-zoom-adidas-white-original-imagq234.jpeg",
+        "category": "shoes",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 16999
+            },
+            {
+                "date": "2025-09-01",
+                "price": 14999
+            },
+            {
+                "date": "2025-10-01",
+                "price": 13999
+            },
+            {
+                "date": "2025-11-01",
+                "price": 12999
+            },
+            {
+                "date": "2025-12-01",
+                "price": 10999
+            },
+            {
+                "date": "2026-01-01",
+                "price": 11899
+            },
+            {
+                "date": "2026-02-01",
+                "price": 11899
+            }
+        ]
+    },
+    {
+        "title": "Nike Revolution 6 Running Shoes - Navy Blue",
+        "price": "₹3,495",
+        "store": "Flipkart",
+        "link": "https://www.flipkart.com/nike-revolution-6/p/itmABC123",
+        "thumbnail": "https://rukminim2.flixcart.com/image/416/416/xif0q/shoe/a/b/c/-original-imag1234.jpeg",
+        "category": "shoes",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 4995
+            },
+            {
+                "date": "2025-09-01",
+                "price": 4495
+            },
+            {
+                "date": "2025-10-01",
+                "price": 3995
+            },
+            {
+                "date": "2025-11-01",
+                "price": 3695
+            },
+            {
+                "date": "2025-12-01",
+                "price": 3295
+            },
+            {
+                "date": "2026-01-01",
+                "price": 3495
+            },
+            {
+                "date": "2026-02-01",
+                "price": 3495
+            }
+        ]
+    },
+    {
+        "title": "Anker 20W USB-C Fast Charger for iPhone",
+        "price": "₹1,199",
+        "store": "Flipkart",
+        "link": "https://www.flipkart.com/anker-20w-usb-c/p/itmDEF456",
+        "thumbnail": "https://rukminim2.flixcart.com/image/416/416/xif0q/charger/d/e/f/-original-imagxyz456.jpeg",
+        "category": "accessory",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 1799
+            },
+            {
+                "date": "2025-09-01",
+                "price": 1599
+            },
+            {
+                "date": "2025-10-01",
+                "price": 1399
+            },
+            {
+                "date": "2025-11-01",
+                "price": 1299
+            },
+            {
+                "date": "2025-12-01",
+                "price": 1099
+            },
+            {
+                "date": "2026-01-01",
+                "price": 1199
+            },
+            {
+                "date": "2026-02-01",
+                "price": 1199
+            }
+        ]
+    }
+]

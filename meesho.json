@@ -1,0 +1,572 @@
+[
+    {
+        "title": "Apple iPhone 13 (128GB) Midnight - Renewed",
+        "price": "₹39,999",
+        "store": "Meesho",
+        "link": "https://www.meesho.com/s/p/sample1",
+        "thumbnail": "https://images.meesho.com/images/products/123456/abc_512.jpg",
+        "category": "mobile",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 45999
+            },
+            {
+                "date": "2025-09-01",
+                "price": 43999
+            },
+            {
+                "date": "2025-10-01",
+                "price": 42999
+            },
+            {
+                "date": "2025-11-01",
+                "price": 41999
+            },
+            {
+                "date": "2025-12-01",
+                "price": 38999
+            },
+            {
+                "date": "2026-01-01",
+                "price": 39999
+            },
+            {
+                "date": "2026-02-01",
+                "price": 39999
+            }
+        ]
+    },
+    {
+        "title": "Redmi Note 13 Pro 5G (Fusion Purple, 128GB, 8GB RAM)",
+        "price": "₹21,999",
+        "store": "Meesho",
+        "link": "https://www.meesho.com/s/p/sample2",
+        "thumbnail": "https://images.meesho.com/images/products/234567/def_512.jpg",
+        "category": "mobile",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 26999
+            },
+            {
+                "date": "2025-09-01",
+                "price": 25499
+            },
+            {
+                "date": "2025-10-01",
+                "price": 24999
+            },
+            {
+                "date": "2025-11-01",
+                "price": 23499
+            },
+            {
+                "date": "2025-12-01",
+                "price": 20999
+            },
+            {
+                "date": "2026-01-01",
+                "price": 21999
+            },
+            {
+                "date": "2026-02-01",
+                "price": 21999
+            }
+        ]
+    },
+    {
+        "title": "POCO X6 Pro 5G (Stardust White, 256GB, 8GB RAM)",
+        "price": "₹24,999",
+        "store": "Meesho",
+        "link": "https://www.meesho.com/s/p/sample8",
+        "thumbnail": "https://images.meesho.com/images/products/345678/ghi_512.jpg",
+        "category": "mobile",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 29999
+            },
+            {
+                "date": "2025-09-01",
+                "price": 28499
+            },
+            {
+                "date": "2025-10-01",
+                "price": 27499
+            },
+            {
+                "date": "2025-11-01",
+                "price": 25999
+            },
+            {
+                "date": "2025-12-01",
+                "price": 23999
+            },
+            {
+                "date": "2026-01-01",
+                "price": 24999
+            },
+            {
+                "date": "2026-02-01",
+                "price": 24999
+            }
+        ]
+    },
+    {
+        "title": "Budget Laptop Lenovo V15 AMD Ryzen 3 (8GB/256GB SSD)",
+        "price": "₹28,990",
+        "store": "Meesho",
+        "link": "https://www.meesho.com/s/p/sample3",
+        "thumbnail": "https://images.meesho.com/images/products/456789/ghi_512.jpg",
+        "category": "laptop",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 35990
+            },
+            {
+                "date": "2025-09-01",
+                "price": 33990
+            },
+            {
+                "date": "2025-10-01",
+                "price": 31990
+            },
+            {
+                "date": "2025-11-01",
+                "price": 29990
+            },
+            {
+                "date": "2025-12-01",
+                "price": 27990
+            },
+            {
+                "date": "2026-01-01",
+                "price": 28990
+            },
+            {
+                "date": "2026-02-01",
+                "price": 28990
+            }
+        ]
+    },
+    {
+        "title": "HP 15s Ryzen 5 5500U Laptop (8GB/512GB SSD/Windows 11)",
+        "price": "₹38,990",
+        "store": "Meesho",
+        "link": "https://www.meesho.com/s/p/sample9",
+        "thumbnail": "https://images.meesho.com/images/products/567890/jkl_512.jpg",
+        "category": "laptop",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 45990
+            },
+            {
+                "date": "2025-09-01",
+                "price": 43990
+            },
+            {
+                "date": "2025-10-01",
+                "price": 41990
+            },
+            {
+                "date": "2025-11-01",
+                "price": 39990
+            },
+            {
+                "date": "2025-12-01",
+                "price": 37990
+            },
+            {
+                "date": "2026-01-01",
+                "price": 38990
+            },
+            {
+                "date": "2026-02-01",
+                "price": 38990
+            }
+        ]
+    },
+    {
+        "title": "Wireless Bass Boosted Earbuds - TWS with 48H Playtime",
+        "price": "₹399",
+        "store": "Meesho",
+        "link": "https://www.meesho.com/s/p/sample10",
+        "thumbnail": "https://images.meesho.com/images/products/678901/mno_512.jpg",
+        "category": "headphones",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 799
+            },
+            {
+                "date": "2025-09-01",
+                "price": 699
+            },
+            {
+                "date": "2025-10-01",
+                "price": 599
+            },
+            {
+                "date": "2025-11-01",
+                "price": 499
+            },
+            {
+                "date": "2025-12-01",
+                "price": 349
+            },
+            {
+                "date": "2026-01-01",
+                "price": 399
+            },
+            {
+                "date": "2026-02-01",
+                "price": 399
+            }
+        ]
+    },
+    {
+        "title": "Premium Over-Ear Bluetooth Headphones with ANC",
+        "price": "₹1,799",
+        "store": "Meesho",
+        "link": "https://www.meesho.com/s/p/sample11",
+        "thumbnail": "https://images.meesho.com/images/products/789012/pqr_512.jpg",
+        "category": "headphones",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 2999
+            },
+            {
+                "date": "2025-09-01",
+                "price": 2599
+            },
+            {
+                "date": "2025-10-01",
+                "price": 2299
+            },
+            {
+                "date": "2025-11-01",
+                "price": 1999
+            },
+            {
+                "date": "2025-12-01",
+                "price": 1599
+            },
+            {
+                "date": "2026-01-01",
+                "price": 1799
+            },
+            {
+                "date": "2026-02-01",
+                "price": 1799
+            }
+        ]
+    },
+    {
+        "title": "Digital Sports Smart Watch with Heart Rate Monitor",
+        "price": "₹499",
+        "store": "Meesho",
+        "link": "https://www.meesho.com/s/p/sample12",
+        "thumbnail": "https://images.meesho.com/images/products/890123/stu_512.jpg",
+        "category": "watch",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 999
+            },
+            {
+                "date": "2025-09-01",
+                "price": 899
+            },
+            {
+                "date": "2025-10-01",
+                "price": 799
+            },
+            {
+                "date": "2025-11-01",
+                "price": 599
+            },
+            {
+                "date": "2025-12-01",
+                "price": 449
+            },
+            {
+                "date": "2026-01-01",
+                "price": 499
+            },
+            {
+                "date": "2026-02-01",
+                "price": 499
+            }
+        ]
+    },
+    {
+        "title": "Silicone Strap Band for Apple Watch Ultra 49mm",
+        "price": "₹289",
+        "store": "Meesho",
+        "link": "https://www.meesho.com/s/p/sample6",
+        "thumbnail": "https://images.meesho.com/images/products/667788/pqr_512.jpg",
+        "category": "watch",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 499
+            },
+            {
+                "date": "2025-09-01",
+                "price": 449
+            },
+            {
+                "date": "2025-10-01",
+                "price": 399
+            },
+            {
+                "date": "2025-11-01",
+                "price": 349
+            },
+            {
+                "date": "2025-12-01",
+                "price": 249
+            },
+            {
+                "date": "2026-01-01",
+                "price": 289
+            },
+            {
+                "date": "2026-02-01",
+                "price": 289
+            }
+        ]
+    },
+    {
+        "title": "Men Casual Mesh Sports Running Shoes - Black",
+        "price": "₹499",
+        "store": "Meesho",
+        "link": "https://www.meesho.com/s/p/sample13",
+        "thumbnail": "https://images.meesho.com/images/products/901234/vwx_512.jpg",
+        "category": "shoes",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 999
+            },
+            {
+                "date": "2025-09-01",
+                "price": 899
+            },
+            {
+                "date": "2025-10-01",
+                "price": 699
+            },
+            {
+                "date": "2025-11-01",
+                "price": 599
+            },
+            {
+                "date": "2025-12-01",
+                "price": 449
+            },
+            {
+                "date": "2026-01-01",
+                "price": 499
+            },
+            {
+                "date": "2026-02-01",
+                "price": 499
+            }
+        ]
+    },
+    {
+        "title": "Women's Chunky Sneakers Platform Walking Shoes - White",
+        "price": "₹699",
+        "store": "Meesho",
+        "link": "https://www.meesho.com/s/p/sample14",
+        "thumbnail": "https://images.meesho.com/images/products/012345/yza_512.jpg",
+        "category": "shoes",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 1199
+            },
+            {
+                "date": "2025-09-01",
+                "price": 1099
+            },
+            {
+                "date": "2025-10-01",
+                "price": 899
+            },
+            {
+                "date": "2025-11-01",
+                "price": 799
+            },
+            {
+                "date": "2025-12-01",
+                "price": 599
+            },
+            {
+                "date": "2026-01-01",
+                "price": 699
+            },
+            {
+                "date": "2026-02-01",
+                "price": 699
+            }
+        ]
+    },
+    {
+        "title": "Apple iPhone 13 Back Cover - Transparent",
+        "price": "₹129",
+        "store": "Meesho",
+        "link": "https://www.meesho.com/s/p/sample4",
+        "thumbnail": "https://images.meesho.com/images/products/111222/jkl_512.jpg",
+        "category": "accessory",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 299
+            },
+            {
+                "date": "2025-09-01",
+                "price": 249
+            },
+            {
+                "date": "2025-10-01",
+                "price": 199
+            },
+            {
+                "date": "2025-11-01",
+                "price": 149
+            },
+            {
+                "date": "2025-12-01",
+                "price": 99
+            },
+            {
+                "date": "2026-01-01",
+                "price": 129
+            },
+            {
+                "date": "2026-02-01",
+                "price": 129
+            }
+        ]
+    },
+    {
+        "title": "20W Fast USB-C Power Adapter for iPhone",
+        "price": "₹499",
+        "store": "Meesho",
+        "link": "https://www.meesho.com/s/p/sample5",
+        "thumbnail": "https://images.meesho.com/images/products/334455/mno_512.jpg",
+        "category": "accessory",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 899
+            },
+            {
+                "date": "2025-09-01",
+                "price": 799
+            },
+            {
+                "date": "2025-10-01",
+                "price": 699
+            },
+            {
+                "date": "2025-11-01",
+                "price": 599
+            },
+            {
+                "date": "2025-12-01",
+                "price": 449
+            },
+            {
+                "date": "2026-01-01",
+                "price": 499
+            },
+            {
+                "date": "2026-02-01",
+                "price": 499
+            }
+        ]
+    },
+    {
+        "title": "Matte Privacy Screen Protector for iPhone 14 Pro Max",
+        "price": "₹199",
+        "store": "Meesho",
+        "link": "https://www.meesho.com/s/p/sample7",
+        "thumbnail": "https://images.meesho.com/images/products/998877/stu_512.jpg",
+        "category": "accessory",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 449
+            },
+            {
+                "date": "2025-09-01",
+                "price": 399
+            },
+            {
+                "date": "2025-10-01",
+                "price": 349
+            },
+            {
+                "date": "2025-11-01",
+                "price": 249
+            },
+            {
+                "date": "2025-12-01",
+                "price": 179
+            },
+            {
+                "date": "2026-01-01",
+                "price": 199
+            },
+            {
+                "date": "2026-02-01",
+                "price": 199
+            }
+        ]
+    },
+    {
+        "title": "Portable Laptop Stand Aluminium Adjustable - Silver",
+        "price": "₹349",
+        "store": "Meesho",
+        "link": "https://www.meesho.com/s/p/sample15",
+        "thumbnail": "https://images.meesho.com/images/products/445566/bcd_512.jpg",
+        "category": "accessory",
+        "priceHistory": [
+            {
+                "date": "2025-08-01",
+                "price": 699
+            },
+            {
+                "date": "2025-09-01",
+                "price": 599
+            },
+            {
+                "date": "2025-10-01",
+                "price": 499
+            },
+            {
+                "date": "2025-11-01",
+                "price": 399
+            },
+            {
+                "date": "2025-12-01",
+                "price": 299
+            },
+            {
+                "date": "2026-01-01",
+                "price": 349
+            },
+            {
+                "date": "2026-02-01",
+                "price": 349
+            }
+        ]
+    }
+]
