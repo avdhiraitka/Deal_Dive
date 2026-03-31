@@ -58,7 +58,7 @@ function applySortAndFilter() {
     displayProducts(filtered);
 }
 
-/* ================= DISPLAY ================= */
+/* ================= DISPLAY (₹ FIXED) ================= */
 function displayProducts(products) {
     const results = document.getElementById("results");
     if (!results) return;
@@ -69,7 +69,7 @@ function displayProducts(products) {
     }
 
     results.innerHTML = products.map(p => {
-        // Deal score as NUMBER
+        const rupees = Math.round(p.price * 83); // USD → INR
         const dealScore = Math.max(10, 100 - Math.floor(p.price));
 
         return `
@@ -77,12 +77,11 @@ function displayProducts(products) {
             <img src="${p.thumbnail}" />
             <h3>${p.title}</h3>
 
-            <!-- USD (API) -->
-            <p>$${p.price}</p>
+            <!-- ₹ FIX -->
+            <p>₹${rupees.toLocaleString()}</p>
 
             <p style="color:gray">${p.brand || ""}</p>
 
-            <!-- DEAL SCORE NUMBER -->
             <p style="color:#22c55e;font-weight:bold;">
                 Deal Score: ${dealScore}
             </p>
@@ -111,7 +110,7 @@ function displayWatchlist() {
     box.innerHTML = watchlist.map(p => `
         <div class="watch-item">
             <h4>${p.title}</h4>
-            <p>$${p.price}</p>
+            <p>₹${Math.round(p.price * 83).toLocaleString()}</p>
         </div>
     `).join("");
 }
@@ -131,22 +130,16 @@ async function runCompareSearch() {
         const filter = data =>
             data.filter(p => p.title.toLowerCase().includes(query));
 
-        const a = filter(amazon);
-        const f = filter(flipkart);
-        const m = filter(meesho);
-
-        displayCompare("amazon-results", a);
-        displayCompare("flipkart-results", f);
-        displayCompare("meesho-results", m);
-
-        showBestDeal(a, f, m);
+        displayCompare("amazon-results", filter(amazon));
+        displayCompare("flipkart-results", filter(flipkart));
+        displayCompare("meesho-results", filter(meesho));
 
     } catch (err) {
         console.error("Compare error:", err);
     }
 }
 
-/* ================= DISPLAY COMPARE ================= */
+/* ================= DISPLAY COMPARE (IMAGE FIX) ================= */
 function displayCompare(id, products) {
     const box = document.getElementById(id);
     if (!box) return;
@@ -158,48 +151,12 @@ function displayCompare(id, products) {
 
     box.innerHTML = products.map(p => `
         <div class="product-card">
-            <img src="${p.thumbnail}" />
+            <img src="${p.thumbnail}" onerror="this.src='https://via.placeholder.com/200'" />
             <h3>${p.title}</h3>
-
-            <!-- INR from JSON -->
             <p>${p.price}</p>
-
             <a href="${p.link}" target="_blank">View</a>
         </div>
     `).join("");
-}
-
-/* ================= BEST DEAL ================= */
-function showBestDeal(a, f, m) {
-    const all = [...a, ...f, ...m];
-    if (all.length === 0) return;
-
-    let best = all[0];
-
-    all.forEach(p => {
-        const price = parseInt(p.price.replace(/[₹,$,]/g, ""));
-        const bestPrice = parseInt(best.price.replace(/[₹,$,]/g, ""));
-
-        if (price < bestPrice) best = p;
-    });
-
-    const existing = document.getElementById("bestDealBanner");
-    if (existing) existing.remove();
-
-    document.body.insertAdjacentHTML("beforeend", `
-        <div id="bestDealBanner" style="
-            position:fixed;
-            bottom:20px;
-            right:20px;
-            background:#22c55e;
-            padding:12px 15px;
-            border-radius:10px;
-            font-size:14px;
-            z-index:999;
-        ">
-            🏆 Best Deal: ${best.title} (${best.price})
-        </div>
-    `);
 }
 
 /* ================= INIT ================= */
