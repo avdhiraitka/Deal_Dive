@@ -153,8 +153,7 @@ function displayCompare(id, products) {
 
     box.innerHTML = products.map(p => `
         <div class="product-card">
-            <img src="${p.thumbnail}" onerror="this.src='https://via.placeholder.com/200'" />
-            <h3>${p.title}</h3>
+        <img src="${p.thumbnail}" onerror="this.onerror=null; this.src='https://via.placeholder.com/200?text=No+Image';" />            <h3>${p.title}</h3>
             <p>${p.price}</p>
             <a href="${p.link}" target="_blank">View</a>
         </div>

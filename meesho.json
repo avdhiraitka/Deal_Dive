@@ -569,4 +569,35 @@
             }
         ]
     }
+    ,
+{
+    "title": "Lenovo IdeaPad Slim 3 Laptop Budget Model",
+    "price": "₹29,999",
+    "store": "Meesho",
+    "link": "https://www.meesho.com/s/p/laptop-lenovo",
+    "thumbnail": "https://via.placeholder.com/300?text=Lenovo+Laptop",
+    "category": "laptop",
+    "priceHistory": [
+        {"date": "2025-10-01", "price": 34999},
+        {"date": "2025-11-01", "price": 32999},
+        {"date": "2025-12-01", "price": 30999},
+        {"date": "2026-01-01", "price": 29999},
+        {"date": "2026-02-01", "price": 29999}
+    ]
+},
+{
+    "title": "Budget Gaming Laptop Ryzen 5 16GB RAM",
+    "price": "₹39,999",
+    "store": "Meesho",
+    "link": "https://www.meesho.com/s/p/gaming-laptop",
+    "thumbnail": "https://via.placeholder.com/300?text=Gaming+Laptop",
+    "category": "laptop",
+    "priceHistory": [
+        {"date": "2025-10-01", "price": 45999},
+        {"date": "2025-11-01", "price": 43999},
+        {"date": "2025-12-01", "price": 41999},
+        {"date": "2026-01-01", "price": 39999},
+        {"date": "2026-02-01", "price": 39999}
+    ]
+}
 ]
