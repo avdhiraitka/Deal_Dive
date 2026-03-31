@@ -9,16 +9,19 @@ body {
   color: #e5e7eb;
 }
 
+/* ===== VARIABLES ===== */
 :root {
   --card: #0f172a;
   --accent: #4fd1c5;
   --good: #22c55e;
 }
 
+/* ===== HEADER ===== */
 header {
   padding: 20px 8%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -27,26 +30,64 @@ header {
   font-weight: bold;
 }
 
+/* NAV FIX (missing before) */
+nav a {
+  margin: 0 10px;
+  color: #cbd5f5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: var(--accent);
+}
+
+/* ===== HERO ===== */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #94a3b8;
+}
+
+/* ===== SEARCH BOX ===== */
 .search-box {
   display: flex;
   gap: 10px;
   margin: 20px auto;
-  max-width: 600px;
+  max-width: 700px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .search-box input,
 .search-box select,
 .search-box button {
-  padding: 10px;
+  padding: 12px;
   border-radius: 10px;
   border: none;
+  font-size: 14px;
+}
+
+.search-box input {
+  flex: 1;
+  min-width: 200px;
 }
 
 .search-box button {
   background: var(--accent);
   cursor: pointer;
+  font-weight: bold;
 }
 
+/* ===== RESULTS GRID ===== */
 #results {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
@@ -54,6 +95,7 @@ header {
   padding: 20px;
 }
 
+/* ===== PRODUCT CARD ===== */
 .product-card {
   background: var(--card);
   padding: 15px;
@@ -68,17 +110,30 @@ header {
 
 .product-card img {
   width: 100%;
+  border-radius: 10px;
 }
 
+.product-card h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.product-card p {
+  margin: 5px 0;
+}
+
+/* ===== BEST DEAL TAG ===== */
 .best-deal {
   position: absolute;
   top: 10px;
   right: 10px;
   background: var(--good);
-  padding: 5px;
+  padding: 5px 8px;
   border-radius: 5px;
+  font-size: 12px;
 }
 
+/* ===== DEAL BAR ===== */
 .deal-bar {
   height: 8px;
   background: #1e293b;
@@ -91,6 +146,7 @@ header {
   background: linear-gradient(90deg,#22c55e,#4fd1c5);
 }
 
+/* ===== SUGGESTIONS ===== */
 #suggestions {
   max-width: 600px;
   margin: auto;
@@ -101,9 +157,67 @@ header {
   cursor: pointer;
 }
 
+#suggestions div:hover {
+  background: #1e293b;
+}
+
+/* ===== WATCHLIST ===== */
+#watchlistBox {
+  padding: 20px;
+}
+
 .watch-item {
   background: #101a36;
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
+}
+
+/* ===== BUTTONS ===== */
+button {
+  cursor: pointer;
+}
+
+/* ===== LOGIN MODAL (IMPORTANT FIX) ===== */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-box {
+  background: #0f172a;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  position: relative;
+}
+
+.modal-box input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.modal-box button {
+  width: 100%;
+  padding: 10px;
+  background: var(--accent);
+  border: none;
+  border-radius: 8px;
+}
+
+.modal-box span {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
 }
