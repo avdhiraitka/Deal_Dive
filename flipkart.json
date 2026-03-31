@@ -7,34 +7,13 @@
         "thumbnail": "https://rukminim2.flixcart.com/image/416/416/ktketu80/mobile/c/g/4/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg",
         "category": "mobile",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 56999
-            },
-            {
-                "date": "2025-09-01",
-                "price": 54499
-            },
-            {
-                "date": "2025-10-01",
-                "price": 52999
-            },
-            {
-                "date": "2025-11-01",
-                "price": 50999
-            },
-            {
-                "date": "2025-12-01",
-                "price": 48999
-            },
-            {
-                "date": "2026-01-01",
-                "price": 49999
-            },
-            {
-                "date": "2026-02-01",
-                "price": 49999
-            }
+            {"date": "2025-08-01", "price": 56999},
+            {"date": "2025-09-01", "price": 54499},
+            {"date": "2025-10-01", "price": 52999},
+            {"date": "2025-11-01", "price": 50999},
+            {"date": "2025-12-01", "price": 48999},
+            {"date": "2026-01-01", "price": 49999},
+            {"date": "2026-02-01", "price": 49999}
         ]
     },
     {
@@ -45,34 +24,13 @@
         "thumbnail": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/a/y/x/-original-imaggj68dmfcfhmy.jpeg",
         "category": "mobile",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 42999
-            },
-            {
-                "date": "2025-09-01",
-                "price": 39999
-            },
-            {
-                "date": "2025-10-01",
-                "price": 37999
-            },
-            {
-                "date": "2025-11-01",
-                "price": 33999
-            },
-            {
-                "date": "2025-12-01",
-                "price": 30999
-            },
-            {
-                "date": "2026-01-01",
-                "price": 31999
-            },
-            {
-                "date": "2026-02-01",
-                "price": 31999
-            }
+            {"date": "2025-08-01", "price": 42999},
+            {"date": "2025-09-01", "price": 39999},
+            {"date": "2025-10-01", "price": 37999},
+            {"date": "2025-11-01", "price": 33999},
+            {"date": "2025-12-01", "price": 30999},
+            {"date": "2026-01-01", "price": 31999},
+            {"date": "2026-02-01", "price": 31999}
         ]
     },
     {
@@ -83,34 +41,13 @@
         "thumbnail": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/u/m/b/-original-imagrdefh2xgenzz.jpeg",
         "category": "mobile",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 44999
-            },
-            {
-                "date": "2025-09-01",
-                "price": 43999
-            },
-            {
-                "date": "2025-10-01",
-                "price": 42999
-            },
-            {
-                "date": "2025-11-01",
-                "price": 40999
-            },
-            {
-                "date": "2025-12-01",
-                "price": 38999
-            },
-            {
-                "date": "2026-01-01",
-                "price": 39999
-            },
-            {
-                "date": "2026-02-01",
-                "price": 39999
-            }
+            {"date": "2025-08-01", "price": 44999},
+            {"date": "2025-09-01", "price": 43999},
+            {"date": "2025-10-01", "price": 42999},
+            {"date": "2025-11-01", "price": 40999},
+            {"date": "2025-12-01", "price": 38999},
+            {"date": "2026-01-01", "price": 39999},
+            {"date": "2026-02-01", "price": 39999}
         ]
     },
     {
@@ -121,34 +58,13 @@
         "thumbnail": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/l/x/c/-original-imagqadf2awzzmyf.jpeg",
         "category": "mobile",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 27999
-            },
-            {
-                "date": "2025-09-01",
-                "price": 26999
-            },
-            {
-                "date": "2025-10-01",
-                "price": 25999
-            },
-            {
-                "date": "2025-11-01",
-                "price": 24999
-            },
-            {
-                "date": "2025-12-01",
-                "price": 22999
-            },
-            {
-                "date": "2026-01-01",
-                "price": 23999
-            },
-            {
-                "date": "2026-02-01",
-                "price": 23999
-            }
+            {"date": "2025-08-01", "price": 27999},
+            {"date": "2025-09-01", "price": 26999},
+            {"date": "2025-10-01", "price": 25999},
+            {"date": "2025-11-01", "price": 24999},
+            {"date": "2025-12-01", "price": 22999},
+            {"date": "2026-01-01", "price": 23999},
+            {"date": "2026-02-01", "price": 23999}
         ]
     },
     {
@@ -159,34 +75,13 @@
         "thumbnail": "https://rukminim2.flixcart.com/image/416/416/kp5sya80/computer/n/m/k/na-thin-and-light-laptop-apple-original-imag3f3f5dhfxvhu.jpeg",
         "category": "laptop",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 84990
-            },
-            {
-                "date": "2025-09-01",
-                "price": 79990
-            },
-            {
-                "date": "2025-10-01",
-                "price": 76990
-            },
-            {
-                "date": "2025-11-01",
-                "price": 73990
-            },
-            {
-                "date": "2025-12-01",
-                "price": 69990
-            },
-            {
-                "date": "2026-01-01",
-                "price": 71990
-            },
-            {
-                "date": "2026-02-01",
-                "price": 71990
-            }
+            {"date": "2025-08-01", "price": 84990},
+            {"date": "2025-09-01", "price": 79990},
+            {"date": "2025-10-01", "price": 76990},
+            {"date": "2025-11-01", "price": 73990},
+            {"date": "2025-12-01", "price": 69990},
+            {"date": "2026-01-01", "price": 71990},
+            {"date": "2026-02-01", "price": 71990}
         ]
     },
     {
@@ -197,34 +92,13 @@
         "thumbnail": "https://rukminim2.flixcart.com/image/416/416/kabc123/computer/x/y/z/original-imag456.jpeg",
         "category": "laptop",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 139990
-            },
-            {
-                "date": "2025-09-01",
-                "price": 134990
-            },
-            {
-                "date": "2025-10-01",
-                "price": 129990
-            },
-            {
-                "date": "2025-11-01",
-                "price": 124990
-            },
-            {
-                "date": "2025-12-01",
-                "price": 119990
-            },
-            {
-                "date": "2026-01-01",
-                "price": 121990
-            },
-            {
-                "date": "2026-02-01",
-                "price": 121990
-            }
+            {"date": "2025-08-01", "price": 139990},
+            {"date": "2025-09-01", "price": 134990},
+            {"date": "2025-10-01", "price": 129990},
+            {"date": "2025-11-01", "price": 124990},
+            {"date": "2025-12-01", "price": 119990},
+            {"date": "2026-01-01", "price": 121990},
+            {"date": "2026-02-01", "price": 121990}
         ]
     },
     {
@@ -235,34 +109,13 @@
         "thumbnail": "https://rukminim2.flixcart.com/image/416/416/xif0q/computer/a/b/c/-original-imagxyz1234.jpeg",
         "category": "laptop",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 119990
-            },
-            {
-                "date": "2025-09-01",
-                "price": 114990
-            },
-            {
-                "date": "2025-10-01",
-                "price": 109990
-            },
-            {
-                "date": "2025-11-01",
-                "price": 104990
-            },
-            {
-                "date": "2025-12-01",
-                "price": 99990
-            },
-            {
-                "date": "2026-01-01",
-                "price": 104990
-            },
-            {
-                "date": "2026-02-01",
-                "price": 104990
-            }
+            {"date": "2025-08-01", "price": 119990},
+            {"date": "2025-09-01", "price": 114990},
+            {"date": "2025-10-01", "price": 109990},
+            {"date": "2025-11-01", "price": 104990},
+            {"date": "2025-12-01", "price": 99990},
+            {"date": "2026-01-01", "price": 104990},
+            {"date": "2026-02-01", "price": 104990}
         ]
     },
     {
@@ -273,34 +126,13 @@
         "thumbnail": "https://rukminim2.flixcart.com/image/416/416/kigbjrk0/headphone/6/v/3/rockerz-255-pro-boat-original-imafy9k4zggz8xz8.jpeg",
         "category": "headphones",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 1799
-            },
-            {
-                "date": "2025-09-01",
-                "price": 1599
-            },
-            {
-                "date": "2025-10-01",
-                "price": 1499
-            },
-            {
-                "date": "2025-11-01",
-                "price": 1399
-            },
-            {
-                "date": "2025-12-01",
-                "price": 1199
-            },
-            {
-                "date": "2026-01-01",
-                "price": 1299
-            },
-            {
-                "date": "2026-02-01",
-                "price": 1299
-            }
+            {"date": "2025-08-01", "price": 1799},
+            {"date": "2025-09-01", "price": 1599},
+            {"date": "2025-10-01", "price": 1499},
+            {"date": "2025-11-01", "price": 1399},
+            {"date": "2025-12-01", "price": 1199},
+            {"date": "2026-01-01", "price": 1299},
+            {"date": "2026-02-01", "price": 1299}
         ]
     },
     {
@@ -311,34 +143,13 @@
         "thumbnail": "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/p/r/z/-original-imaghxgnjdgyghfw.jpeg",
         "category": "headphones",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 26900
-            },
-            {
-                "date": "2025-09-01",
-                "price": 24999
-            },
-            {
-                "date": "2025-10-01",
-                "price": 23999
-            },
-            {
-                "date": "2025-11-01",
-                "price": 22999
-            },
-            {
-                "date": "2025-12-01",
-                "price": 20999
-            },
-            {
-                "date": "2026-01-01",
-                "price": 21999
-            },
-            {
-                "date": "2026-02-01",
-                "price": 21999
-            }
+            {"date": "2025-08-01", "price": 26900},
+            {"date": "2025-09-01", "price": 24999},
+            {"date": "2025-10-01", "price": 23999},
+            {"date": "2025-11-01", "price": 22999},
+            {"date": "2025-12-01", "price": 20999},
+            {"date": "2026-01-01", "price": 21999},
+            {"date": "2026-02-01", "price": 21999}
         ]
     },
     {
@@ -349,34 +160,13 @@
         "thumbnail": "https://rukminim2.flixcart.com/image/416/416/l5ld8y80/smartwatch/r/q/t/-original-imagg8d9ygk4z4fq.jpeg",
         "category": "watch",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 4999
-            },
-            {
-                "date": "2025-09-01",
-                "price": 4499
-            },
-            {
-                "date": "2025-10-01",
-                "price": 3999
-            },
-            {
-                "date": "2025-11-01",
-                "price": 3499
-            },
-            {
-                "date": "2025-12-01",
-                "price": 2799
-            },
-            {
-                "date": "2026-01-01",
-                "price": 2999
-            },
-            {
-                "date": "2026-02-01",
-                "price": 2999
-            }
+            {"date": "2025-08-01", "price": 4999},
+            {"date": "2025-09-01", "price": 4499},
+            {"date": "2025-10-01", "price": 3999},
+            {"date": "2025-11-01", "price": 3499},
+            {"date": "2025-12-01", "price": 2799},
+            {"date": "2026-01-01", "price": 2999},
+            {"date": "2026-02-01", "price": 2999}
         ]
     },
     {
@@ -387,34 +177,13 @@
         "thumbnail": "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/3/h/8/-original-imaghxg4gq9hzyh9.jpeg",
         "category": "watch",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 32900
-            },
-            {
-                "date": "2025-09-01",
-                "price": 30900
-            },
-            {
-                "date": "2025-10-01",
-                "price": 29900
-            },
-            {
-                "date": "2025-11-01",
-                "price": 27900
-            },
-            {
-                "date": "2025-12-01",
-                "price": 25900
-            },
-            {
-                "date": "2026-01-01",
-                "price": 26900
-            },
-            {
-                "date": "2026-02-01",
-                "price": 26900
-            }
+            {"date": "2025-08-01", "price": 32900},
+            {"date": "2025-09-01", "price": 30900},
+            {"date": "2025-10-01", "price": 29900},
+            {"date": "2025-11-01", "price": 27900},
+            {"date": "2025-12-01", "price": 25900},
+            {"date": "2026-01-01", "price": 26900},
+            {"date": "2026-02-01", "price": 26900}
         ]
     },
     {
@@ -425,34 +194,13 @@
         "thumbnail": "https://rukminim2.flixcart.com/image/416/416/ktketu80/tablet/q/o/l/mk2k3hn-a-apple-original-imag6vzzhvjrzf9v.jpeg",
         "category": "laptop",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 34900
-            },
-            {
-                "date": "2025-09-01",
-                "price": 32900
-            },
-            {
-                "date": "2025-10-01",
-                "price": 31900
-            },
-            {
-                "date": "2025-11-01",
-                "price": 30900
-            },
-            {
-                "date": "2025-12-01",
-                "price": 28900
-            },
-            {
-                "date": "2026-01-01",
-                "price": 29900
-            },
-            {
-                "date": "2026-02-01",
-                "price": 29900
-            }
+            {"date": "2025-08-01", "price": 34900},
+            {"date": "2025-09-01", "price": 32900},
+            {"date": "2025-10-01", "price": 31900},
+            {"date": "2025-11-01", "price": 30900},
+            {"date": "2025-12-01", "price": 28900},
+            {"date": "2026-01-01", "price": 29900},
+            {"date": "2026-02-01", "price": 29900}
         ]
     },
     {
@@ -463,34 +211,13 @@
         "thumbnail": "https://rukminim2.flixcart.com/image/416/416/xif0q/shoe/1/2/3/9-zoom-adidas-white-original-imagq234.jpeg",
         "category": "shoes",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 16999
-            },
-            {
-                "date": "2025-09-01",
-                "price": 14999
-            },
-            {
-                "date": "2025-10-01",
-                "price": 13999
-            },
-            {
-                "date": "2025-11-01",
-                "price": 12999
-            },
-            {
-                "date": "2025-12-01",
-                "price": 10999
-            },
-            {
-                "date": "2026-01-01",
-                "price": 11899
-            },
-            {
-                "date": "2026-02-01",
-                "price": 11899
-            }
+            {"date": "2025-08-01", "price": 16999},
+            {"date": "2025-09-01", "price": 14999},
+            {"date": "2025-10-01", "price": 13999},
+            {"date": "2025-11-01", "price": 12999},
+            {"date": "2025-12-01", "price": 10999},
+            {"date": "2026-01-01", "price": 11899},
+            {"date": "2026-02-01", "price": 11899}
         ]
     },
     {
@@ -501,34 +228,13 @@
         "thumbnail": "https://rukminim2.flixcart.com/image/416/416/xif0q/shoe/a/b/c/-original-imag1234.jpeg",
         "category": "shoes",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 4995
-            },
-            {
-                "date": "2025-09-01",
-                "price": 4495
-            },
-            {
-                "date": "2025-10-01",
-                "price": 3995
-            },
-            {
-                "date": "2025-11-01",
-                "price": 3695
-            },
-            {
-                "date": "2025-12-01",
-                "price": 3295
-            },
-            {
-                "date": "2026-01-01",
-                "price": 3495
-            },
-            {
-                "date": "2026-02-01",
-                "price": 3495
-            }
+            {"date": "2025-08-01", "price": 4995},
+            {"date": "2025-09-01", "price": 4495},
+            {"date": "2025-10-01", "price": 3995},
+            {"date": "2025-11-01", "price": 3695},
+            {"date": "2025-12-01", "price": 3295},
+            {"date": "2026-01-01", "price": 3495},
+            {"date": "2026-02-01", "price": 3495}
         ]
     },
     {
@@ -539,38 +245,15 @@
         "thumbnail": "https://rukminim2.flixcart.com/image/416/416/xif0q/charger/d/e/f/-original-imagxyz456.jpeg",
         "category": "accessory",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 1799
-            },
-            {
-                "date": "2025-09-01",
-                "price": 1599
-            },
-            {
-                "date": "2025-10-01",
-                "price": 1399
-            },
-            {
-                "date": "2025-11-01",
-                "price": 1299
-            },
-            {
-                "date": "2025-12-01",
-                "price": 1099
-            },
-            {
-                "date": "2026-01-01",
-                "price": 1199
-            },
-            {
-                "date": "2026-02-01",
-                "price": 1199
-            }
+            {"date": "2025-08-01", "price": 1799},
+            {"date": "2025-09-01", "price": 1599},
+            {"date": "2025-10-01", "price": 1399},
+            {"date": "2025-11-01", "price": 1299},
+            {"date": "2025-12-01", "price": 1099},
+            {"date": "2026-01-01", "price": 1199},
+            {"date": "2026-02-01", "price": 1199}
         ]
     },
-    [
-
     {
         "title": "HP Pavilion 15 Ryzen 5 5500U (16GB/512GB SSD)",
         "price": "₹52,990",
@@ -586,7 +269,6 @@
             {"date": "2026-02-01", "price": 52990}
         ]
     },
-
     {
         "title": "Lenovo IdeaPad Slim 3 Intel Core i5 12th Gen",
         "price": "₹48,990",
@@ -602,7 +284,6 @@
             {"date": "2026-02-01", "price": 48990}
         ]
     },
-
     {
         "title": "OnePlus Nord CE 3 Lite 5G (Pastel Lime, 128GB)",
         "price": "₹19,999",
@@ -618,7 +299,6 @@
             {"date": "2026-02-01", "price": 19999}
         ]
     },
-
     {
         "title": "Sony WH-1000XM5 Wireless Noise Cancelling Headphones",
         "price": "₹29,990",
@@ -634,7 +314,6 @@
             {"date": "2026-02-01", "price": 29990}
         ]
     },
-
     {
         "title": "Samsung Galaxy Watch 6 Bluetooth (44mm)",
         "price": "₹18,999",
@@ -651,6 +330,3 @@
         ]
     }
 ]
-    
-]
-

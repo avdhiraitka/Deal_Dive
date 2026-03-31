@@ -84,10 +84,19 @@ nav a.active {
 .search-box input {
   flex: 1;
   min-width: 200px;
+  background: #1e293b;
+  color: #e5e7eb;
+}
+
+.search-box select {
+  background: #1e293b;
+  color: #e5e7eb;
+  cursor: pointer;
 }
 
 .search-box button {
   background: var(--accent);
+  color: #0f172a;
   cursor: pointer;
   font-weight: bold;
 }
@@ -95,7 +104,7 @@ nav a.active {
 /* ===== RESULTS GRID ===== */
 #results {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   padding: 20px;
 }
@@ -111,9 +120,9 @@ nav a.active {
 
 .product-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(79, 209, 197, 0.1);
 }
 
-/* 🔥 IMAGE FIX (CRITICAL) */
 .product-card img {
   width: 100%;
   height: 200px;
@@ -123,18 +132,22 @@ nav a.active {
   display: block;
 }
 
-/* EXTRA FIX: ensure image container spacing */
 .product-card img + h3 {
   margin-top: 10px;
 }
 
 .product-card h3 {
-  font-size: 16px;
+  font-size: 15px;
   margin: 10px 0;
+  line-height: 1.4;
 }
 
 .product-card p {
   margin: 5px 0;
+}
+
+.product-card a {
+  display: inline-block;
 }
 
 /* ===== BEST DEAL TAG ===== */
@@ -143,9 +156,11 @@ nav a.active {
   top: 10px;
   right: 10px;
   background: var(--good);
-  padding: 5px 8px;
-  border-radius: 5px;
-  font-size: 12px;
+  color: #0f172a;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 700;
 }
 
 /* ===== SUGGESTIONS ===== */
@@ -165,24 +180,33 @@ nav a.active {
 
 /* ===== WATCHLIST ===== */
 #watchlistBox {
-  padding: 20px;
+  padding: 20px 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#watchlistBox h2 {
+  font-size: 1.4rem;
+  margin-bottom: 12px;
 }
 
 .watch-item {
   background: #101a36;
-  margin: 10px;
-  padding: 12px;
-  border-radius: 10px;
+  margin: 10px 0;
+  padding: 14px 18px;
+  border-radius: 12px;
+  border: 1px solid #1e293b;
 }
 
 /* ===== BUTTONS ===== */
 button {
   cursor: pointer;
   transition: 0.2s;
+  font-family: 'Inter', sans-serif;
 }
 
 button:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
   opacity: 0.9;
 }
 
@@ -194,40 +218,60 @@ button:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0, 0, 0, 0.7);
   justify-content: center;
   align-items: center;
+  z-index: 999;
 }
 
 .modal-box {
   background: #0f172a;
-  padding: 20px;
-  border-radius: 10px;
-  width: 300px;
+  padding: 28px;
+  border-radius: 14px;
+  width: 320px;
   position: relative;
+  border: 1px solid #1e293b;
+}
+
+.modal-box h2 {
+  margin: 0 0 16px 0;
+  color: var(--accent);
 }
 
 .modal-box input {
   width: 100%;
-  margin: 10px 0;
+  margin: 8px 0;
   padding: 10px;
   border-radius: 8px;
-  border: none;
+  border: 1px solid #334155;
+  background: #1e293b;
+  color: #e5e7eb;
+  font-size: 14px;
 }
 
 .modal-box button {
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   background: var(--accent);
+  color: #0f172a;
   border: none;
   border-radius: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 8px;
 }
 
 .modal-box span {
   position: absolute;
-  top: 10px;
-  right: 15px;
+  top: 12px;
+  right: 16px;
   cursor: pointer;
+  font-size: 18px;
+  color: #64748b;
+}
+
+.modal-box span:hover {
+  color: #e5e7eb;
 }
 
 /* ===== COMPARE PAGE ===== */
@@ -238,7 +282,6 @@ button:hover {
   justify-content: center;
 }
 
-/* 🔥 FIX: prevents collapsing columns */
 .store-col {
   flex: 1;
   min-width: 300px;
@@ -246,20 +289,36 @@ button:hover {
   padding: 10px;
 }
 
-/* 🔥 FIX: spacing inside compare columns */
 .store-col h2 {
-  margin-bottom: 10px;
+  margin-bottom: 14px;
 }
 
 /* ===== CANVAS ===== */
 canvas {
   background: #0f172a;
-  padding: 10px;
-  border-radius: 10px;
+  padding: 16px;
+  border-radius: 12px;
   margin-top: 10px;
 }
 
 /* ===== STATUS TEXT ===== */
 #statusMsg {
   font-size: 14px;
+  min-height: 20px;
+}
+
+/* ===== AUTH BUTTONS ===== */
+.auth-buttons button {
+  background: transparent;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.auth-buttons button:hover {
+  background: var(--accent);
+  color: #0f172a;
 }

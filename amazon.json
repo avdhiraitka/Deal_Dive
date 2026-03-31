@@ -7,34 +7,13 @@
         "thumbnail": "https://m.media-amazon.com/images/I/61VuVU94RnL._SX679_.jpg",
         "category": "mobile",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 55999
-            },
-            {
-                "date": "2025-09-01",
-                "price": 53999
-            },
-            {
-                "date": "2025-10-01",
-                "price": 51999
-            },
-            {
-                "date": "2025-11-01",
-                "price": 49999
-            },
-            {
-                "date": "2025-12-01",
-                "price": 47999
-            },
-            {
-                "date": "2026-01-01",
-                "price": 49900
-            },
-            {
-                "date": "2026-02-01",
-                "price": 49900
-            }
+            {"date": "2025-08-01", "price": 55999},
+            {"date": "2025-09-01", "price": 53999},
+            {"date": "2025-10-01", "price": 51999},
+            {"date": "2025-11-01", "price": 49999},
+            {"date": "2025-12-01", "price": 47999},
+            {"date": "2026-01-01", "price": 49900},
+            {"date": "2026-02-01", "price": 49900}
         ]
     },
     {
@@ -45,34 +24,13 @@
         "thumbnail": "https://m.media-amazon.com/images/I/71Sa3dqTqzL._SX679_.jpg",
         "category": "mobile",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 39999
-            },
-            {
-                "date": "2025-09-01",
-                "price": 36999
-            },
-            {
-                "date": "2025-10-01",
-                "price": 34999
-            },
-            {
-                "date": "2025-11-01",
-                "price": 31999
-            },
-            {
-                "date": "2025-12-01",
-                "price": 29999
-            },
-            {
-                "date": "2026-01-01",
-                "price": 30999
-            },
-            {
-                "date": "2026-02-01",
-                "price": 29999
-            }
+            {"date": "2025-08-01", "price": 39999},
+            {"date": "2025-09-01", "price": 36999},
+            {"date": "2025-10-01", "price": 34999},
+            {"date": "2025-11-01", "price": 31999},
+            {"date": "2025-12-01", "price": 29999},
+            {"date": "2026-01-01", "price": 30999},
+            {"date": "2026-02-01", "price": 29999}
         ]
     },
     {
@@ -83,34 +41,13 @@
         "thumbnail": "https://m.media-amazon.com/images/I/61Io06sWzML._SX679_.jpg",
         "category": "mobile",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 64999
-            },
-            {
-                "date": "2025-09-01",
-                "price": 62999
-            },
-            {
-                "date": "2025-10-01",
-                "price": 61999
-            },
-            {
-                "date": "2025-11-01",
-                "price": 59999
-            },
-            {
-                "date": "2025-12-01",
-                "price": 57999
-            },
-            {
-                "date": "2026-01-01",
-                "price": 57999
-            },
-            {
-                "date": "2026-02-01",
-                "price": 57999
-            }
+            {"date": "2025-08-01", "price": 64999},
+            {"date": "2025-09-01", "price": 62999},
+            {"date": "2025-10-01", "price": 61999},
+            {"date": "2025-11-01", "price": 59999},
+            {"date": "2025-12-01", "price": 57999},
+            {"date": "2026-01-01", "price": 57999},
+            {"date": "2026-02-01", "price": 57999}
         ]
     },
     {
@@ -121,34 +58,13 @@
         "thumbnail": "https://m.media-amazon.com/images/I/71f5Eu5lJSL._SX679_.jpg",
         "category": "laptop",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 114900
-            },
-            {
-                "date": "2025-09-01",
-                "price": 109900
-            },
-            {
-                "date": "2025-10-01",
-                "price": 104900
-            },
-            {
-                "date": "2025-11-01",
-                "price": 99900
-            },
-            {
-                "date": "2025-12-01",
-                "price": 94900
-            },
-            {
-                "date": "2026-01-01",
-                "price": 98900
-            },
-            {
-                "date": "2026-02-01",
-                "price": 98900
-            }
+            {"date": "2025-08-01", "price": 114900},
+            {"date": "2025-09-01", "price": 109900},
+            {"date": "2025-10-01", "price": 104900},
+            {"date": "2025-11-01", "price": 99900},
+            {"date": "2025-12-01", "price": 94900},
+            {"date": "2026-01-01", "price": 98900},
+            {"date": "2026-02-01", "price": 98900}
         ]
     },
     {
@@ -159,34 +75,13 @@
         "thumbnail": "https://m.media-amazon.com/images/I/71GI1MeijPL._SX679_.jpg",
         "category": "laptop",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 65990
-            },
-            {
-                "date": "2025-09-01",
-                "price": 62990
-            },
-            {
-                "date": "2025-10-01",
-                "price": 59990
-            },
-            {
-                "date": "2025-11-01",
-                "price": 57990
-            },
-            {
-                "date": "2025-12-01",
-                "price": 54990
-            },
-            {
-                "date": "2026-01-01",
-                "price": 56990
-            },
-            {
-                "date": "2026-02-01",
-                "price": 56990
-            }
+            {"date": "2025-08-01", "price": 65990},
+            {"date": "2025-09-01", "price": 62990},
+            {"date": "2025-10-01", "price": 59990},
+            {"date": "2025-11-01", "price": 57990},
+            {"date": "2025-12-01", "price": 54990},
+            {"date": "2026-01-01", "price": 56990},
+            {"date": "2026-02-01", "price": 56990}
         ]
     },
     {
@@ -197,34 +92,13 @@
         "thumbnail": "https://m.media-amazon.com/images/I/71PvHFJU-7L._SX679_.jpg",
         "category": "laptop",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 49990
-            },
-            {
-                "date": "2025-09-01",
-                "price": 47990
-            },
-            {
-                "date": "2025-10-01",
-                "price": 45990
-            },
-            {
-                "date": "2025-11-01",
-                "price": 43990
-            },
-            {
-                "date": "2025-12-01",
-                "price": 41990
-            },
-            {
-                "date": "2026-01-01",
-                "price": 42990
-            },
-            {
-                "date": "2026-02-01",
-                "price": 42990
-            }
+            {"date": "2025-08-01", "price": 49990},
+            {"date": "2025-09-01", "price": 47990},
+            {"date": "2025-10-01", "price": 45990},
+            {"date": "2025-11-01", "price": 43990},
+            {"date": "2025-12-01", "price": 41990},
+            {"date": "2026-01-01", "price": 42990},
+            {"date": "2026-02-01", "price": 42990}
         ]
     },
     {
@@ -235,34 +109,13 @@
         "thumbnail": "https://m.media-amazon.com/images/I/51aXvjzcukL._SX679_.jpg",
         "category": "headphones",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 29990
-            },
-            {
-                "date": "2025-09-01",
-                "price": 28490
-            },
-            {
-                "date": "2025-10-01",
-                "price": 27990
-            },
-            {
-                "date": "2025-11-01",
-                "price": 26990
-            },
-            {
-                "date": "2025-12-01",
-                "price": 24990
-            },
-            {
-                "date": "2026-01-01",
-                "price": 26990
-            },
-            {
-                "date": "2026-02-01",
-                "price": 26990
-            }
+            {"date": "2025-08-01", "price": 29990},
+            {"date": "2025-09-01", "price": 28490},
+            {"date": "2025-10-01", "price": 27990},
+            {"date": "2025-11-01", "price": 26990},
+            {"date": "2025-12-01", "price": 24990},
+            {"date": "2026-01-01", "price": 26990},
+            {"date": "2026-02-01", "price": 26990}
         ]
     },
     {
@@ -273,34 +126,13 @@
         "thumbnail": "https://m.media-amazon.com/images/I/51JbsHSktkL._SX679_.jpg",
         "category": "headphones",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 5999
-            },
-            {
-                "date": "2025-09-01",
-                "price": 5499
-            },
-            {
-                "date": "2025-10-01",
-                "price": 4999
-            },
-            {
-                "date": "2025-11-01",
-                "price": 4799
-            },
-            {
-                "date": "2025-12-01",
-                "price": 4299
-            },
-            {
-                "date": "2026-01-01",
-                "price": 4499
-            },
-            {
-                "date": "2026-02-01",
-                "price": 4499
-            }
+            {"date": "2025-08-01", "price": 5999},
+            {"date": "2025-09-01", "price": 5499},
+            {"date": "2025-10-01", "price": 4999},
+            {"date": "2025-11-01", "price": 4799},
+            {"date": "2025-12-01", "price": 4299},
+            {"date": "2026-01-01", "price": 4499},
+            {"date": "2026-02-01", "price": 4499}
         ]
     },
     {
@@ -311,34 +143,13 @@
         "thumbnail": "https://m.media-amazon.com/images/I/71lIqGPx-EL._SX679_.jpg",
         "category": "watch",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 44900
-            },
-            {
-                "date": "2025-09-01",
-                "price": 42900
-            },
-            {
-                "date": "2025-10-01",
-                "price": 41900
-            },
-            {
-                "date": "2025-11-01",
-                "price": 39900
-            },
-            {
-                "date": "2025-12-01",
-                "price": 36900
-            },
-            {
-                "date": "2026-01-01",
-                "price": 37900
-            },
-            {
-                "date": "2026-02-01",
-                "price": 37900
-            }
+            {"date": "2025-08-01", "price": 44900},
+            {"date": "2025-09-01", "price": 42900},
+            {"date": "2025-10-01", "price": 41900},
+            {"date": "2025-11-01", "price": 39900},
+            {"date": "2025-12-01", "price": 36900},
+            {"date": "2026-01-01", "price": 37900},
+            {"date": "2026-02-01", "price": 37900}
         ]
     },
     {
@@ -349,34 +160,13 @@
         "thumbnail": "https://m.media-amazon.com/images/I/61RfB4qFRsL._SX679_.jpg",
         "category": "watch",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 2999
-            },
-            {
-                "date": "2025-09-01",
-                "price": 2499
-            },
-            {
-                "date": "2025-10-01",
-                "price": 2199
-            },
-            {
-                "date": "2025-11-01",
-                "price": 1899
-            },
-            {
-                "date": "2025-12-01",
-                "price": 1499
-            },
-            {
-                "date": "2026-01-01",
-                "price": 1599
-            },
-            {
-                "date": "2026-02-01",
-                "price": 1599
-            }
+            {"date": "2025-08-01", "price": 2999},
+            {"date": "2025-09-01", "price": 2499},
+            {"date": "2025-10-01", "price": 2199},
+            {"date": "2025-11-01", "price": 1899},
+            {"date": "2025-12-01", "price": 1499},
+            {"date": "2026-01-01", "price": 1599},
+            {"date": "2026-02-01", "price": 1599}
         ]
     },
     {
@@ -387,34 +177,13 @@
         "thumbnail": "https://m.media-amazon.com/images/I/71UGN0tdSZL._UX695_.jpg",
         "category": "shoes",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 12995
-            },
-            {
-                "date": "2025-09-01",
-                "price": 11995
-            },
-            {
-                "date": "2025-10-01",
-                "price": 10995
-            },
-            {
-                "date": "2025-11-01",
-                "price": 9995
-            },
-            {
-                "date": "2025-12-01",
-                "price": 8995
-            },
-            {
-                "date": "2026-01-01",
-                "price": 9995
-            },
-            {
-                "date": "2026-02-01",
-                "price": 9995
-            }
+            {"date": "2025-08-01", "price": 12995},
+            {"date": "2025-09-01", "price": 11995},
+            {"date": "2025-10-01", "price": 10995},
+            {"date": "2025-11-01", "price": 9995},
+            {"date": "2025-12-01", "price": 8995},
+            {"date": "2026-01-01", "price": 9995},
+            {"date": "2026-02-01", "price": 9995}
         ]
     },
     {
@@ -425,34 +194,13 @@
         "thumbnail": "https://m.media-amazon.com/images/I/71Yzp9GpCUL._UX695_.jpg",
         "category": "shoes",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 7999
-            },
-            {
-                "date": "2025-09-01",
-                "price": 7499
-            },
-            {
-                "date": "2025-10-01",
-                "price": 6499
-            },
-            {
-                "date": "2025-11-01",
-                "price": 5999
-            },
-            {
-                "date": "2025-12-01",
-                "price": 4999
-            },
-            {
-                "date": "2026-01-01",
-                "price": 5499
-            },
-            {
-                "date": "2026-02-01",
-                "price": 5499
-            }
+            {"date": "2025-08-01", "price": 7999},
+            {"date": "2025-09-01", "price": 7499},
+            {"date": "2025-10-01", "price": 6499},
+            {"date": "2025-11-01", "price": 5999},
+            {"date": "2025-12-01", "price": 4999},
+            {"date": "2026-01-01", "price": 5499},
+            {"date": "2026-02-01", "price": 5499}
         ]
     },
     {
@@ -463,34 +211,13 @@
         "thumbnail": "https://m.media-amazon.com/images/I/51d-u0DlCiL._SX679_.jpg",
         "category": "headphones",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 1799
-            },
-            {
-                "date": "2025-09-01",
-                "price": 1599
-            },
-            {
-                "date": "2025-10-01",
-                "price": 1399
-            },
-            {
-                "date": "2025-11-01",
-                "price": 1299
-            },
-            {
-                "date": "2025-12-01",
-                "price": 999
-            },
-            {
-                "date": "2026-01-01",
-                "price": 1099
-            },
-            {
-                "date": "2026-02-01",
-                "price": 1099
-            }
+            {"date": "2025-08-01", "price": 1799},
+            {"date": "2025-09-01", "price": 1599},
+            {"date": "2025-10-01", "price": 1399},
+            {"date": "2025-11-01", "price": 1299},
+            {"date": "2025-12-01", "price": 999},
+            {"date": "2026-01-01", "price": 1099},
+            {"date": "2026-02-01", "price": 1099}
         ]
     },
     {
@@ -501,34 +228,13 @@
         "thumbnail": "https://m.media-amazon.com/images/I/61SUj2aKoEL._SX679_.jpg",
         "category": "headphones",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 24900
-            },
-            {
-                "date": "2025-09-01",
-                "price": 23999
-            },
-            {
-                "date": "2025-10-01",
-                "price": 22999
-            },
-            {
-                "date": "2025-11-01",
-                "price": 21999
-            },
-            {
-                "date": "2025-12-01",
-                "price": 20499
-            },
-            {
-                "date": "2026-01-01",
-                "price": 21999
-            },
-            {
-                "date": "2026-02-01",
-                "price": 21999
-            }
+            {"date": "2025-08-01", "price": 24900},
+            {"date": "2025-09-01", "price": 23999},
+            {"date": "2025-10-01", "price": 22999},
+            {"date": "2025-11-01", "price": 21999},
+            {"date": "2025-12-01", "price": 20499},
+            {"date": "2026-01-01", "price": 21999},
+            {"date": "2026-02-01", "price": 21999}
         ]
     },
     {
@@ -539,65 +245,43 @@
         "thumbnail": "https://m.media-amazon.com/images/I/51pgOxB27wL._SX679_.jpg",
         "category": "accessory",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 1499
-            },
-            {
-                "date": "2025-09-01",
-                "price": 1299
-            },
-            {
-                "date": "2025-10-01",
-                "price": 1199
-            },
-            {
-                "date": "2025-11-01",
-                "price": 999
-            },
-            {
-                "date": "2025-12-01",
-                "price": 899
-            },
-            {
-                "date": "2026-01-01",
-                "price": 999
-            },
-            {
-                "date": "2026-02-01",
-                "price": 999
-            }
+            {"date": "2025-08-01", "price": 1499},
+            {"date": "2025-09-01", "price": 1299},
+            {"date": "2025-10-01", "price": 1199},
+            {"date": "2025-11-01", "price": 999},
+            {"date": "2025-12-01", "price": 899},
+            {"date": "2026-01-01", "price": 999},
+            {"date": "2026-02-01", "price": 999}
+        ]
+    },
+    {
+        "title": "Lenovo IdeaPad Slim 3 Intel Core i5 12th Gen",
+        "price": "₹48,990",
+        "store": "Amazon",
+        "link": "https://www.amazon.in/lenovo-ideapad-slim-3",
+        "thumbnail": "https://via.placeholder.com/300?text=Lenovo+Laptop",
+        "category": "laptop",
+        "priceHistory": [
+            {"date": "2025-10-01", "price": 55990},
+            {"date": "2025-11-01", "price": 52990},
+            {"date": "2025-12-01", "price": 49990},
+            {"date": "2026-01-01", "price": 48990},
+            {"date": "2026-02-01", "price": 48990}
+        ]
+    },
+    {
+        "title": "HP Pavilion 15 Ryzen 5 Laptop",
+        "price": "₹52,990",
+        "store": "Amazon",
+        "link": "https://www.amazon.in/hp-pavilion-15",
+        "thumbnail": "https://via.placeholder.com/300?text=HP+Laptop",
+        "category": "laptop",
+        "priceHistory": [
+            {"date": "2025-10-01", "price": 59990},
+            {"date": "2025-11-01", "price": 57990},
+            {"date": "2025-12-01", "price": 54990},
+            {"date": "2026-01-01", "price": 52990},
+            {"date": "2026-02-01", "price": 52990}
         ]
     }
-    ,
-{
-    "title": "Lenovo IdeaPad Slim 3 Intel Core i5 12th Gen",
-    "price": "₹48,990",
-    "store": "Amazon",
-    "link": "https://www.amazon.in/lenovo-ideapad-slim-3",
-    "thumbnail": "https://via.placeholder.com/300?text=Lenovo+Laptop",
-    "category": "laptop",
-    "priceHistory": [
-        {"date": "2025-10-01", "price": 55990},
-        {"date": "2025-11-01", "price": 52990},
-        {"date": "2025-12-01", "price": 49990},
-        {"date": "2026-01-01", "price": 48990},
-        {"date": "2026-02-01", "price": 48990}
-    ]
-},
-{
-    "title": "HP Pavilion 15 Ryzen 5 Laptop",
-    "price": "₹52,990",
-    "store": "Amazon",
-    "link": "https://www.amazon.in/hp-pavilion-15",
-    "thumbnail": "https://via.placeholder.com/300?text=HP+Laptop",
-    "category": "laptop",
-    "priceHistory": [
-        {"date": "2025-10-01", "price": 59990},
-        {"date": "2025-11-01", "price": 57990},
-        {"date": "2025-12-01", "price": 54990},
-        {"date": "2026-01-01", "price": 52990},
-        {"date": "2026-02-01", "price": 52990}
-    ]
-}
 ]

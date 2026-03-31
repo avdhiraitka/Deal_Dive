@@ -7,34 +7,13 @@
         "thumbnail": "https://images.meesho.com/images/products/123456/abc_512.jpg",
         "category": "mobile",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 45999
-            },
-            {
-                "date": "2025-09-01",
-                "price": 43999
-            },
-            {
-                "date": "2025-10-01",
-                "price": 42999
-            },
-            {
-                "date": "2025-11-01",
-                "price": 41999
-            },
-            {
-                "date": "2025-12-01",
-                "price": 38999
-            },
-            {
-                "date": "2026-01-01",
-                "price": 39999
-            },
-            {
-                "date": "2026-02-01",
-                "price": 39999
-            }
+            {"date": "2025-08-01", "price": 45999},
+            {"date": "2025-09-01", "price": 43999},
+            {"date": "2025-10-01", "price": 42999},
+            {"date": "2025-11-01", "price": 41999},
+            {"date": "2025-12-01", "price": 38999},
+            {"date": "2026-01-01", "price": 39999},
+            {"date": "2026-02-01", "price": 39999}
         ]
     },
     {
@@ -45,34 +24,13 @@
         "thumbnail": "https://images.meesho.com/images/products/234567/def_512.jpg",
         "category": "mobile",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 26999
-            },
-            {
-                "date": "2025-09-01",
-                "price": 25499
-            },
-            {
-                "date": "2025-10-01",
-                "price": 24999
-            },
-            {
-                "date": "2025-11-01",
-                "price": 23499
-            },
-            {
-                "date": "2025-12-01",
-                "price": 20999
-            },
-            {
-                "date": "2026-01-01",
-                "price": 21999
-            },
-            {
-                "date": "2026-02-01",
-                "price": 21999
-            }
+            {"date": "2025-08-01", "price": 26999},
+            {"date": "2025-09-01", "price": 25499},
+            {"date": "2025-10-01", "price": 24999},
+            {"date": "2025-11-01", "price": 23499},
+            {"date": "2025-12-01", "price": 20999},
+            {"date": "2026-01-01", "price": 21999},
+            {"date": "2026-02-01", "price": 21999}
         ]
     },
     {
@@ -83,34 +41,13 @@
         "thumbnail": "https://images.meesho.com/images/products/345678/ghi_512.jpg",
         "category": "mobile",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 29999
-            },
-            {
-                "date": "2025-09-01",
-                "price": 28499
-            },
-            {
-                "date": "2025-10-01",
-                "price": 27499
-            },
-            {
-                "date": "2025-11-01",
-                "price": 25999
-            },
-            {
-                "date": "2025-12-01",
-                "price": 23999
-            },
-            {
-                "date": "2026-01-01",
-                "price": 24999
-            },
-            {
-                "date": "2026-02-01",
-                "price": 24999
-            }
+            {"date": "2025-08-01", "price": 29999},
+            {"date": "2025-09-01", "price": 28499},
+            {"date": "2025-10-01", "price": 27499},
+            {"date": "2025-11-01", "price": 25999},
+            {"date": "2025-12-01", "price": 23999},
+            {"date": "2026-01-01", "price": 24999},
+            {"date": "2026-02-01", "price": 24999}
         ]
     },
     {
@@ -121,34 +58,13 @@
         "thumbnail": "https://images.meesho.com/images/products/456789/ghi_512.jpg",
         "category": "laptop",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 35990
-            },
-            {
-                "date": "2025-09-01",
-                "price": 33990
-            },
-            {
-                "date": "2025-10-01",
-                "price": 31990
-            },
-            {
-                "date": "2025-11-01",
-                "price": 29990
-            },
-            {
-                "date": "2025-12-01",
-                "price": 27990
-            },
-            {
-                "date": "2026-01-01",
-                "price": 28990
-            },
-            {
-                "date": "2026-02-01",
-                "price": 28990
-            }
+            {"date": "2025-08-01", "price": 35990},
+            {"date": "2025-09-01", "price": 33990},
+            {"date": "2025-10-01", "price": 31990},
+            {"date": "2025-11-01", "price": 29990},
+            {"date": "2025-12-01", "price": 27990},
+            {"date": "2026-01-01", "price": 28990},
+            {"date": "2026-02-01", "price": 28990}
         ]
     },
     {
@@ -159,34 +75,13 @@
         "thumbnail": "https://images.meesho.com/images/products/567890/jkl_512.jpg",
         "category": "laptop",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 45990
-            },
-            {
-                "date": "2025-09-01",
-                "price": 43990
-            },
-            {
-                "date": "2025-10-01",
-                "price": 41990
-            },
-            {
-                "date": "2025-11-01",
-                "price": 39990
-            },
-            {
-                "date": "2025-12-01",
-                "price": 37990
-            },
-            {
-                "date": "2026-01-01",
-                "price": 38990
-            },
-            {
-                "date": "2026-02-01",
-                "price": 38990
-            }
+            {"date": "2025-08-01", "price": 45990},
+            {"date": "2025-09-01", "price": 43990},
+            {"date": "2025-10-01", "price": 41990},
+            {"date": "2025-11-01", "price": 39990},
+            {"date": "2025-12-01", "price": 37990},
+            {"date": "2026-01-01", "price": 38990},
+            {"date": "2026-02-01", "price": 38990}
         ]
     },
     {
@@ -197,34 +92,13 @@
         "thumbnail": "https://images.meesho.com/images/products/678901/mno_512.jpg",
         "category": "headphones",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 799
-            },
-            {
-                "date": "2025-09-01",
-                "price": 699
-            },
-            {
-                "date": "2025-10-01",
-                "price": 599
-            },
-            {
-                "date": "2025-11-01",
-                "price": 499
-            },
-            {
-                "date": "2025-12-01",
-                "price": 349
-            },
-            {
-                "date": "2026-01-01",
-                "price": 399
-            },
-            {
-                "date": "2026-02-01",
-                "price": 399
-            }
+            {"date": "2025-08-01", "price": 799},
+            {"date": "2025-09-01", "price": 699},
+            {"date": "2025-10-01", "price": 599},
+            {"date": "2025-11-01", "price": 499},
+            {"date": "2025-12-01", "price": 349},
+            {"date": "2026-01-01", "price": 399},
+            {"date": "2026-02-01", "price": 399}
         ]
     },
     {
@@ -235,34 +109,13 @@
         "thumbnail": "https://images.meesho.com/images/products/789012/pqr_512.jpg",
         "category": "headphones",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 2999
-            },
-            {
-                "date": "2025-09-01",
-                "price": 2599
-            },
-            {
-                "date": "2025-10-01",
-                "price": 2299
-            },
-            {
-                "date": "2025-11-01",
-                "price": 1999
-            },
-            {
-                "date": "2025-12-01",
-                "price": 1599
-            },
-            {
-                "date": "2026-01-01",
-                "price": 1799
-            },
-            {
-                "date": "2026-02-01",
-                "price": 1799
-            }
+            {"date": "2025-08-01", "price": 2999},
+            {"date": "2025-09-01", "price": 2599},
+            {"date": "2025-10-01", "price": 2299},
+            {"date": "2025-11-01", "price": 1999},
+            {"date": "2025-12-01", "price": 1599},
+            {"date": "2026-01-01", "price": 1799},
+            {"date": "2026-02-01", "price": 1799}
         ]
     },
     {
@@ -273,34 +126,13 @@
         "thumbnail": "https://images.meesho.com/images/products/890123/stu_512.jpg",
         "category": "watch",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 999
-            },
-            {
-                "date": "2025-09-01",
-                "price": 899
-            },
-            {
-                "date": "2025-10-01",
-                "price": 799
-            },
-            {
-                "date": "2025-11-01",
-                "price": 599
-            },
-            {
-                "date": "2025-12-01",
-                "price": 449
-            },
-            {
-                "date": "2026-01-01",
-                "price": 499
-            },
-            {
-                "date": "2026-02-01",
-                "price": 499
-            }
+            {"date": "2025-08-01", "price": 999},
+            {"date": "2025-09-01", "price": 899},
+            {"date": "2025-10-01", "price": 799},
+            {"date": "2025-11-01", "price": 599},
+            {"date": "2025-12-01", "price": 449},
+            {"date": "2026-01-01", "price": 499},
+            {"date": "2026-02-01", "price": 499}
         ]
     },
     {
@@ -311,34 +143,13 @@
         "thumbnail": "https://images.meesho.com/images/products/667788/pqr_512.jpg",
         "category": "watch",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 499
-            },
-            {
-                "date": "2025-09-01",
-                "price": 449
-            },
-            {
-                "date": "2025-10-01",
-                "price": 399
-            },
-            {
-                "date": "2025-11-01",
-                "price": 349
-            },
-            {
-                "date": "2025-12-01",
-                "price": 249
-            },
-            {
-                "date": "2026-01-01",
-                "price": 289
-            },
-            {
-                "date": "2026-02-01",
-                "price": 289
-            }
+            {"date": "2025-08-01", "price": 499},
+            {"date": "2025-09-01", "price": 449},
+            {"date": "2025-10-01", "price": 399},
+            {"date": "2025-11-01", "price": 349},
+            {"date": "2025-12-01", "price": 249},
+            {"date": "2026-01-01", "price": 289},
+            {"date": "2026-02-01", "price": 289}
         ]
     },
     {
@@ -349,34 +160,13 @@
         "thumbnail": "https://images.meesho.com/images/products/901234/vwx_512.jpg",
         "category": "shoes",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 999
-            },
-            {
-                "date": "2025-09-01",
-                "price": 899
-            },
-            {
-                "date": "2025-10-01",
-                "price": 699
-            },
-            {
-                "date": "2025-11-01",
-                "price": 599
-            },
-            {
-                "date": "2025-12-01",
-                "price": 449
-            },
-            {
-                "date": "2026-01-01",
-                "price": 499
-            },
-            {
-                "date": "2026-02-01",
-                "price": 499
-            }
+            {"date": "2025-08-01", "price": 999},
+            {"date": "2025-09-01", "price": 899},
+            {"date": "2025-10-01", "price": 699},
+            {"date": "2025-11-01", "price": 599},
+            {"date": "2025-12-01", "price": 449},
+            {"date": "2026-01-01", "price": 499},
+            {"date": "2026-02-01", "price": 499}
         ]
     },
     {
@@ -387,34 +177,13 @@
         "thumbnail": "https://images.meesho.com/images/products/012345/yza_512.jpg",
         "category": "shoes",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 1199
-            },
-            {
-                "date": "2025-09-01",
-                "price": 1099
-            },
-            {
-                "date": "2025-10-01",
-                "price": 899
-            },
-            {
-                "date": "2025-11-01",
-                "price": 799
-            },
-            {
-                "date": "2025-12-01",
-                "price": 599
-            },
-            {
-                "date": "2026-01-01",
-                "price": 699
-            },
-            {
-                "date": "2026-02-01",
-                "price": 699
-            }
+            {"date": "2025-08-01", "price": 1199},
+            {"date": "2025-09-01", "price": 1099},
+            {"date": "2025-10-01", "price": 899},
+            {"date": "2025-11-01", "price": 799},
+            {"date": "2025-12-01", "price": 599},
+            {"date": "2026-01-01", "price": 699},
+            {"date": "2026-02-01", "price": 699}
         ]
     },
     {
@@ -425,34 +194,13 @@
         "thumbnail": "https://images.meesho.com/images/products/111222/jkl_512.jpg",
         "category": "accessory",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 299
-            },
-            {
-                "date": "2025-09-01",
-                "price": 249
-            },
-            {
-                "date": "2025-10-01",
-                "price": 199
-            },
-            {
-                "date": "2025-11-01",
-                "price": 149
-            },
-            {
-                "date": "2025-12-01",
-                "price": 99
-            },
-            {
-                "date": "2026-01-01",
-                "price": 129
-            },
-            {
-                "date": "2026-02-01",
-                "price": 129
-            }
+            {"date": "2025-08-01", "price": 299},
+            {"date": "2025-09-01", "price": 249},
+            {"date": "2025-10-01", "price": 199},
+            {"date": "2025-11-01", "price": 149},
+            {"date": "2025-12-01", "price": 99},
+            {"date": "2026-01-01", "price": 129},
+            {"date": "2026-02-01", "price": 129}
         ]
     },
     {
@@ -463,34 +211,13 @@
         "thumbnail": "https://images.meesho.com/images/products/334455/mno_512.jpg",
         "category": "accessory",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 899
-            },
-            {
-                "date": "2025-09-01",
-                "price": 799
-            },
-            {
-                "date": "2025-10-01",
-                "price": 699
-            },
-            {
-                "date": "2025-11-01",
-                "price": 599
-            },
-            {
-                "date": "2025-12-01",
-                "price": 449
-            },
-            {
-                "date": "2026-01-01",
-                "price": 499
-            },
-            {
-                "date": "2026-02-01",
-                "price": 499
-            }
+            {"date": "2025-08-01", "price": 899},
+            {"date": "2025-09-01", "price": 799},
+            {"date": "2025-10-01", "price": 699},
+            {"date": "2025-11-01", "price": 599},
+            {"date": "2025-12-01", "price": 449},
+            {"date": "2026-01-01", "price": 499},
+            {"date": "2026-02-01", "price": 499}
         ]
     },
     {
@@ -501,34 +228,13 @@
         "thumbnail": "https://images.meesho.com/images/products/998877/stu_512.jpg",
         "category": "accessory",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 449
-            },
-            {
-                "date": "2025-09-01",
-                "price": 399
-            },
-            {
-                "date": "2025-10-01",
-                "price": 349
-            },
-            {
-                "date": "2025-11-01",
-                "price": 249
-            },
-            {
-                "date": "2025-12-01",
-                "price": 179
-            },
-            {
-                "date": "2026-01-01",
-                "price": 199
-            },
-            {
-                "date": "2026-02-01",
-                "price": 199
-            }
+            {"date": "2025-08-01", "price": 449},
+            {"date": "2025-09-01", "price": 399},
+            {"date": "2025-10-01", "price": 349},
+            {"date": "2025-11-01", "price": 249},
+            {"date": "2025-12-01", "price": 179},
+            {"date": "2026-01-01", "price": 199},
+            {"date": "2026-02-01", "price": 199}
         ]
     },
     {
@@ -539,65 +245,43 @@
         "thumbnail": "https://images.meesho.com/images/products/445566/bcd_512.jpg",
         "category": "accessory",
         "priceHistory": [
-            {
-                "date": "2025-08-01",
-                "price": 699
-            },
-            {
-                "date": "2025-09-01",
-                "price": 599
-            },
-            {
-                "date": "2025-10-01",
-                "price": 499
-            },
-            {
-                "date": "2025-11-01",
-                "price": 399
-            },
-            {
-                "date": "2025-12-01",
-                "price": 299
-            },
-            {
-                "date": "2026-01-01",
-                "price": 349
-            },
-            {
-                "date": "2026-02-01",
-                "price": 349
-            }
+            {"date": "2025-08-01", "price": 699},
+            {"date": "2025-09-01", "price": 599},
+            {"date": "2025-10-01", "price": 499},
+            {"date": "2025-11-01", "price": 399},
+            {"date": "2025-12-01", "price": 299},
+            {"date": "2026-01-01", "price": 349},
+            {"date": "2026-02-01", "price": 349}
+        ]
+    },
+    {
+        "title": "Lenovo IdeaPad Slim 3 Laptop Budget Model",
+        "price": "₹29,999",
+        "store": "Meesho",
+        "link": "https://www.meesho.com/s/p/laptop-lenovo",
+        "thumbnail": "https://via.placeholder.com/300?text=Lenovo+Laptop",
+        "category": "laptop",
+        "priceHistory": [
+            {"date": "2025-10-01", "price": 34999},
+            {"date": "2025-11-01", "price": 32999},
+            {"date": "2025-12-01", "price": 30999},
+            {"date": "2026-01-01", "price": 29999},
+            {"date": "2026-02-01", "price": 29999}
+        ]
+    },
+    {
+        "title": "Budget Gaming Laptop Ryzen 5 16GB RAM",
+        "price": "₹39,999",
+        "store": "Meesho",
+        "link": "https://www.meesho.com/s/p/gaming-laptop",
+        "thumbnail": "https://via.placeholder.com/300?text=Gaming+Laptop",
+        "category": "laptop",
+        "priceHistory": [
+            {"date": "2025-10-01", "price": 45999},
+            {"date": "2025-11-01", "price": 43999},
+            {"date": "2025-12-01", "price": 41999},
+            {"date": "2026-01-01", "price": 39999},
+            {"date": "2026-02-01", "price": 39999}
         ]
     }
-    ,
-{
-    "title": "Lenovo IdeaPad Slim 3 Laptop Budget Model",
-    "price": "₹29,999",
-    "store": "Meesho",
-    "link": "https://www.meesho.com/s/p/laptop-lenovo",
-    "thumbnail": "https://via.placeholder.com/300?text=Lenovo+Laptop",
-    "category": "laptop",
-    "priceHistory": [
-        {"date": "2025-10-01", "price": 34999},
-        {"date": "2025-11-01", "price": 32999},
-        {"date": "2025-12-01", "price": 30999},
-        {"date": "2026-01-01", "price": 29999},
-        {"date": "2026-02-01", "price": 29999}
-    ]
-},
-{
-    "title": "Budget Gaming Laptop Ryzen 5 16GB RAM",
-    "price": "₹39,999",
-    "store": "Meesho",
-    "link": "https://www.meesho.com/s/p/gaming-laptop",
-    "thumbnail": "https://via.placeholder.com/300?text=Gaming+Laptop",
-    "category": "laptop",
-    "priceHistory": [
-        {"date": "2025-10-01", "price": 45999},
-        {"date": "2025-11-01", "price": 43999},
-        {"date": "2025-12-01", "price": 41999},
-        {"date": "2026-01-01", "price": 39999},
-        {"date": "2026-02-01", "price": 39999}
-    ]
-}
 ]

@@ -33,7 +33,7 @@
 <!-- ================= HERO ================= -->
 <section class="hero">
     <h1>Search Products with Deal Intelligence</h1>
-    <p>Compare prices across platforms & track best deals.</p>
+    <p>Compare prices across platforms &amp; track best deals.</p>
 
     <!-- SEARCH -->
     <div class="search-box">
@@ -43,17 +43,21 @@
                autocomplete="off"
                onkeyup="if(event.key==='Enter'){searchProduct()}">
 
+        <!-- FIX: Added all 6 categories -->
         <select id="categorySelect" onchange="searchProduct()">
-            <option value="all">All</option>
+            <option value="all">All Categories</option>
             <option value="mobile">Mobiles</option>
             <option value="laptop">Laptops</option>
             <option value="headphones">Headphones</option>
+            <option value="watch">Watches</option>
+            <option value="shoes">Shoes</option>
+            <option value="accessory">Accessories</option>
         </select>
 
         <select id="sortSelect" onchange="applySortAndFilter()">
             <option value="relevance">Relevance</option>
-            <option value="low">Low → High</option>
-            <option value="high">High → Low</option>
+            <option value="low">Price: Low → High</option>
+            <option value="high">Price: High → Low</option>
         </select>
 
         <button onclick="searchProduct()">Search</button>
@@ -73,7 +77,8 @@
 <section id="watchlistBox">
     <h2>📌 Watchlist</h2>
 
-    <button onclick="watchlist=[]; localStorage.removeItem('watchlist'); displayWatchlist();">
+    <button onclick="watchlist=[]; localStorage.removeItem('watchlist'); displayWatchlist();"
+            style="background:#7f1d1d;color:#fca5a5;border:none;padding:8px 16px;border-radius:8px;margin-bottom:12px;">
         Clear All
     </button>
 
@@ -89,7 +94,9 @@
         <input id="password" type="password" placeholder="Password">
 
         <button onclick="loginUser()">Login</button>
-        <p onclick="signupUser()">Signup</p>
+        <p onclick="signupUser()" style="cursor:pointer;color:#4fd1c5;margin-top:10px;">
+            Don't have an account? Sign up
+        </p>
 
         <span onclick="closeLogin()">✖</span>
     </div>

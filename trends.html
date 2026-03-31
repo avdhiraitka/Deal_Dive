@@ -6,14 +6,224 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DealDive – Price Trends</title>
 
-    <!-- FONT -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-    <!-- FIXED PATH -->
     <link rel="stylesheet" href="./style.css">
 
     <style>
-        /* KEEP YOUR ORIGINAL STYLES (unchanged) */
+        /* ===== TRENDS PAGE STYLES ===== */
+        .trends-search {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin: 20px auto;
+            max-width: 600px;
+            flex-wrap: wrap;
+        }
+
+        .trends-search input {
+            flex: 1;
+            min-width: 200px;
+            padding: 12px;
+            border-radius: 10px;
+            border: none;
+            font-size: 14px;
+            background: #1e293b;
+            color: #e5e7eb;
+        }
+
+        .trends-search button {
+            padding: 12px 20px;
+            background: var(--accent);
+            border: none;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        /* ===== PRODUCT CHIPS ===== */
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            max-width: 900px;
+            margin: 16px auto;
+        }
+
+        .product-chip {
+            background: #1e293b;
+            color: #cbd5e1;
+            padding: 8px 14px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 13px;
+            transition: 0.2s;
+            border: 1px solid #334155;
+        }
+
+        .product-chip:hover,
+        .product-chip.active {
+            background: var(--accent);
+            color: #0f172a;
+            border-color: var(--accent);
+            font-weight: 600;
+        }
+
+        /* ===== STATS ===== */
+        .price-stats {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 24px auto;
+            max-width: 800px;
+        }
+
+        .stat-card {
+            background: #0f172a;
+            border: 1px solid #1e293b;
+            border-radius: 12px;
+            padding: 16px 24px;
+            min-width: 140px;
+            text-align: center;
+        }
+
+        .stat-card h4 {
+            margin: 0 0 8px 0;
+            color: #64748b;
+            font-size: 13px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .stat-card .value {
+            font-size: 1.4rem;
+            font-weight: 700;
+        }
+
+        .value.teal  { color: #4fd1c5; }
+        .value.green { color: #22c55e; }
+        .value.red   { color: #ef4444; }
+
+        /* ===== CHART AREA ===== */
+        #chartArea {
+            max-width: 820px;
+            margin: 24px auto;
+        }
+
+        /* BAR CHART */
+        .bar-chart-wrapper {
+            background: #0f172a;
+            border-radius: 14px;
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+
+        .bar-chart-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: #94a3b8;
+            margin-bottom: 14px;
+            text-align: left;
+        }
+
+        .bar-chart {
+            display: flex;
+            align-items: flex-end;
+            gap: 10px;
+            height: 180px;
+            padding: 0 4px;
+        }
+
+        .bar-col {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex: 1;
+            height: 100%;
+            justify-content: flex-end;
+        }
+
+        .bar-fill {
+            width: 100%;
+            border-radius: 6px 6px 0 0;
+            transition: height 0.4s ease;
+            min-height: 4px;
+            position: relative;
+        }
+
+        .bar-fill:hover .bar-tooltip {
+            display: block;
+        }
+
+        .bar-tooltip {
+            display: none;
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #334155;
+            color: #e2e8f0;
+            font-size: 11px;
+            padding: 3px 7px;
+            border-radius: 6px;
+            white-space: nowrap;
+            z-index: 10;
+        }
+
+        .bar-label {
+            font-size: 10px;
+            color: #64748b;
+            margin-top: 6px;
+            text-align: center;
+            max-width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        /* LINE CHART */
+        .line-chart-wrapper {
+            background: #0f172a;
+            border-radius: 14px;
+            padding: 20px;
+        }
+
+        .line-chart-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: #94a3b8;
+            margin-bottom: 4px;
+        }
+
+        .line-chart-subtitle {
+            font-size: 13px;
+            color: #475569;
+            margin-bottom: 12px;
+        }
+
+        #lineChart {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        /* ===== NO RESULTS ===== */
+        #noResults p {
+            color: #475569;
+            font-size: 15px;
+        }
+
+        /* ===== STORE BADGE ===== */
+        .store-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+            margin-left: 6px;
+        }
     </style>
 </head>
 
@@ -21,33 +231,33 @@
 
 <header>
     <div class="logo">DealDive</div>
-
     <nav>
         <a href="./index.html">Home</a>
         <a href="./compare.html">Compare</a>
         <a href="./trends.html" class="active">Trends</a>
     </nav>
-
     <div class="auth-buttons">
         <button onclick="location.href='./index.html'">Login</button>
     </div>
 </header>
 
 <section class="hero">
-    <h1>📈 Price History & Trends</h1>
+    <h1>📈 Price History &amp; Trends</h1>
     <p>Track how prices have changed over the last 7 months.</p>
 
     <div class="trends-search">
         <input id="trendSearchInput"
                type="text"
-               placeholder="Search a product..."
+               placeholder="Search a product (e.g. iPhone, laptop)..."
                autocomplete="off"
                onkeyup="if(event.key==='Enter') searchTrends()" />
         <button onclick="searchTrends()">Search</button>
     </div>
 
+    <!-- PRODUCT CHIPS -->
     <div id="productChips" class="product-list"></div>
 
+    <!-- PLACEHOLDER -->
     <div id="noResults">
         <p>🔍 Search for a product to see its price history chart.</p>
     </div>
@@ -59,43 +269,49 @@
             <div class="value teal" id="statCurrent">-</div>
         </div>
         <div class="stat-card">
-            <h4>Lowest</h4>
+            <h4>Lowest Ever</h4>
             <div class="value green" id="statLowest">-</div>
         </div>
         <div class="stat-card">
-            <h4>Highest</h4>
+            <h4>Highest Ever</h4>
             <div class="value red" id="statHighest">-</div>
         </div>
         <div class="stat-card">
             <h4>Total Drop</h4>
             <div class="value green" id="statDrop">-</div>
         </div>
+        <div class="stat-card">
+            <h4>Store</h4>
+            <div class="value teal" id="statStore">-</div>
+        </div>
     </div>
 
-    <!-- CHART -->
+    <!-- CHARTS -->
     <div id="chartArea" style="display:none;">
+
+        <!-- BAR CHART -->
         <div class="bar-chart-wrapper">
-            <div class="bar-chart-title" id="chartTitle">Price History</div>
+            <div class="bar-chart-title" id="chartTitle">Monthly Price History</div>
             <div class="bar-chart" id="barChart"></div>
         </div>
 
+        <!-- SVG LINE CHART -->
         <div class="line-chart-wrapper">
             <div class="line-chart-title">Price Trend Line</div>
             <div class="line-chart-subtitle" id="lineChartSub"></div>
-            <svg id="lineChart" viewBox="0 0 700 300"></svg>
+            <svg id="lineChart" viewBox="0 0 700 260" preserveAspectRatio="xMidYMid meet"></svg>
         </div>
+
     </div>
 </section>
 
 <script>
-/* ================= SAFE INIT ================= */
-document.addEventListener("DOMContentLoaded", () => {
-    loadData();
-});
-
 /* ================= DATA ================= */
 var ALL_PRODUCTS = [];
-var trendMatches = [];
+var trendMatches  = [];
+var activeChip    = 0;
+
+document.addEventListener("DOMContentLoaded", loadData);
 
 async function loadData() {
     try {
@@ -104,11 +320,11 @@ async function loadData() {
             fetch('./flipkart.json').then(r => r.json()),
             fetch('./meesho.json').then(r => r.json())
         ]);
-
         ALL_PRODUCTS = [...a, ...f, ...m];
-
     } catch (e) {
         console.error("Data load failed:", e);
+        document.getElementById("noResults").innerHTML =
+            "<p style='color:#ef4444'>⚠️ Could not load product data. Make sure JSON files are in the same folder.</p>";
     }
 }
 
@@ -121,52 +337,228 @@ function searchTrends() {
     if (!query) return;
 
     if (!ALL_PRODUCTS.length) {
-        alert("Data not loaded yet. Try again.");
+        alert("Data not loaded yet. Please wait a moment and try again.");
         return;
     }
 
     trendMatches = ALL_PRODUCTS.filter(p =>
-        p.title.toLowerCase().includes(query)
+        p.title.toLowerCase().includes(query) ||
+        (p.category && p.category.toLowerCase().includes(query))
     );
 
-    const chips = document.getElementById("productChips");
+    const chips    = document.getElementById("productChips");
     const noResults = document.getElementById("noResults");
 
     if (trendMatches.length === 0) {
-        chips.innerHTML = "<p>No results</p>";
-        noResults.style.display = "none";
+        chips.innerHTML = "";
+        document.getElementById("priceStats").style.display  = "none";
+        document.getElementById("chartArea").style.display   = "none";
+        noResults.innerHTML = "<p style='color:#ef4444'>No results found for \"" + query + "\". Try a different keyword.</p>";
+        noResults.style.display = "block";
         return;
     }
 
     noResults.style.display = "none";
+    activeChip = 0;
 
-    chips.innerHTML = trendMatches.map((p, i) => `
-        <div class="product-chip" onclick="showPriceHistory(${i})">
-            ${p.title}
-        </div>
-    `).join("");
+    chips.innerHTML = trendMatches.map((p, i) => {
+        const storeColor = p.store === "Amazon" ? "#ff9900" : p.store === "Flipkart" ? "#2874f0" : "#f43397";
+        return `
+            <div class="product-chip ${i === 0 ? 'active' : ''}"
+                 id="chip-${i}"
+                 onclick="selectChip(${i})">
+                ${p.title.length > 35 ? p.title.substring(0, 35) + "…" : p.title}
+                <span class="store-badge" style="background:${storeColor}22;color:${storeColor};">${p.store}</span>
+            </div>
+        `;
+    }).join("");
 
     showPriceHistory(0);
 }
 
-/* ================= SHOW DATA ================= */
+/* ================= CHIP SELECTION ================= */
+function selectChip(index) {
+    // Remove active from old chip
+    const oldChip = document.getElementById("chip-" + activeChip);
+    if (oldChip) oldChip.classList.remove("active");
+
+    activeChip = index;
+
+    const newChip = document.getElementById("chip-" + index);
+    if (newChip) newChip.classList.add("active");
+
+    showPriceHistory(index);
+}
+
+/* ================= SHOW STATS + CHARTS ================= */
 function showPriceHistory(index) {
     const product = trendMatches[index];
-    if (!product || !product.priceHistory) return;
+    if (!product || !product.priceHistory || product.priceHistory.length === 0) return;
 
-    const prices = product.priceHistory.map(p => p.price);
+    const history = product.priceHistory;
+    const prices  = history.map(p => p.price);
+    const dates   = history.map(p => {
+        const d = new Date(p.date);
+        return d.toLocaleString('default', { month: 'short', year: '2-digit' });
+    });
 
-    const current = prices[prices.length - 1];
-    const lowest = Math.min(...prices);
-    const highest = Math.max(...prices);
+    const current  = prices[prices.length - 1];
+    const lowest   = Math.min(...prices);
+    const highest  = Math.max(...prices);
+    const drop     = highest - current;
+    const dropPct  = highest > 0 ? Math.round((drop / highest) * 100) : 0;
 
-    document.getElementById("statCurrent").textContent = "₹" + current;
-    document.getElementById("statLowest").textContent = "₹" + lowest;
-    document.getElementById("statHighest").textContent = "₹" + highest;
-    document.getElementById("statDrop").textContent = "₹" + (highest - current);
+    // Update stats
+    document.getElementById("statCurrent").textContent = "₹" + current.toLocaleString();
+    document.getElementById("statLowest").textContent  = "₹" + lowest.toLocaleString();
+    document.getElementById("statHighest").textContent = "₹" + highest.toLocaleString();
+    document.getElementById("statDrop").textContent    = "₹" + drop.toLocaleString() + " (" + dropPct + "%)";
+    document.getElementById("statStore").textContent   = product.store;
 
     document.getElementById("priceStats").style.display = "flex";
-    document.getElementById("chartArea").style.display = "block";
+    document.getElementById("chartArea").style.display  = "block";
+
+    // Chart title
+    document.getElementById("chartTitle").textContent =
+        (product.title.length > 50 ? product.title.substring(0, 50) + "…" : product.title) + " — Price History";
+
+    document.getElementById("lineChartSub").textContent =
+        product.store + " · " + dates[0] + " → " + dates[dates.length - 1];
+
+    // Render charts
+    renderBarChart(prices, dates, lowest, highest);
+    renderLineChart(prices, dates);
+}
+
+/* ================= BAR CHART ================= */
+function renderBarChart(prices, dates, lowest, highest) {
+    const container = document.getElementById("barChart");
+    if (!container) return;
+
+    const range = highest - lowest || 1;
+
+    // Store color gradient: teal → blue
+    const barColors = [
+        "#4fd1c5","#38bdf8","#818cf8","#a78bfa","#f472b6","#fb923c","#facc15"
+    ];
+
+    container.innerHTML = prices.map((price, i) => {
+        const heightPct = 20 + Math.round(((price - lowest) / range) * 75); // 20%–95%
+        const color = barColors[i % barColors.length];
+        const isLowest  = price === lowest;
+        const isHighest = price === highest;
+        const tag = isLowest ? " 🟢" : isHighest ? " 🔴" : "";
+
+        return `
+            <div class="bar-col">
+                <div class="bar-fill"
+                     style="height:${heightPct}%;background:${color};position:relative;">
+                    <div class="bar-tooltip">₹${price.toLocaleString()}${tag}</div>
+                </div>
+                <div class="bar-label">${dates[i]}</div>
+            </div>
+        `;
+    }).join("");
+}
+
+/* ================= SVG LINE CHART ================= */
+function renderLineChart(prices, dates) {
+    const svg = document.getElementById("lineChart");
+    if (!svg) return;
+
+    const W = 700, H = 260;
+    const padL = 70, padR = 20, padT = 20, padB = 40;
+    const chartW = W - padL - padR;
+    const chartH = H - padT - padB;
+
+    const minP = Math.min(...prices);
+    const maxP = Math.max(...prices);
+    const range = maxP - minP || 1;
+    const n = prices.length;
+
+    // Compute points
+    const pts = prices.map((p, i) => ({
+        x: padL + (i / (n - 1)) * chartW,
+        y: padT + (1 - (p - minP) / range) * chartH,
+        price: p,
+        date: dates[i]
+    }));
+
+    // Build smooth path (cubic bezier)
+    let pathD = `M ${pts[0].x} ${pts[0].y}`;
+    for (let i = 1; i < pts.length; i++) {
+        const cx = (pts[i - 1].x + pts[i].x) / 2;
+        pathD += ` C ${cx} ${pts[i - 1].y}, ${cx} ${pts[i].y}, ${pts[i].x} ${pts[i].y}`;
+    }
+
+    // Area fill path
+    const areaD = pathD +
+        ` L ${pts[pts.length - 1].x} ${padT + chartH}` +
+        ` L ${pts[0].x} ${padT + chartH} Z`;
+
+    // Y-axis grid lines + labels (5 ticks)
+    let gridLines = "";
+    let yLabels   = "";
+    const ticks = 5;
+    for (let t = 0; t <= ticks; t++) {
+        const val  = minP + (range / ticks) * t;
+        const yPos = padT + (1 - (t / ticks)) * chartH;
+        gridLines += `<line x1="${padL}" y1="${yPos}" x2="${W - padR}" y2="${yPos}"
+                            stroke="#1e293b" stroke-width="1"/>`;
+        yLabels += `<text x="${padL - 8}" y="${yPos + 4}" fill="#475569" font-size="11"
+                          text-anchor="end">₹${Math.round(val / 1000)}k</text>`;
+    }
+
+    // X-axis labels
+    let xLabels = "";
+    pts.forEach((p, i) => {
+        // show every label if ≤ 7, else every other
+        if (n <= 7 || i % 2 === 0) {
+            xLabels += `<text x="${p.x}" y="${padT + chartH + 20}" fill="#475569"
+                              font-size="11" text-anchor="middle">${p.date}</text>`;
+        }
+    });
+
+    // Dots + tooltips
+    let dots = "";
+    pts.forEach(p => {
+        const isMin = p.price === minP;
+        const isMax = p.price === maxP;
+        const dotColor = isMin ? "#22c55e" : isMax ? "#ef4444" : "#4fd1c5";
+        dots += `
+            <circle cx="${p.x}" cy="${p.y}" r="5" fill="${dotColor}" stroke="#0f172a" stroke-width="2">
+                <title>₹${p.price.toLocaleString()} (${p.date})</title>
+            </circle>
+        `;
+        // Price label on min/max
+        if (isMin || isMax) {
+            const labelY = isMax ? p.y - 12 : p.y + 18;
+            dots += `<text x="${p.x}" y="${labelY}" fill="${dotColor}" font-size="11"
+                           text-anchor="middle" font-weight="bold">₹${p.price.toLocaleString()}</text>`;
+        }
+    });
+
+    svg.innerHTML = `
+        <!-- Grid -->
+        ${gridLines}
+        ${yLabels}
+        ${xLabels}
+
+        <!-- Area fill -->
+        <defs>
+            <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%"   stop-color="#4fd1c5" stop-opacity="0.25"/>
+                <stop offset="100%" stop-color="#4fd1c5" stop-opacity="0"/>
+            </linearGradient>
+        </defs>
+        <path d="${areaD}" fill="url(#areaGrad)"/>
+
+        <!-- Line -->
+        <path d="${pathD}" fill="none" stroke="#4fd1c5" stroke-width="2.5" stroke-linejoin="round"/>
+
+        <!-- Dots -->
+        ${dots}
+    `;
 }
 </script>
 

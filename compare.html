@@ -18,73 +18,71 @@
 
 <body>
 
-    <!-- ================= HEADER ================= -->
-    <header>
-        <div class="logo">DealDive</div>
+<!-- ================= HEADER ================= -->
+<header>
+    <div class="logo">DealDive</div>
 
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="./compare.html" class="active">Compare</a>
-            <a href="./trends.html">Trends</a>
-        </nav>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./compare.html" class="active">Compare</a>
+        <a href="./trends.html">Trends</a>
+    </nav>
 
-        <div class="auth-buttons">
-            <button onclick="location.href='./index.html'">Login</button>
+    <div class="auth-buttons">
+        <button onclick="location.href='./index.html'">Login</button>
+    </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+    <h1>Compare Prices Across Stores</h1>
+    <p>Find the best deal for your desired product.</p>
+
+    <!-- SEARCH -->
+    <div class="search-box">
+        <input id="searchInput"
+               type="text"
+               placeholder="Enter product to compare..."
+               autocomplete="off"
+               onkeyup="if(event.key==='Enter'){runCompareSearch()}">
+
+        <button onclick="runCompareSearch()">Compare</button>
+    </div>
+
+    <!-- STATUS MESSAGE -->
+    <div id="statusMsg" style="margin-top:10px;color:#94a3b8;"></div>
+
+    <!-- CANVAS GRAPH -->
+    <div style="margin-top:30px; display:flex; justify-content:center;">
+        <canvas id="priceChart" style="width:100%; max-width:800px;"></canvas>
+    </div>
+
+    <!-- COMPARE GRID -->
+    <div class="compare-grid" id="compareGrid" style="margin-top: 30px;">
+
+        <!-- AMAZON -->
+        <div class="store-col">
+            <h2 style="text-align:center; color:#ff9900;">🛒 Amazon</h2>
+            <div id="amazon-results"></div>
         </div>
-    </header>
 
-    <!-- ================= HERO ================= -->
-    <section class="hero">
-        <h1>Compare Prices Across Stores</h1>
-        <p>Find the best deal for your desired product.</p>
-
-        <!-- SEARCH -->
-        <div class="search-box">
-            <input id="searchInput"
-                   type="text"
-                   placeholder="Enter product to compare..."
-                   autocomplete="off"
-                   onkeyup="if(event.key==='Enter'){runCompareSearch()}">
-
-            <button onclick="runCompareSearch()">Compare</button>
+        <!-- FLIPKART -->
+        <div class="store-col">
+            <h2 style="text-align:center; color:#2874f0;">🛍 Flipkart</h2>
+            <div id="flipkart-results"></div>
         </div>
 
-        <!-- STATUS MESSAGE (OPTIONAL DEBUG/UX) -->
-        <div id="statusMsg" style="margin-top:10px;color:#94a3b8;"></div>
-
-        <!-- ================= CANVAS GRAPH ================= -->
-        <div style="margin-top:30px; display:flex; justify-content:center;">
-            <canvas id="priceChart" style="width:100%; max-width:800px;"></canvas>
+        <!-- MEESHO -->
+        <div class="store-col">
+            <h2 style="text-align:center; color:#f43397;">🏪 Meesho</h2>
+            <div id="meesho-results"></div>
         </div>
 
-        <!-- ================= COMPARE GRID ================= -->
-        <div class="compare-grid" id="compareGrid"
-             style="margin-top: 30px;">
+    </div>
+</section>
 
-            <!-- AMAZON -->
-            <div class="store-col">
-                <h2 style="text-align:center; color:#ff9900;">Amazon</h2>
-                <div id="amazon-results"></div>
-            </div>
-
-            <!-- FLIPKART -->
-            <div class="store-col">
-                <h2 style="text-align:center; color:#2874f0;">Flipkart</h2>
-                <div id="flipkart-results"></div>
-            </div>
-
-            <!-- MEESHO -->
-            <div class="store-col">
-                <h2 style="text-align:center; color:#f43397;">Meesho</h2>
-                <div id="meesho-results"></div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- JS -->
-    <script src="./script.js"></script>
+<!-- JS -->
+<script src="./script.js"></script>
 
 </body>
-
 </html>
