@@ -78,7 +78,8 @@ function displayProducts(products) {
 
         return `
         <div class="product-card">
-            <img src="${p.thumbnail}" />
+            <img src="${p.thumbnail || p.image}" 
+     onerror="this.onerror=null; this.src='https://via.placeholder.com/200';" />
             <h3>${p.title}</h3>
 
             <p>₹${rupees.toLocaleString()}</p>
@@ -153,8 +154,8 @@ function displayCompare(id, products) {
 
     box.innerHTML = products.map(p => `
         <div class="product-card">
-        <img src="${p.thumbnail}" onerror="this.onerror=null; this.src='https://via.placeholder.com/200?text=No+Image';" />            <h3>${p.title}</h3>
-            <p>${p.price}</p>
+<img src="${p.thumbnail || p.image}" 
+     onerror="this.onerror=null; this.src='https://via.placeholder.com/200?text=No+Image';" />            <p>${p.price}</p>
             <a href="${p.link}" target="_blank">View</a>
         </div>
     `).join("");
