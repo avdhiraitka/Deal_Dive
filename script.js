@@ -1,22 +1,25 @@
 let allProducts = [];
 let watchlist = JSON.parse(localStorage.getItem("watchlist")) || [];
 
-/* ================= LOGIN ================= */
+// LOGIN SYSTEM (unchanged)
 function openLogin() {
     document.getElementById("loginModal").style.display = "flex";
 }
+
 function closeLogin() {
     document.getElementById("loginModal").style.display = "none";
 }
+
 function loginUser() {
     alert("Logged in successfully!");
     closeLogin();
 }
+
 function signupUser() {
     alert("Account created!");
 }
 
-/* ================= SEARCH ================= */
+// 🔍 REAL API SEARCH
 async function searchProduct() {
     const query = document.getElementById("searchInput").value;
 
@@ -31,24 +34,26 @@ async function searchProduct() {
         allProducts = data.products;
         applySortAndFilter();
 
-    } catch {
+    } catch (err) {
         document.getElementById("results").innerHTML = "Error fetching data";
     }
 }
 
-/* ================= FILTER ================= */
+// 🎯 FILTER + SORT
 function applySortAndFilter() {
     let filtered = [...allProducts];
 
-    const category = document.getElementById("categorySelect")?.value || "all";
-    const sort = document.getElementById("sortSelect")?.value || "relevance";
+    const category = document.getElementById("categorySelect").value;
+    const sort = document.getElementById("sortSelect").value;
 
+    // CATEGORY FILTER
     if (category !== "all") {
         filtered = filtered.filter(p =>
             p.category.toLowerCase().includes(category)
         );
     }
 
+    // SORTING
     if (sort === "low") {
         filtered.sort((a, b) => a.price - b.price);
     } else if (sort === "high") {
@@ -58,10 +63,9 @@ function applySortAndFilter() {
     displayProducts(filtered);
 }
 
-/* ================= DISPLAY (₹ FIXED) ================= */
+// 🖼 DISPLAY PRODUCTS (FIXED ₹ + DEAL SCORE)
 function displayProducts(products) {
     const results = document.getElementById("results");
-    if (!results) return;
 
     if (products.length === 0) {
         results.innerHTML = "<p>No products found</p>";
@@ -70,14 +74,13 @@ function displayProducts(products) {
 
     results.innerHTML = products.map(p => {
         const rupees = Math.round(p.price * 83); // USD → INR
-        const dealScore = Math.max(10, 100 - Math.floor(p.price));
+        const dealScore = Math.max(10, 100 - p.price);
 
         return `
         <div class="product-card">
             <img src="${p.thumbnail}" />
             <h3>${p.title}</h3>
 
-            <!-- ₹ FIX -->
             <p>₹${rupees.toLocaleString()}</p>
 
             <p style="color:gray">${p.brand || ""}</p>
@@ -87,11 +90,12 @@ function displayProducts(products) {
             </p>
 
             <button onclick='addToWatchlist(${JSON.stringify(p)})'>Save</button>
-        </div>`;
+        </div>
+        `;
     }).join("");
 }
 
-/* ================= WATCHLIST ================= */
+// 📌 WATCHLIST
 function addToWatchlist(product) {
     watchlist.push(product);
     localStorage.setItem("watchlist", JSON.stringify(watchlist));
@@ -100,7 +104,6 @@ function addToWatchlist(product) {
 
 function displayWatchlist() {
     const box = document.getElementById("watchlist");
-    if (!box) return;
 
     if (watchlist.length === 0) {
         box.innerHTML = "<p>No saved items</p>";
@@ -115,34 +118,33 @@ function displayWatchlist() {
     `).join("");
 }
 
-/* ================= COMPARE ================= */
+// 🔥 COMPARE FUNCTION (FIXED IMAGES)
 async function runCompareSearch() {
     const query = document.getElementById("searchInput").value.toLowerCase();
+
     if (!query) return;
 
     try {
-        const [amazon, flipkart, meesho] = await Promise.all([
-            fetch("./amazon.json").then(r => r.json()),
-            fetch("./flipkart.json").then(r => r.json()),
-            fetch("./meesho.json").then(r => r.json())
-        ]);
+        const amazon = await fetch("./amazon.json").then(r => r.json());
+        const flipkart = await fetch("./flipkart.json").then(r => r.json());
+        const meesho = await fetch("./meesho.json").then(r => r.json());
 
-        const filter = data =>
-            data.filter(p => p.title.toLowerCase().includes(query));
+        const filter = (data) => data.filter(p =>
+            p.title.toLowerCase().includes(query)
+        );
 
         displayCompare("amazon-results", filter(amazon));
         displayCompare("flipkart-results", filter(flipkart));
         displayCompare("meesho-results", filter(meesho));
 
     } catch (err) {
-        console.error("Compare error:", err);
+        console.log("Compare error:", err);
     }
 }
 
-/* ================= DISPLAY COMPARE (IMAGE FIX) ================= */
+// 🖼 DISPLAY COMPARE (IMAGE FIX)
 function displayCompare(id, products) {
     const box = document.getElementById(id);
-    if (!box) return;
 
     if (products.length === 0) {
         box.innerHTML = "<p>No results</p>";
@@ -159,5 +161,5 @@ function displayCompare(id, products) {
     `).join("");
 }
 
-/* ================= INIT ================= */
+// LOAD WATCHLIST ON START
 displayWatchlist();
