@@ -4,7 +4,7 @@
         "price": "₹49,900",
         "store": "Amazon",
         "link": "https://www.amazon.in/Apple-iPhone-13-128GB-Midnight/dp/B09V4843K8",
-        "thumbnail": "hhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5FJN5Rn--RG8x9ARfg2UhzXjtDVmmscsRZA&s",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5FJN5Rn--RG8x9ARfg2UhzXjtDVmmscsRZA&s",
         "category": "mobile",
         "priceHistory": [
             {"date": "2025-08-01", "price": 55999},
@@ -140,7 +140,7 @@
         "price": "₹37,900",
         "store": "Amazon",
         "link": "https://www.amazon.in/Apple-Watch-Series-9/dp/B0CHXYZ789",
-        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=Apple+Watch+S9",
+        "thumbnail": "https://www.apple.com/newsroom/images/2023/09/apple-introduces-the-advanced-new-apple-watch-series-9/article/Apple-Watch-S9-silver-aluminum-Solo-Loop-olive-230912_inline.jpg.large.jpg",
         "category": "watch",
         "priceHistory": [
             {"date": "2025-08-01", "price": 44900},

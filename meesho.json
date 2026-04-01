@@ -21,7 +21,7 @@
         "price": "₹21,999",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample2",
-        "thumbnail": "./images/redminote13pro.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/51Qfyn4vOjL.jpg",
         "category": "mobile",
         "priceHistory": [
             {"date": "2025-08-01", "price": 26999},
@@ -38,7 +38,7 @@
         "price": "₹24,999",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample8",
-        "thumbnail": "https://m.media-amazon.com/images/I/61Io06sWzML._SX679_.jpg",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl53YmhaolGIHDlF7NzVxdxFv-f4puZXnYpw&s",
         "category": "mobile",
         "priceHistory": [
             {"date": "2025-08-01", "price": 29999},
@@ -89,7 +89,7 @@
         "price": "₹399",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample10",
-        "thumbnail": "https://m.media-amazon.com/images/I/51d-u0DlCiL._SX679_.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/517simwrI4L.jpg",
         "category": "headphones",
         "priceHistory": [
             {"date": "2025-08-01", "price": 799},
@@ -106,7 +106,7 @@
         "price": "₹1,799",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample11",
-        "thumbnail": "https://m.media-amazon.com/images/I/51JbsHSktkL._SX679_.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/61HDCGJEBlL._AC_UF1000,1000_QL80_.jpg",
         "category": "headphones",
         "priceHistory": [
             {"date": "2025-08-01", "price": 2999},
@@ -123,7 +123,7 @@
         "price": "₹499",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample12",
-        "thumbnail": "https://m.media-amazon.com/images/I/61RfB4qFRsL._SX679_.jpg",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQHXSdKfCHLw4GvdEDhEa1jaufnID1apSl7g&s",
         "category": "watch",
         "priceHistory": [
             {"date": "2025-08-01", "price": 999},
@@ -157,7 +157,7 @@
         "price": "₹499",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample13",
-        "thumbnail": "https://m.media-amazon.com/images/I/71UGN0tdSZL._UX695_.jpg",
+        "thumbnail": "https://images.jdmagicbox.com/quickquotes/images_main/sega-men-s-mesh-running-shoe-5-white-2210897330-szaj3dod.jpg",
         "category": "shoes",
         "priceHistory": [
             {"date": "2025-08-01", "price": 999},
@@ -174,7 +174,7 @@
         "price": "₹699",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample14",
-        "thumbnail": "https://m.media-amazon.com/images/I/71Yzp9GpCUL._UX695_.jpg",
+        "thumbnail": "https://image-cdn.ubuy.com/k-kip-wok-chunky-sneakers-for-women/400_400_100/68138879bd75a6e24f014ab3.jpg",
         "category": "shoes",
         "priceHistory": [
             {"date": "2025-08-01", "price": 1199},
