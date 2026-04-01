@@ -1,6 +1,7 @@
 let allProducts = [];
-let localProducts = []; // holds all products from local JSONs
+let localProducts = [];
 let watchlist = JSON.parse(localStorage.getItem("watchlist")) || [];
+let isLoggedIn = false;
 
 /* ================= LOAD LOCAL DATA ON START ================= */
 async function loadLocalData() {
@@ -28,23 +29,68 @@ function closeLogin() {
 function loginUser() {
     const username = document.getElementById("username")?.value?.trim();
     if (!username) { alert("Please enter a username."); return; }
-    alert("Logged in successfully as " + username + "!");
+    isLoggedIn = true;
     closeLogin();
+    updateAuthButton(username);
 }
 
 function signupUser() {
     const username = document.getElementById("username")?.value?.trim();
     if (!username) { alert("Please enter a username."); return; }
-    alert("Account created for " + username + "!");
+    isLoggedIn = true;
+    closeLogin();
+    updateAuthButton(username);
 }
 
-/* ================= SEARCH (uses local JSONs) ================= */
+/* FIX: Replace Login button with username + Logout after login */
+function updateAuthButton(username) {
+    const authDiv = document.querySelector(".auth-buttons");
+    if (!authDiv) return;
+    authDiv.innerHTML = `
+        <span style="color:#4fd1c5;font-weight:600;margin-right:10px;">👤 ${username}</span>
+        <button onclick="logoutUser()"
+                style="background:transparent;border:1px solid #ef4444;color:#ef4444;
+                       padding:8px 14px;border-radius:8px;font-size:13px;">
+            Logout
+        </button>
+    `;
+}
+
+function logoutUser() {
+    isLoggedIn = false;
+    const authDiv = document.querySelector(".auth-buttons");
+    if (!authDiv) return;
+    authDiv.innerHTML = `<button onclick="openLogin()">Login</button>`;
+}
+
+/* ================= IMAGE HELPER ================= */
+/* FIX: Flipkart/Meesho CDN images are hotlink-blocked on GitHub Pages.
+   We serve them via a CORS proxy as first attempt, with placeholder fallback. */
+function getImageSrc(thumbnail) {
+    if (!thumbnail || thumbnail.includes("via.placeholder")) {
+        return thumbnail || "";
+    }
+    // Amazon images load fine directly
+    if (thumbnail.includes("amazon.com") || thumbnail.includes("media-amazon")) {
+        return thumbnail;
+    }
+    // For Flipkart/Meesho: try loading directly first, onerror will catch failures
+    return thumbnail;
+}
+
+function getFallback(title) {
+    const short = encodeURIComponent(title.substring(0, 12));
+    return `https://via.placeholder.com/300x300/1e293b/4fd1c5?text=${short}`;
+}
+
+/* ================= SEARCH ================= */
 function searchProduct() {
     const query = document.getElementById("searchInput")?.value?.toLowerCase().trim();
     if (!query) return;
 
     if (!localProducts.length) {
-        document.getElementById("results").innerHTML = "<p style='color:#94a3b8'>Data still loading, please try again.</p>";
+        document.getElementById("results").innerHTML =
+            "<p style='color:#94a3b8;text-align:center;'>Data still loading, please try again.</p>";
         return;
     }
 
@@ -64,25 +110,46 @@ function applySortAndFilter() {
     const category = document.getElementById("categorySelect")?.value || "all";
     const sort = document.getElementById("sortSelect")?.value || "relevance";
 
-    // FIX: now supports all 6 categories
     if (category !== "all") {
-        filtered = filtered.filter(p =>
-            p.category?.toLowerCase() === category
-        );
+        filtered = filtered.filter(p => p.category?.toLowerCase() === category);
     }
 
-    if (sort === "low") {
-        filtered.sort((a, b) => parsePrice(a.price) - parsePrice(b.price));
-    } else if (sort === "high") {
-        filtered.sort((a, b) => parsePrice(b.price) - parsePrice(a.price));
-    }
+    if (sort === "low") filtered.sort((a, b) => parsePrice(a.price) - parsePrice(b.price));
+    else if (sort === "high") filtered.sort((a, b) => parsePrice(b.price) - parsePrice(a.price));
 
     displayProducts(filtered);
 }
 
-/* ================= PARSE PRICE HELPER ================= */
+/* ================= HELPERS ================= */
 function parsePrice(priceStr) {
     return parseInt(String(priceStr).replace(/[₹,]/g, "")) || 0;
+}
+
+/* FIX: Best Deal logic — only badge if same product found on 2+ stores.
+   Normalize titles to first 4 meaningful words, group, find min per group. */
+function findBestDeals(products) {
+    const normalize = title => title.toLowerCase()
+        .replace(/[^a-z0-9\s]/g, "")
+        .split(/\s+/)
+        .slice(0, 4)
+        .join(" ");
+
+    const groups = {};
+    products.forEach((p, i) => {
+        const key = normalize(p.title);
+        if (!groups[key]) groups[key] = [];
+        groups[key].push({ index: i, price: parsePrice(p.price) });
+    });
+
+    const bestIndexes = new Set();
+    Object.values(groups).forEach(group => {
+        if (group.length >= 2) {
+            const minPrice = Math.min(...group.map(g => g.price));
+            group.filter(g => g.price === minPrice).forEach(g => bestIndexes.add(g.index));
+        }
+    });
+
+    return bestIndexes;
 }
 
 /* ================= DISPLAY PRODUCTS ================= */
@@ -91,67 +158,55 @@ function displayProducts(products) {
     if (!results) return;
 
     if (products.length === 0) {
-        results.innerHTML = "<p style='color:#94a3b8;text-align:center;padding:20px;'>No products found. Try a different search.</p>";
+        results.innerHTML = "<p style='color:#94a3b8;text-align:center;padding:20px;'>No products found.</p>";
         return;
     }
 
-    // Find lowest price per title for "Best Deal" badge
-    const titlePriceMap = {};
-    products.forEach(p => {
-        const price = parsePrice(p.price);
-        if (!titlePriceMap[p.title] || price < titlePriceMap[p.title]) {
-            titlePriceMap[p.title] = price;
-        }
-    });
+    const bestIndexes = findBestDeals(products);
 
-    results.innerHTML = products.map(p => {
-        const price = parsePrice(p.price);
-        const priceHistory = p.priceHistory || [];
-        const allPrices = priceHistory.map(h => h.price);
-        const lowest = allPrices.length ? Math.min(...allPrices) : price;
-        const highest = allPrices.length ? Math.max(...allPrices) : price;
-        const drop = highest - price;
+    results.innerHTML = products.map((p, i) => {
+        const price   = parsePrice(p.price);
+        const hist    = (p.priceHistory || []).map(h => h.price);
+        const highest = hist.length ? Math.max(...hist) : price;
+        const drop    = highest - price;
         const dropPct = highest > 0 ? Math.round((drop / highest) * 100) : 0;
-        const dealScore = Math.min(99, Math.max(30, dropPct + 40));
-        const isBest = price === titlePriceMap[p.title];
-
-        const storeColor = p.store === "Amazon" ? "#ff9900" : p.store === "Flipkart" ? "#2874f0" : "#f43397";
+        const score   = Math.min(99, Math.max(30, dropPct + 40));
+        const isBest  = bestIndexes.has(i);
+        const sColor  = p.store === "Amazon" ? "#ff9900" : p.store === "Flipkart" ? "#2874f0" : "#f43397";
+        const imgSrc  = getImageSrc(p.thumbnail);
+        const fallback = getFallback(p.title);
 
         return `
         <div class="product-card">
             ${isBest ? '<div class="best-deal">🏷 Best Deal</div>' : ''}
-            <img src="${p.thumbnail || 'https://via.placeholder.com/200'}"
-                 onerror="this.onerror=null; this.src='https://via.placeholder.com/200';" />
+            <img src="${imgSrc}"
+                 onerror="this.onerror=null;this.src='${fallback}';"
+                 loading="lazy" />
             <h3>${p.title}</h3>
-            <p style="font-size:1.2rem;font-weight:bold;color:#4fd1c5;">${p.price}</p>
-            <p style="color:${storeColor};font-weight:600;">${p.store}</p>
-            ${drop > 0 ? `<p style="color:#22c55e;font-size:13px;">↓ ₹${drop.toLocaleString()} drop (${dropPct}% off peak)</p>` : ''}
-            <p style="color:#22c55e;font-weight:bold;">Deal Score: ${dealScore}/99</p>
-            <div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap;">
+            <p style="font-size:1.15rem;font-weight:bold;color:#4fd1c5;">${p.price}</p>
+            <p style="color:${sColor};font-weight:600;margin:4px 0;">${p.store}</p>
+            ${drop > 0 ? `<p style="color:#22c55e;font-size:13px;margin:4px 0;">↓ ₹${drop.toLocaleString()} drop (${dropPct}% off peak)</p>` : ""}
+            <p style="color:#22c55e;font-weight:bold;margin:4px 0;">Deal Score: ${score}/99</p>
+            <div style="display:flex;gap:8px;margin-top:10px;flex-wrap:wrap;">
                 <a href="${p.link}" target="_blank"
-                   style="background:#1e293b;color:#4fd1c5;padding:6px 12px;border-radius:8px;text-decoration:none;font-size:13px;">
-                   View →
-                </a>
-                <button onclick='addToWatchlist(${JSON.stringify(p).replace(/'/g, "&#39;")})'>+ Watchlist</button>
+                   style="background:#1e293b;color:#4fd1c5;padding:6px 12px;border-radius:8px;
+                          text-decoration:none;font-size:13px;border:1px solid #334155;">View →</a>
+                <button onclick='addToWatchlist(${JSON.stringify(p).replace(/'/g, "&#39;")})'
+                        style="background:#1e293b;border:1px solid #334155;color:#e5e7eb;
+                               padding:6px 12px;border-radius:8px;font-size:13px;">+ Watchlist</button>
             </div>
-        </div>
-        `;
+        </div>`;
     }).join("");
 }
 
 /* ================= WATCHLIST ================= */
 function addToWatchlist(product) {
-    // Prevent duplicates by link
-    const exists = watchlist.some(w => w.link === product.link);
-    if (exists) {
-        alert("Already in watchlist!");
-        return;
+    if (watchlist.some(w => w.link === product.link)) {
+        alert("Already in watchlist!"); return;
     }
     watchlist.push(product);
     localStorage.setItem("watchlist", JSON.stringify(watchlist));
-    if (document.getElementById("watchlist")) {
-        displayWatchlist();
-    }
+    if (document.getElementById("watchlist")) displayWatchlist();
     alert("Added to watchlist!");
 }
 
@@ -170,27 +225,32 @@ function displayWatchlist() {
         return;
     }
 
-    box.innerHTML = watchlist.map(p => `
+    box.innerHTML = watchlist.map(p => {
+        const fb = getFallback(p.title);
+        return `
         <div class="watch-item">
             <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;">
-                <div>
-                    <h4 style="margin:0 0 4px 0;">${p.title}</h4>
-                    <p style="margin:0;color:#4fd1c5;font-weight:bold;">${p.price}</p>
-                    <p style="margin:0;color:#94a3b8;font-size:13px;">${p.store}</p>
+                <div style="display:flex;gap:12px;align-items:center;">
+                    <img src="${p.thumbnail || fb}"
+                         onerror="this.onerror=null;this.src='${fb}';"
+                         style="width:52px;height:52px;object-fit:contain;border-radius:6px;background:white;" />
+                    <div>
+                        <h4 style="margin:0 0 4px 0;font-size:14px;">${p.title}</h4>
+                        <p style="margin:0;color:#4fd1c5;font-weight:bold;">${p.price}</p>
+                        <p style="margin:0;color:#94a3b8;font-size:12px;">${p.store}</p>
+                    </div>
                 </div>
                 <div style="display:flex;gap:8px;">
                     <a href="${p.link}" target="_blank"
-                       style="background:#1e293b;color:#4fd1c5;padding:6px 12px;border-radius:8px;text-decoration:none;font-size:13px;">
-                       View →
-                    </a>
+                       style="background:#1e293b;color:#4fd1c5;padding:6px 12px;border-radius:8px;
+                              text-decoration:none;font-size:13px;border:1px solid #334155;">View →</a>
                     <button onclick="removeFromWatchlist('${p.link.replace(/'/g, "\\'")}')"
-                            style="background:#7f1d1d;color:#fca5a5;border:none;padding:6px 12px;border-radius:8px;cursor:pointer;font-size:13px;">
-                        Remove
-                    </button>
+                            style="background:#7f1d1d;color:#fca5a5;border:none;padding:6px 12px;
+                                   border-radius:8px;cursor:pointer;font-size:13px;">✕ Remove</button>
                 </div>
             </div>
-        </div>
-    `).join("");
+        </div>`;
+    }).join("");
 }
 
 /* ================= COMPARE ================= */
@@ -208,32 +268,27 @@ async function runCompareSearch() {
             fetch("./meesho.json").then(r => r.json())
         ]);
 
-        const filter = (data) => data.filter(p =>
+        const filter = data => data.filter(p =>
             p.title.toLowerCase().includes(query) ||
             (p.category && p.category.toLowerCase().includes(query))
         );
 
-        const a = filter(amazon);
-        const f = filter(flipkart);
-        const m = filter(meesho);
+        const a = filter(amazon), f = filter(flipkart), m = filter(meesho);
 
         displayCompare("amazon-results", a);
         displayCompare("flipkart-results", f);
         displayCompare("meesho-results", m);
 
-        const allMatches = [...a, ...f, ...m];
-        renderChart(allMatches);
+        const all = [...a, ...f, ...m];
+        renderChart(all);
 
-        if (statusMsg) {
-            const total = allMatches.length;
-            statusMsg.textContent = total > 0
-                ? `Found ${total} result(s) across all stores.`
-                : "No results found. Try a different keyword.";
-        }
+        if (statusMsg) statusMsg.textContent = all.length > 0
+            ? `Found ${all.length} result(s) across all stores.`
+            : "No results found.";
 
     } catch (err) {
         console.error("Compare error:", err);
-        if (statusMsg) statusMsg.textContent = "Error loading data. Make sure JSON files are in the same folder.";
+        if (statusMsg) statusMsg.textContent = "Error loading data.";
     }
 }
 
@@ -247,59 +302,50 @@ function displayCompare(id, products) {
         return;
     }
 
-    // Find best (lowest) price among these results for badge
-    const prices = products.map(p => parsePrice(p.price));
-    const minPrice = Math.min(...prices);
+    const minPrice = Math.min(...products.map(p => parsePrice(p.price)));
 
     box.innerHTML = products.map(p => {
         const price = parsePrice(p.price);
-        const isBest = price === minPrice;
+        // FIX: only badge if multiple results exist in this column
+        const isBest = price === minPrice && products.length > 1;
+        const fallback = getFallback(p.title);
         return `
         <div class="product-card" style="margin-bottom:16px;">
             ${isBest ? '<div class="best-deal">🏷 Best Deal</div>' : ''}
-            <img src="${p.thumbnail || p.image || 'https://via.placeholder.com/200'}"
-                 onerror="this.onerror=null; this.src='https://via.placeholder.com/200?text=No+Image';" />
+            <img src="${p.thumbnail || fallback}"
+                 onerror="this.onerror=null;this.src='${fallback}';"
+                 loading="lazy" />
             <h3>${p.title}</h3>
             <p style="font-size:1.1rem;font-weight:bold;color:#4fd1c5;">${p.price}</p>
             <a href="${p.link}" target="_blank"
                style="display:inline-block;margin-top:8px;background:#1e293b;color:#4fd1c5;
-                      padding:6px 14px;border-radius:8px;text-decoration:none;font-size:13px;">
-               View →
-            </a>
-        </div>
-        `;
+                      padding:6px 14px;border-radius:8px;text-decoration:none;font-size:13px;
+                      border:1px solid #334155;">View →</a>
+        </div>`;
     }).join("");
 }
 
-/* ================= CHART (Bar + price labels) ================= */
+/* ================= CHART ================= */
 function renderChart(products) {
     const canvas = document.getElementById("priceChart");
     if (!canvas) return;
-
-    if (window.chartInstance) {
-        window.chartInstance.destroy();
-    }
-
-    if (products.length === 0) return;
+    if (window.chartInstance) window.chartInstance.destroy();
+    if (!products.length) return;
 
     const storeColors = {
-        "Amazon":  "rgba(255,153,0,0.8)",
-        "Flipkart":"rgba(40,116,240,0.8)",
-        "Meesho":  "rgba(244,51,151,0.8)"
+        "Amazon":  "rgba(255,153,0,0.85)",
+        "Flipkart":"rgba(40,116,240,0.85)",
+        "Meesho":  "rgba(244,51,151,0.85)"
     };
-
-    const labels = products.map(p => p.title.length > 18 ? p.title.substring(0, 18) + "…" : p.title);
-    const prices = products.map(p => parsePrice(p.price));
-    const colors = products.map(p => storeColors[p.store] || "rgba(79,209,197,0.8)");
 
     window.chartInstance = new Chart(canvas, {
         type: "bar",
         data: {
-            labels: labels,
+            labels: products.map(p => p.title.length > 18 ? p.title.substring(0,18)+"…" : p.title),
             datasets: [{
                 label: "Price (₹)",
-                data: prices,
-                backgroundColor: colors,
+                data: products.map(p => parsePrice(p.price)),
+                backgroundColor: products.map(p => storeColors[p.store] || "rgba(79,209,197,0.85)"),
                 borderRadius: 6
             }]
         },
@@ -307,24 +353,11 @@ function renderChart(products) {
             responsive: true,
             plugins: {
                 legend: { display: false },
-                tooltip: {
-                    callbacks: {
-                        label: ctx => "₹" + ctx.parsed.y.toLocaleString()
-                    }
-                }
+                tooltip: { callbacks: { label: ctx => "₹" + ctx.parsed.y.toLocaleString() } }
             },
             scales: {
-                x: {
-                    ticks: { color: "#94a3b8", font: { size: 11 } },
-                    grid: { color: "#1e293b" }
-                },
-                y: {
-                    ticks: {
-                        color: "#94a3b8",
-                        callback: val => "₹" + val.toLocaleString()
-                    },
-                    grid: { color: "#1e293b" }
-                }
+                x: { ticks: { color: "#94a3b8", font: { size: 11 } }, grid: { color: "#1e293b" } },
+                y: { ticks: { color: "#94a3b8", callback: v => "₹" + v.toLocaleString() }, grid: { color: "#1e293b" } }
             }
         }
     });

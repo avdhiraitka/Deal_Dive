@@ -5,11 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DealDive – Smart Price Intelligence</title>
-
-    <!-- FONT -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-    <!-- CSS -->
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -18,13 +14,12 @@
 <!-- ================= HEADER ================= -->
 <header>
     <div class="logo">DealDive</div>
-
     <nav>
         <a href="./index.html" class="active">Home</a>
         <a href="./compare.html">Compare</a>
         <a href="./trends.html">Trends</a>
     </nav>
-
+    <!-- FIX: auth-buttons div is referenced by updateAuthButton() in script.js -->
     <div class="auth-buttons">
         <button onclick="openLogin()">Login</button>
     </div>
@@ -35,7 +30,6 @@
     <h1>Search Products with Deal Intelligence</h1>
     <p>Compare prices across platforms &amp; track best deals.</p>
 
-    <!-- SEARCH -->
     <div class="search-box">
         <input id="searchInput"
                type="text"
@@ -43,7 +37,6 @@
                autocomplete="off"
                onkeyup="if(event.key==='Enter'){searchProduct()}">
 
-        <!-- FIX: Added all 6 categories -->
         <select id="categorySelect" onchange="searchProduct()">
             <option value="all">All Categories</option>
             <option value="mobile">Mobiles</option>
@@ -63,25 +56,19 @@
         <button onclick="searchProduct()">Search</button>
     </div>
 
-    <!-- STATUS MESSAGE -->
     <div id="statusMsg" style="margin-top:10px;color:#94a3b8;"></div>
-
-    <!-- SUGGESTIONS -->
     <div id="suggestions"></div>
-
-    <!-- RESULTS -->
     <div id="results"></div>
 </section>
 
 <!-- ================= WATCHLIST ================= -->
 <section id="watchlistBox">
     <h2>📌 Watchlist</h2>
-
     <button onclick="watchlist=[]; localStorage.removeItem('watchlist'); displayWatchlist();"
-            style="background:#7f1d1d;color:#fca5a5;border:none;padding:8px 16px;border-radius:8px;margin-bottom:12px;">
+            style="background:#7f1d1d;color:#fca5a5;border:none;padding:8px 16px;
+                   border-radius:8px;margin-bottom:12px;">
         Clear All
     </button>
-
     <div id="watchlist"></div>
 </section>
 
@@ -89,21 +76,16 @@
 <div id="loginModal" class="modal">
     <div class="modal-box">
         <h2>Login</h2>
-
         <input id="username" placeholder="Username">
         <input id="password" type="password" placeholder="Password">
-
         <button onclick="loginUser()">Login</button>
-        <p onclick="signupUser()" style="cursor:pointer;color:#4fd1c5;margin-top:10px;">
+        <p onclick="signupUser()" style="cursor:pointer;color:#4fd1c5;margin-top:10px;font-size:14px;">
             Don't have an account? Sign up
         </p>
-
         <span onclick="closeLogin()">✖</span>
     </div>
 </div>
 
-<!-- JS (IMPORTANT: LOAD AFTER HTML) -->
 <script src="./script.js"></script>
-
 </body>
 </html>
