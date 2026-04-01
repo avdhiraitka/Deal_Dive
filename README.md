@@ -1,5 +1,7 @@
 # 🛍️ Deal Dive – Smart Price Comparison & Deal Analyzer
 
+🌐 **Live Website:** https://avdhiraitka.github.io/Deal_Dive/index.html  
+
 Deal Dive is a web application that helps users make smarter purchasing decisions by comparing product prices across multiple e-commerce platforms and analyzing how good a deal really is.
 
 Instead of manually checking different websites, Deal Dive aggregates product data from **Amazon, Flipkart, and Meesho**, calculates a **Deal Score**, and presents insights like **price trends, best time to buy, and historical pricing data**.
