@@ -21,7 +21,7 @@
         "price": "₹29,999",
         "store": "Amazon",
         "link": "https://www.amazon.in/Samsung-Galaxy-S23-FE-5G/dp/B0CJ12345",
-        "thumbnail": "https://m.media-amazon.com/images/I/71Sa3dqTqzL._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=Samsung+S23+FE",
         "category": "mobile",
         "priceHistory": [
             {"date": "2025-08-01", "price": 39999},
@@ -38,7 +38,7 @@
         "price": "₹57,999",
         "store": "Amazon",
         "link": "https://www.amazon.in/OnePlus-12-Silky-Black/dp/B0CXYZ123",
-        "thumbnail": "https://m.media-amazon.com/images/I/61Io06sWzML._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=OnePlus+12",
         "category": "mobile",
         "priceHistory": [
             {"date": "2025-08-01", "price": 64999},
@@ -55,7 +55,7 @@
         "price": "₹98,900",
         "store": "Amazon",
         "link": "https://www.amazon.in/Apple-MacBook-Air-M2/dp/B0B3BVWJ6Y",
-        "thumbnail": "https://m.media-amazon.com/images/I/71f5Eu5lJSL._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=MacBook+Air+M2",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-08-01", "price": 114900},
@@ -72,7 +72,7 @@
         "price": "₹56,990",
         "store": "Amazon",
         "link": "https://www.amazon.in/HP-Pavilion-14-i5/dp/B0BXYZ456",
-        "thumbnail": "https://m.media-amazon.com/images/I/71GI1MeijPL._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=HP+Pavilion+14",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-08-01", "price": 65990},
@@ -89,7 +89,7 @@
         "price": "₹42,990",
         "store": "Amazon",
         "link": "https://www.amazon.in/Lenovo-IdeaPad-Slim-3/dp/B0CABC789",
-        "thumbnail": "https://m.media-amazon.com/images/I/71PvHFJU-7L._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=Lenovo+IdeaPad",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-08-01", "price": 49990},
@@ -106,7 +106,7 @@
         "price": "₹26,990",
         "store": "Amazon",
         "link": "https://www.amazon.in/Sony-WH-1000XM5/dp/B09XS7JWHH",
-        "thumbnail": "https://m.media-amazon.com/images/I/51aXvjzcukL._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=Sony+WH-1000XM5",
         "category": "headphones",
         "priceHistory": [
             {"date": "2025-08-01", "price": 29990},
@@ -123,7 +123,7 @@
         "price": "₹4,499",
         "store": "Amazon",
         "link": "https://www.amazon.in/JBL-Tune-760NC/dp/B09DEFG123",
-        "thumbnail": "https://m.media-amazon.com/images/I/51JbsHSktkL._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=JBL+Tune+760NC",
         "category": "headphones",
         "priceHistory": [
             {"date": "2025-08-01", "price": 5999},
@@ -140,7 +140,7 @@
         "price": "₹37,900",
         "store": "Amazon",
         "link": "https://www.amazon.in/Apple-Watch-Series-9/dp/B0CHXYZ789",
-        "thumbnail": "https://m.media-amazon.com/images/I/71lIqGPx-EL._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=Apple+Watch+S9",
         "category": "watch",
         "priceHistory": [
             {"date": "2025-08-01", "price": 44900},
@@ -157,7 +157,7 @@
         "price": "₹1,599",
         "store": "Amazon",
         "link": "https://www.amazon.in/Fire-Boltt-Phoenix-Ultra/dp/B0BXYZ999",
-        "thumbnail": "https://m.media-amazon.com/images/I/61RfB4qFRsL._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=Fire-Boltt+Watch",
         "category": "watch",
         "priceHistory": [
             {"date": "2025-08-01", "price": 2999},
@@ -174,7 +174,7 @@
         "price": "₹9,995",
         "store": "Amazon",
         "link": "https://www.amazon.in/Nike-Air-Max-270-React/dp/B08XYZ123",
-        "thumbnail": "https://m.media-amazon.com/images/I/71UGN0tdSZL._UX695_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=Nike+Air+Max+270",
         "category": "shoes",
         "priceHistory": [
             {"date": "2025-08-01", "price": 12995},
@@ -191,7 +191,7 @@
         "price": "₹5,499",
         "store": "Amazon",
         "link": "https://www.amazon.in/Puma-RS-X-Sneakers/dp/B09XYZ456",
-        "thumbnail": "https://m.media-amazon.com/images/I/71Yzp9GpCUL._UX695_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=Puma+RS-X",
         "category": "shoes",
         "priceHistory": [
             {"date": "2025-08-01", "price": 7999},
@@ -208,7 +208,7 @@
         "price": "₹1,099",
         "store": "Amazon",
         "link": "https://www.amazon.in/boAt-Airdopes-141/dp/B0BXYZ123",
-        "thumbnail": "https://m.media-amazon.com/images/I/51d-u0DlCiL._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=boAt+Airdopes+141",
         "category": "headphones",
         "priceHistory": [
             {"date": "2025-08-01", "price": 1799},
@@ -242,7 +242,7 @@
         "price": "₹999",
         "store": "Amazon",
         "link": "https://www.amazon.in/Spigen-Rugged-Armor-iPhone-13/dp/B09ABC123",
-        "thumbnail": "https://m.media-amazon.com/images/I/51pgOxB27wL._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=Spigen+Case",
         "category": "accessory",
         "priceHistory": [
             {"date": "2025-08-01", "price": 1499},
@@ -259,7 +259,7 @@
         "price": "₹48,990",
         "store": "Amazon",
         "link": "https://www.amazon.in/lenovo-ideapad-slim-3",
-        "thumbnail": "https://via.placeholder.com/300?text=Lenovo+Laptop",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=Lenovo+IdeaPad+i5",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-10-01", "price": 55990},
@@ -274,7 +274,7 @@
         "price": "₹52,990",
         "store": "Amazon",
         "link": "https://www.amazon.in/hp-pavilion-15",
-        "thumbnail": "https://via.placeholder.com/300?text=HP+Laptop",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=HP+Pavilion+15",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-10-01", "price": 59990},

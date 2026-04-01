@@ -21,7 +21,7 @@
         "price": "₹21,999",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample2",
-        "thumbnail": "https://m.media-amazon.com/images/I/51N3GCkNvBL._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=Redmi+Note+13+Pro",
         "category": "mobile",
         "priceHistory": [
             {"date": "2025-08-01", "price": 26999},
@@ -38,7 +38,7 @@
         "price": "₹24,999",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample8",
-        "thumbnail": "https://m.media-amazon.com/images/I/71JaK9DPmAL._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=POCO+X6+Pro",
         "category": "mobile",
         "priceHistory": [
             {"date": "2025-08-01", "price": 29999},
@@ -55,7 +55,7 @@
         "price": "₹28,990",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample3",
-        "thumbnail": "https://m.media-amazon.com/images/I/71PvHFJU-7L._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=Lenovo+V15+Ryzen3",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-08-01", "price": 35990},
@@ -72,7 +72,7 @@
         "price": "₹38,990",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample9",
-        "thumbnail": "https://m.media-amazon.com/images/I/71GI1MeijPL._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=HP+15s+Ryzen5",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-08-01", "price": 45990},
@@ -89,7 +89,7 @@
         "price": "₹399",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample10",
-        "thumbnail": "https://m.media-amazon.com/images/I/51d-u0DlCiL._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=TWS+Earbuds",
         "category": "headphones",
         "priceHistory": [
             {"date": "2025-08-01", "price": 799},
@@ -106,7 +106,7 @@
         "price": "₹1,799",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample11",
-        "thumbnail": "https://m.media-amazon.com/images/I/51JbsHSktkL._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=BT+Headphones+ANC",
         "category": "headphones",
         "priceHistory": [
             {"date": "2025-08-01", "price": 2999},
@@ -123,7 +123,7 @@
         "price": "₹499",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample12",
-        "thumbnail": "https://m.media-amazon.com/images/I/61RfB4qFRsL._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=Sports+Smartwatch",
         "category": "watch",
         "priceHistory": [
             {"date": "2025-08-01", "price": 999},
@@ -140,7 +140,7 @@
         "price": "₹289",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample6",
-        "thumbnail": "https://m.media-amazon.com/images/I/71lIqGPx-EL._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=Watch+Strap+Band",
         "category": "watch",
         "priceHistory": [
             {"date": "2025-08-01", "price": 499},
@@ -157,7 +157,7 @@
         "price": "₹499",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample13",
-        "thumbnail": "https://m.media-amazon.com/images/I/71UGN0tdSZL._UX695_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=Sports+Running+Shoes",
         "category": "shoes",
         "priceHistory": [
             {"date": "2025-08-01", "price": 999},
@@ -174,7 +174,7 @@
         "price": "₹699",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample14",
-        "thumbnail": "https://m.media-amazon.com/images/I/71Yzp9GpCUL._UX695_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=Chunky+Sneakers",
         "category": "shoes",
         "priceHistory": [
             {"date": "2025-08-01", "price": 1199},
@@ -191,7 +191,7 @@
         "price": "₹129",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample4",
-        "thumbnail": "https://m.media-amazon.com/images/I/51pgOxB27wL._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=iPhone+Back+Cover",
         "category": "accessory",
         "priceHistory": [
             {"date": "2025-08-01", "price": 299},
@@ -208,7 +208,7 @@
         "price": "₹499",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample5",
-        "thumbnail": "https://m.media-amazon.com/images/I/41okORFJNGL._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=20W+USB-C+Adapter",
         "category": "accessory",
         "priceHistory": [
             {"date": "2025-08-01", "price": 899},
@@ -225,7 +225,7 @@
         "price": "₹199",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample7",
-        "thumbnail": "https://m.media-amazon.com/images/I/51pgOxB27wL._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=Screen+Protector",
         "category": "accessory",
         "priceHistory": [
             {"date": "2025-08-01", "price": 449},
@@ -242,7 +242,7 @@
         "price": "₹349",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample15",
-        "thumbnail": "https://m.media-amazon.com/images/I/61SUj2aKoEL._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=Laptop+Stand",
         "category": "accessory",
         "priceHistory": [
             {"date": "2025-08-01", "price": 699},
@@ -259,7 +259,7 @@
         "price": "₹29,999",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/laptop-lenovo",
-        "thumbnail": "https://m.media-amazon.com/images/I/71PvHFJU-7L._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=Lenovo+IdeaPad+Slim",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-10-01", "price": 34999},
@@ -274,7 +274,7 @@
         "price": "₹39,999",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/gaming-laptop",
-        "thumbnail": "https://m.media-amazon.com/images/I/81MQLhBHCRL._SX679_.jpg",
+        "thumbnail": "https://placehold.co/300x300/1e293b/4fd1c5?text=Gaming+Laptop+Ryzen5",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-10-01", "price": 45999},
