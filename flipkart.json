@@ -21,7 +21,7 @@
         "price": "₹31,999",
         "store": "Flipkart",
         "link": "https://www.flipkart.com/samsung-galaxy-s23-fe-5g-olive-128-gb/p/itm7774e5b12345",
-        "thumbnail": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s23-fe-1.jpg",
+        "thumbnail": "./images/s23fe.jpg",
         "category": "mobile",
         "priceHistory": [
             {"date": "2025-08-01", "price": 42999},
@@ -38,7 +38,7 @@
         "price": "₹39,999",
         "store": "Flipkart",
         "link": "https://www.flipkart.com/nothing-phone-2-dark-grey-256-gb/p/itm5a123456789",
-        "thumbnail": "https://fdn2.gsmarena.com/vv/pics/nothing/nothing-phone-2-1.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/61VuVU94RnL._SX679_.jpg",
         "category": "mobile",
         "priceHistory": [
             {"date": "2025-08-01", "price": 44999},
@@ -55,7 +55,7 @@
         "price": "₹23,999",
         "store": "Flipkart",
         "link": "https://www.flipkart.com/realme-11-pro-5g/p/itm12345",
-        "thumbnail": "https://fdn2.gsmarena.com/vv/pics/realme/realme-11-pro-5g-1.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/61VuVU94RnL._SX679_.jpg",
         "category": "mobile",
         "priceHistory": [
             {"date": "2025-08-01", "price": 27999},
@@ -72,7 +72,7 @@
         "price": "₹71,990",
         "store": "Flipkart",
         "link": "https://www.flipkart.com/apple-2020-macbook-air-m1/p/itm2984537654321",
-        "thumbnail": "https://fdn2.gsmarena.com/vv/pics/apple/apple-macbook-air-m1-2020-1.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/71f5Eu5lJSL._SX679_.jpg",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-08-01", "price": 84990},
@@ -89,7 +89,7 @@
         "price": "₹1,21,990",
         "store": "Flipkart",
         "link": "https://www.flipkart.com/dell-xps-13-core-i5-11th-gen/p/Itm123456789",
-        "thumbnail": "https://fdn2.gsmarena.com/vv/pics/dell/dell-xps-13-9310-1.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/71f5Eu5lJSL._SX679_.jpg",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-08-01", "price": 139990},
@@ -106,7 +106,7 @@
         "price": "₹1,04,990",
         "store": "Flipkart",
         "link": "https://www.flipkart.com/asus-rog-strix-g16/p/itmXYZ123",
-        "thumbnail": "https://fdn2.gsmarena.com/vv/pics/asus/asus-rog-strix-g16-2023-1.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/71GI1MeijPL._SX679_.jpg",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-08-01", "price": 119990},
@@ -123,7 +123,7 @@
         "price": "₹1,299",
         "store": "Flipkart",
         "link": "https://www.flipkart.com/boat-rockerz-255-pro-plus/p/itm123456",
-        "thumbnail": "https://m.media-amazon.com/images/I/51a5M9ojFML._SX679_.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/51d-u0DlCiL._SX679_.jpg",
         "category": "headphones",
         "priceHistory": [
             {"date": "2025-08-01", "price": 1799},
@@ -157,7 +157,7 @@
         "price": "₹2,999",
         "store": "Flipkart",
         "link": "https://www.flipkart.com/noise-colorfit-pro-4-advanced/p/itm123456",
-        "thumbnail": "https://fdn2.gsmarena.com/vv/pics/noise/noise-colorfit-pro-4-1.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/61RfB4qFRsL._SX679_.jpg",
         "category": "watch",
         "priceHistory": [
             {"date": "2025-08-01", "price": 4999},
@@ -174,7 +174,7 @@
         "price": "₹26,900",
         "store": "Flipkart",
         "link": "https://www.flipkart.com/apple-watch-se-2nd-gen/p/itm12345",
-        "thumbnail": "https://fdn2.gsmarena.com/vv/pics/apple/apple-watch-se-2022-1.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/71lIqGPx-EL._SX679_.jpg",
         "category": "watch",
         "priceHistory": [
             {"date": "2025-08-01", "price": 32900},
@@ -191,7 +191,7 @@
         "price": "₹29,900",
         "store": "Flipkart",
         "link": "https://www.flipkart.com/apple-ipad-9th-gen/p/itm6108139707246",
-        "thumbnail": "https://fdn2.gsmarena.com/vv/pics/apple/apple-ipad-2021-1.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/71f5Eu5lJSL._SX679_.jpg",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-08-01", "price": 34900},
@@ -208,7 +208,7 @@
         "price": "₹11,899",
         "store": "Flipkart",
         "link": "https://www.flipkart.com/adidas-ultraboost-light/p/itm123",
-        "thumbnail": "https://m.media-amazon.com/images/I/71XOoFbFGkL._UX695_.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/71UGN0tdSZL._UX695_.jpg",
         "category": "shoes",
         "priceHistory": [
             {"date": "2025-08-01", "price": 16999},
@@ -242,7 +242,7 @@
         "price": "₹1,199",
         "store": "Flipkart",
         "link": "https://www.flipkart.com/anker-20w-usb-c/p/itmDEF456",
-        "thumbnail": "https://m.media-amazon.com/images/I/41okORFJNGL._SX679_.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/51pgOxB27wL._SX679_.jpg",
         "category": "accessory",
         "priceHistory": [
             {"date": "2025-08-01", "price": 1799},
@@ -259,7 +259,7 @@
         "price": "₹52,990",
         "store": "Flipkart",
         "link": "https://www.flipkart.com/hp-pavilion-15",
-        "thumbnail": "https://fdn2.gsmarena.com/vv/pics/hp/hp-pavilion-15-2021-1.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/71GI1MeijPL._SX679_.jpg",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-10-01", "price": 59990},
@@ -274,7 +274,7 @@
         "price": "₹48,990",
         "store": "Flipkart",
         "link": "https://www.flipkart.com/lenovo-ideapad-slim-3",
-        "thumbnail": "https://fdn2.gsmarena.com/vv/pics/lenovo/lenovo-ideapad-slim-3-15alc6-1.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/71PvHFJU-7L._SX679_.jpg",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-10-01", "price": 55990},
@@ -289,7 +289,7 @@
         "price": "₹19,999",
         "store": "Flipkart",
         "link": "https://www.flipkart.com/oneplus-nord-ce3-lite",
-        "thumbnail": "https://fdn2.gsmarena.com/vv/pics/oneplus/oneplus-nord-ce-3-lite-1.jpg",
+        "thumbnail": "./images/nordce3lite.jpg",
         "category": "mobile",
         "priceHistory": [
             {"date": "2025-10-01", "price": 21999},
@@ -319,7 +319,7 @@
         "price": "₹18,999",
         "store": "Flipkart",
         "link": "https://www.flipkart.com/samsung-watch-6",
-        "thumbnail": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-watch6-1.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/61RfB4qFRsL._SX679_.jpg",
         "category": "watch",
         "priceHistory": [
             {"date": "2025-10-01", "price": 22999},

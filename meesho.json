@@ -21,7 +21,7 @@
         "price": "₹21,999",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample2",
-        "thumbnail": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-13-pro-plus-01.jpg",
+        "thumbnail": "./images/redminote13pro.jpg",
         "category": "mobile",
         "priceHistory": [
             {"date": "2025-08-01", "price": 26999},
@@ -38,7 +38,7 @@
         "price": "₹24,999",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample8",
-        "thumbnail": "https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-poco-x6-pro-1.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/61Io06sWzML._SX679_.jpg",
         "category": "mobile",
         "priceHistory": [
             {"date": "2025-08-01", "price": 29999},
@@ -55,7 +55,7 @@
         "price": "₹28,990",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample3",
-        "thumbnail": "https://fdn2.gsmarena.com/vv/pics/lenovo/lenovo-v15-gen-2-amd-1.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/71PvHFJU-7L._SX679_.jpg",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-08-01", "price": 35990},
@@ -72,7 +72,7 @@
         "price": "₹38,990",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample9",
-        "thumbnail": "https://fdn2.gsmarena.com/vv/pics/hp/hp-15s-eq2000-1.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/71GI1MeijPL._SX679_.jpg",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-08-01", "price": 45990},
@@ -123,7 +123,7 @@
         "price": "₹499",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample12",
-        "thumbnail": "https://fdn2.gsmarena.com/vv/pics/noise/noise-colorfit-pro-4-1.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/61RfB4qFRsL._SX679_.jpg",
         "category": "watch",
         "priceHistory": [
             {"date": "2025-08-01", "price": 999},
@@ -140,7 +140,7 @@
         "price": "₹289",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample6",
-        "thumbnail": "https://fdn2.gsmarena.com/vv/pics/apple/apple-watch-se-2022-1.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/71lIqGPx-EL._SX679_.jpg",
         "category": "watch",
         "priceHistory": [
             {"date": "2025-08-01", "price": 499},
@@ -208,7 +208,7 @@
         "price": "₹499",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample5",
-        "thumbnail": "https://m.media-amazon.com/images/I/41okORFJNGL._SX679_.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/51pgOxB27wL._SX679_.jpg",
         "category": "accessory",
         "priceHistory": [
             {"date": "2025-08-01", "price": 899},
@@ -242,7 +242,7 @@
         "price": "₹349",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample15",
-        "thumbnail": "https://m.media-amazon.com/images/I/41okORFJNGL._SX679_.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/51pgOxB27wL._SX679_.jpg",
         "category": "accessory",
         "priceHistory": [
             {"date": "2025-08-01", "price": 699},
@@ -259,7 +259,7 @@
         "price": "₹29,999",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/laptop-lenovo",
-        "thumbnail": "https://fdn2.gsmarena.com/vv/pics/lenovo/lenovo-ideapad-slim-3-15alc6-1.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/71PvHFJU-7L._SX679_.jpg",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-10-01", "price": 34999},
@@ -274,7 +274,7 @@
         "price": "₹39,999",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/gaming-laptop",
-        "thumbnail": "https://fdn2.gsmarena.com/vv/pics/asus/asus-rog-strix-g16-2023-1.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/71GI1MeijPL._SX679_.jpg",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-10-01", "price": 45999},
