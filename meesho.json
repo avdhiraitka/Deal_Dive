@@ -4,7 +4,7 @@
         "price": "₹39,999",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample1",
-        "thumbnail": "https://images.meesho.com/images/products/123456/abc_512.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/61VuVU94RnL._SX679_.jpg",
         "category": "mobile",
         "priceHistory": [
             {"date": "2025-08-01", "price": 45999},
@@ -21,7 +21,7 @@
         "price": "₹21,999",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample2",
-        "thumbnail": "https://images.meesho.com/images/products/234567/def_512.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/51N3GCkNvBL._SX679_.jpg",
         "category": "mobile",
         "priceHistory": [
             {"date": "2025-08-01", "price": 26999},
@@ -38,7 +38,7 @@
         "price": "₹24,999",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample8",
-        "thumbnail": "https://images.meesho.com/images/products/345678/ghi_512.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/71JaK9DPmAL._SX679_.jpg",
         "category": "mobile",
         "priceHistory": [
             {"date": "2025-08-01", "price": 29999},
@@ -55,7 +55,7 @@
         "price": "₹28,990",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample3",
-        "thumbnail": "https://images.meesho.com/images/products/456789/ghi_512.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/71PvHFJU-7L._SX679_.jpg",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-08-01", "price": 35990},
@@ -72,7 +72,7 @@
         "price": "₹38,990",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample9",
-        "thumbnail": "https://images.meesho.com/images/products/567890/jkl_512.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/71GI1MeijPL._SX679_.jpg",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-08-01", "price": 45990},
@@ -89,7 +89,7 @@
         "price": "₹399",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample10",
-        "thumbnail": "https://images.meesho.com/images/products/678901/mno_512.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/51d-u0DlCiL._SX679_.jpg",
         "category": "headphones",
         "priceHistory": [
             {"date": "2025-08-01", "price": 799},
@@ -106,7 +106,7 @@
         "price": "₹1,799",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample11",
-        "thumbnail": "https://images.meesho.com/images/products/789012/pqr_512.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/51JbsHSktkL._SX679_.jpg",
         "category": "headphones",
         "priceHistory": [
             {"date": "2025-08-01", "price": 2999},
@@ -123,7 +123,7 @@
         "price": "₹499",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample12",
-        "thumbnail": "https://images.meesho.com/images/products/890123/stu_512.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/61RfB4qFRsL._SX679_.jpg",
         "category": "watch",
         "priceHistory": [
             {"date": "2025-08-01", "price": 999},
@@ -140,7 +140,7 @@
         "price": "₹289",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample6",
-        "thumbnail": "https://images.meesho.com/images/products/667788/pqr_512.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/71lIqGPx-EL._SX679_.jpg",
         "category": "watch",
         "priceHistory": [
             {"date": "2025-08-01", "price": 499},
@@ -157,7 +157,7 @@
         "price": "₹499",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample13",
-        "thumbnail": "https://images.meesho.com/images/products/901234/vwx_512.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/71UGN0tdSZL._UX695_.jpg",
         "category": "shoes",
         "priceHistory": [
             {"date": "2025-08-01", "price": 999},
@@ -174,7 +174,7 @@
         "price": "₹699",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample14",
-        "thumbnail": "https://images.meesho.com/images/products/012345/yza_512.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/71Yzp9GpCUL._UX695_.jpg",
         "category": "shoes",
         "priceHistory": [
             {"date": "2025-08-01", "price": 1199},
@@ -191,7 +191,7 @@
         "price": "₹129",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample4",
-        "thumbnail": "https://images.meesho.com/images/products/111222/jkl_512.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/51pgOxB27wL._SX679_.jpg",
         "category": "accessory",
         "priceHistory": [
             {"date": "2025-08-01", "price": 299},
@@ -208,7 +208,7 @@
         "price": "₹499",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample5",
-        "thumbnail": "https://images.meesho.com/images/products/334455/mno_512.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/41okORFJNGL._SX679_.jpg",
         "category": "accessory",
         "priceHistory": [
             {"date": "2025-08-01", "price": 899},
@@ -225,7 +225,7 @@
         "price": "₹199",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample7",
-        "thumbnail": "https://images.meesho.com/images/products/998877/stu_512.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/51pgOxB27wL._SX679_.jpg",
         "category": "accessory",
         "priceHistory": [
             {"date": "2025-08-01", "price": 449},
@@ -242,7 +242,7 @@
         "price": "₹349",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample15",
-        "thumbnail": "https://images.meesho.com/images/products/445566/bcd_512.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/61SUj2aKoEL._SX679_.jpg",
         "category": "accessory",
         "priceHistory": [
             {"date": "2025-08-01", "price": 699},
@@ -259,7 +259,7 @@
         "price": "₹29,999",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/laptop-lenovo",
-        "thumbnail": "https://via.placeholder.com/300?text=Lenovo+Laptop",
+        "thumbnail": "https://m.media-amazon.com/images/I/71PvHFJU-7L._SX679_.jpg",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-10-01", "price": 34999},
@@ -274,7 +274,7 @@
         "price": "₹39,999",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/gaming-laptop",
-        "thumbnail": "https://via.placeholder.com/300?text=Gaming+Laptop",
+        "thumbnail": "https://m.media-amazon.com/images/I/81MQLhBHCRL._SX679_.jpg",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-10-01", "price": 45999},
