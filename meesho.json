@@ -55,7 +55,7 @@
         "price": "₹28,990",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample3",
-        "thumbnail": "https://m.media-amazon.com/images/I/71PvHFJU-7L._SX679_.jpg",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqJspA2pXsylC01yr__gPLu-6D8AbOFGJecA&s",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-08-01", "price": 35990},
@@ -72,7 +72,7 @@
         "price": "₹38,990",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample9",
-        "thumbnail": "https://m.media-amazon.com/images/I/71GI1MeijPL._SX679_.jpg",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk3l-_t-mpjlhb4UddUsaMffXYXdM7WGgkFQ&s",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-08-01", "price": 45990},
@@ -140,7 +140,7 @@
         "price": "₹289",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample6",
-        "thumbnail": "https://m.media-amazon.com/images/I/71lIqGPx-EL._SX679_.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/51u7MSBo6dL.jpg",
         "category": "watch",
         "priceHistory": [
             {"date": "2025-08-01", "price": 499},
@@ -191,7 +191,7 @@
         "price": "₹129",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample4",
-        "thumbnail": "https://m.media-amazon.com/images/I/51pgOxB27wL._SX679_.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/61WhyVweLPL.jpg",
         "category": "accessory",
         "priceHistory": [
             {"date": "2025-08-01", "price": 299},
@@ -208,7 +208,7 @@
         "price": "₹499",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample5",
-        "thumbnail": "https://m.media-amazon.com/images/I/51pgOxB27wL._SX679_.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/41aAXonVlQL._AC_UF1000,1000_QL80_.jpg",
         "category": "accessory",
         "priceHistory": [
             {"date": "2025-08-01", "price": 899},
@@ -225,7 +225,7 @@
         "price": "₹199",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample7",
-        "thumbnail": "https://m.media-amazon.com/images/I/51pgOxB27wL._SX679_.jpg",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShibVjlLt4S7-aw0JK0BwfggrUpOzu7ovm9g&s",
         "category": "accessory",
         "priceHistory": [
             {"date": "2025-08-01", "price": 449},
@@ -242,7 +242,7 @@
         "price": "₹349",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/sample15",
-        "thumbnail": "https://m.media-amazon.com/images/I/51pgOxB27wL._SX679_.jpg",
+        "thumbnail": "https://www.jiomart.com/images/product/original/rv07cj2ytt/plixio-aluminum-tabletop-laptop-stand-ergonomic-foldable-portable-laptop-stand-holder-compatible-for-macbook-hp-dell-lenovo-all-other-notebook-grey-product-images-orv07cj2ytt-p598789925-0-202302252108.jpg?im=Resize=(420,420)",
         "category": "accessory",
         "priceHistory": [
             {"date": "2025-08-01", "price": 699},
@@ -259,7 +259,7 @@
         "price": "₹29,999",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/laptop-lenovo",
-        "thumbnail": "https://m.media-amazon.com/images/I/71PvHFJU-7L._SX679_.jpg",
+        "thumbnail": "https://p2-ofp.static.pub//fes/cms/2023/07/17/cb33s6cv4scvgl4k2mxwpjhnmqfjgg628756.png",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-10-01", "price": 34999},
@@ -274,7 +274,7 @@
         "price": "₹39,999",
         "store": "Meesho",
         "link": "https://www.meesho.com/s/p/gaming-laptop",
-        "thumbnail": "https://m.media-amazon.com/images/I/71GI1MeijPL._SX679_.jpg",
+        "thumbnail": "https://m.media-amazon.com/images/I/71ekeu81MxL._AC_UF894,1000_QL80_.jpg",
         "category": "laptop",
         "priceHistory": [
             {"date": "2025-10-01", "price": 45999},
