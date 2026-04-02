@@ -8,9 +8,9 @@ Instead of manually checking different websites, Deal Dive aggregates product da
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🔍 Multi-Platform Price Comparison
+### Multi-Platform Price Comparison
 - Search for any product (e.g., *"iPhone"*)
 - Instantly view prices across:
   - Amazon
@@ -20,7 +20,7 @@ Instead of manually checking different websites, Deal Dive aggregates product da
 
 ---
 
-### 📊 Deal Score System
+### Deal Score System
 - Each product is assigned a **Deal Score**
 - Higher score = better deal
 - Based on:
@@ -30,7 +30,7 @@ Instead of manually checking different websites, Deal Dive aggregates product da
 
 ---
 
-### 📈 Trends & Insights
+### Trends & Insights
 - View detailed price analytics:
   - 📉 Lowest price
   - 📈 Highest price
@@ -40,14 +40,14 @@ Instead of manually checking different websites, Deal Dive aggregates product da
 
 ---
 
-### ⚖️ Compare Page
+### Compare Page
 - Enter a product name (e.g., *"laptop"*)
 - View side-by-side comparison across platforms
 - Helps make faster decisions
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. User enters a product name  
 2. System fetches price data from platforms  
@@ -57,16 +57,14 @@ Instead of manually checking different websites, Deal Dive aggregates product da
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-- Frontend: HTML, CSS, JavaScript  
-- Backend: (Add your backend here – Node.js / Python / etc.)  
-- Data Handling: APIs / Web scraping  
+- Frontend: HTML, CSS, JavaScript   
 - Logic: Custom deal score + trend analysis  
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ```bash
 git clone https://github.com/avdhiraitka/Deal_Dive.git
